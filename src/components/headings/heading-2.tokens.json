@@ -1,0 +1,14 @@
+{
+  "oi": {
+    "heading-2": {
+      "color": {"value": "{oi.color.fg}"},
+      "font-family": {"value": "{oi.typography.heading.font-family}"},
+      "font-size": {"value": "24px"},
+      "font-weight": {"value": "500"},
+      "letter-spacing": {"value": "normal"},
+      "line-height": {"value": "34px"},
+      "margin-block-end": {"value": "0"},
+      "margin-block-start": {"value": "0"}
+    }
+  }
+}

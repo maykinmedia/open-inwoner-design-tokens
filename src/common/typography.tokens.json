@@ -8,12 +8,12 @@
     },
     "text": {
       "margin": {"value": "20px"},
-      "font-size": {"value": "1rem"},
+      "font-size": {"value": "16px"},
       "big": {
-        "font-size": {"value": "1.125rem"}
+        "font-size": {"value": "24px"}
       },
       "small": {
-        "font-size": {"value": "0.875rem"}
+        "font-size": {"value": "14px"}
       },
       "mobile": {
         "margin": {"value": "{oi.text.margin}"}
@@ -31,6 +31,9 @@
     "typography": {
       "sans-serif": {
         "font-family": {"value": "Roboto, sans-serif"}
+      },
+      "heading": {
+        "font-family": {"value": "Roboto Medium, sans-serif"}
       }
     }
   }
