@@ -16,6 +16,12 @@ structure of these design tokens.
 
 ## Usage
 
+Install the correct modules:
+
+```bash
+npm install
+```
+
 **Using tokens**
 
 If you are only _consuming_ the design tokens, the easiest integration path is adding this
@@ -40,6 +46,14 @@ npm start
 ```
 
 to start the watcher which will re-build on changes.
+
+To prettify files:
+
+Run:
+
+```bash
+npm run format
+```
 
 ## Naming pattern
 

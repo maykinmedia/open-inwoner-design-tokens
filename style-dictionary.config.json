@@ -4,15 +4,22 @@
     "./src/**/*.tokens.json"
   ],
   "platforms": {
-    "css-theme": {
+    "css": {
       "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4"],
-      "buildPath": "dist/",
+      "buildPath": "dist/css/",
       "files": [
         {
           "destination": "index.css",
           "format": "css/variables",
           "options": {
-            "selector": ".openinwoner-theme",
+            "outputReferences": true
+          }
+        },
+        {
+          "destination": "components/headings.css",
+          "format": "css/variables",
+          "options": {
+            "selector": ".heading-1",
             "outputReferences": true
           }
         }
@@ -28,20 +35,6 @@
           "options": {
             "outputReferences": true
           }
-        }
-      ]
-    },
-    "js": {
-      "transforms": ["attribute/cti", "name/cti/camel", "color/hsl-4"],
-      "buildPath": "dist/",
-      "files": [
-        {
-          "destination": "index.js",
-          "format": "javascript/es6"
-        },
-        {
-          "destination": "tokens.js",
-          "format": "javascript/module"
         }
       ]
     }
