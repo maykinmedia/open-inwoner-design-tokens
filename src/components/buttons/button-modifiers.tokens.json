@@ -1,0 +1,75 @@
+{
+  "of": {
+    "button": {
+      "hover": {
+        "bg": {"value": "#cccccc"},
+        "color-border": {"value": "#5e5e5e"}
+      },
+      "active": {
+        "fg": {"value": "{oi.color.fg}"},
+        "bg": {"value": "#bfbfbf"},
+        "color-border": {"value": "#5e5e5e"}
+      },
+      "focus": {
+        "color-border": {"value": "{oi.color.focus.border}"}
+      },
+      "focus-visible": {
+        "color-border": {"value": "{oi.color.focus.border}"}
+      },
+
+      "anchor": {
+        "hover": {
+          "bg": {"value": "transparent"},
+          "color-border": {"value": "transparent"}
+        },
+        "active": {
+          "fg": {"value": "#014e74"},
+          "bg": {"value": "transparent"},
+          "color-border": {"value": "transparent"}
+        },
+        "focus": {
+          "color-border": {"value": "{oi.color.focus.border}"}
+        },
+        "focus-visible": {
+          "color-border": {"value": "{oi.color.focus.border}"}
+        }
+      },
+
+      "primary": {
+        "hover": {
+          "bg": {"value": "#016698"},
+          "color-border": {"value": "#01537c"}
+        },
+        "active": {
+          "fg": {"value": "#bfbfbf"},
+          "bg": {"value": "#01608f"},
+          "color-border": {"value": "#01537c"}
+        },
+        "focus": {
+          "color-border": {"value": "#000000"}
+        },
+        "focus-visible": {
+          "color-border": {"value": "#000000"}
+        }
+      },
+
+      "danger": {
+        "hover": {
+          "bg": {"value": "#aa2218"},
+          "color-border": {"value": "#881b13"}
+        },
+        "active": {
+          "fg": {"value": "#ee837d"},
+          "bg": {"value": "#a02017"},
+          "color-border": {"value": "#881b13"}
+        },
+        "focus": {
+          "color-border": {"value": "#000000"}
+        },
+        "focus-visible": {
+          "color-border": {"value": "#000000"}
+        }
+      }
+    }
+  }
+}

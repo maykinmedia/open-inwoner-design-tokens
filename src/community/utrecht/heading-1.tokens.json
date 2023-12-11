@@ -1,0 +1,14 @@
+{
+  "utrecht": {
+    "heading-1": {
+      "color": {"value": "{oi.color.fg}"},
+      "font-family": {"value": "{oi.typography.sans-serif.font-family}"},
+      "font-size": {"value": "1.9375rem"},
+      "font-weight": {},
+      "letter-spacing": {"value": "normal"},
+      "line-height": {"value": "1.100"},
+      "margin-block-end": {},
+      "margin-block-start": {}
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "of": {
+    "button": {
+      "fg": {"value": "{oi.color.fg}"},
+      "bg": {"value": "{oi.color.bg}"},
+      "color-border": {"value": "{oi.color.border}"},
+
+      "anchor": {
+        "fg": {"value": "{utrecht.link.color}"},
+        "bg": {"value": "transparent"},
+        "color-border": {"value": "transparent"}
+      },
+
+      "primary": {
+        "fg": {"value": "#ffffff"},
+        "bg": {"value": "#0177b2"},
+        "color-border": {"value": "{oi.color.primary}"}
+      },
+
+      "danger": {
+        "fg": {"value": "#fce9e8"},
+        "bg": {"value": "{oi.color.danger}"},
+        "color-border": {"value": "#aa2218"}
+      }
+    }
+  }
+}

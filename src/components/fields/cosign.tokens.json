@@ -1,0 +1,7 @@
+{
+  "of": {
+    "cosign": {
+      "bg": {"value": "{oi.checkbox.bg}"}
+    }
+  }
+}

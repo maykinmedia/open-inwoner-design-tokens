@@ -1,0 +1,43 @@
+{
+  "name": "@open-inwoner/design-tokens",
+  "version": "0.0.1",
+  "description": "Design tokens for Open Inwoner",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "style-dictionary build -c style-dictionary.config.json",
+    "start": "chokidar --initial --command 'npm run build' 'src/**/*.tokens.json' 'src/**/tokens.json'",
+    "format": "prettier --write 'src/**/*'",
+    "checkformat": "prettier --check 'src/**/*'"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist/",
+    "src/",
+    "assets/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maykinmedia/open-inwoner-design-tokens.git"
+  },
+  "keywords": [
+    "style-dictionary",
+    "common",
+    "ground",
+    "nl",
+    "design",
+    "system",
+    "open-inwoner"
+  ],
+  "author": "Maykin Media",
+  "license": "EUPL-1.2",
+  "bugs": {
+    "url": "https://github.com/maykinmedia/open-inwoner-design-tokens/issues"
+  },
+  "homepage": "https://github.com/maykinmedia/open-inwoner-design-tokens#readme",
+  "devDependencies": {
+    "chokidar": "^3.5.3",
+    "chokidar-cli": "^3.0.0",
+    "prettier": "^2.8.0",
+    "style-dictionary": "^3.7.0"
+  }
+}

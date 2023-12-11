@@ -1,0 +1,15 @@
+{
+  "of": {
+    "utrecht-form-field-description": {
+      "errors": {
+        "$extensions": {
+          "dte.metadata": {
+            "groupDescription": "Open Forms extensions of utrecht-form-field-description (for errors)"
+          }
+        },
+        "font-weight": {"value": "bold"},
+        "line-height": {"value": 1.33}
+      }
+    }
+  }
+}

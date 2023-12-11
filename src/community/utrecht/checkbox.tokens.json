@@ -1,0 +1,58 @@
+{
+  "utrecht": {
+    "checkbox": {
+      "background-color": {"value": "{oi.color.bg}"},
+      "border-color": {"value": "{oi.field-border.color}"},
+      "border-radius": {"value": "0"},
+      "border-width": {"value": "1px"},
+      "color": {"value": "{oi.color.fg}"},
+      "margin-inline-end": {"value": "12px"},
+      "size": {"value": "24px"},
+      "icon": {
+        "size": {}
+      },
+      "active": {
+        "border-color": {},
+        "border-width": {},
+        "background-color": {},
+        "color": {}
+      },
+      "hover": {
+        "border-color": {},
+        "border-width": {},
+        "background-color": {},
+        "color": {}
+      },
+      "focus": {
+        "border-color": {},
+        "border-width": {},
+        "background-color": {},
+        "color": {}
+      },
+      "disabled": {
+        "border-color": {},
+        "border-width": {},
+        "background-color": {},
+        "color": {}
+      },
+      "checked": {
+        "border-color": {},
+        "border-width": {},
+        "background-color": {"value": "{oi.color.primary}"},
+        "color": {"value": "{oi.color.bg}"}
+      },
+      "indeterminate": {
+        "border-color": {},
+        "border-width": {},
+        "background-color": {},
+        "color": {}
+      },
+      "invalid": {
+        "border-color": {},
+        "border-width": {},
+        "background-color": {},
+        "color": {}
+      }
+    }
+  }
+}

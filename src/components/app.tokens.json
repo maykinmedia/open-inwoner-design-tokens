@@ -1,0 +1,40 @@
+{
+  "of": {
+    "app": {
+      "$extensions": {
+        "dte.metadata": {
+          "groupDescription": "The outer SDK form 'app' wrapper."
+        }
+      },
+      "body": {
+        "padding-block-end": {"value": "0"},
+        "padding-block-start": {"value": "0"},
+        "mobile": {
+          "padding-block-end": {"value": "0"},
+          "padding-block-start": {"value": "15px"}
+        }
+      },
+
+      "grid-column-gap": {"value": "20px"},
+
+      "mobile": {
+        "grid-row-gap": {"value": "0"},
+        "padding-block-end": {"value": "15px"},
+        "padding-block-start": {
+          "value": "0",
+          "comment": "Allow room for the progress indicator"
+        },
+        "padding-inline-end": {"value": "15px"},
+        "padding-inline-start": {"value": "15px"}
+      },
+
+      "progress-indicator": {
+        "mobile": {
+          "inset-block-start": {"value": "0"},
+          "margin-inline-end": {"value": "calc(-1 * {oi.app.mobile.padding-inline-end})"},
+          "margin-inline-start": {"value": "calc(-1 * {oi.app.mobile.padding-inline-start})"}
+        }
+      }
+    }
+  }
+}

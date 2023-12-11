@@ -1,0 +1,37 @@
+{
+  "of": {
+    "heading": {
+      "fg": {"value": "{oi.color.fg}"}
+    },
+    "utrecht-link": {
+      "font-family": {"value": "{oi.typography.sans-serif.font-family}"}
+    },
+    "text": {
+      "margin": {"value": "20px"},
+      "font-size": {"value": "1rem"},
+      "big": {
+        "font-size": {"value": "1.125rem"}
+      },
+      "small": {
+        "font-size": {"value": "0.875rem"}
+      },
+      "mobile": {
+        "margin": {"value": "{oi.text.margin}"}
+      },
+      "tablet": {
+        "margin": {"value": "{oi.text.margin}"}
+      },
+      "laptop": {
+        "margin": {"value": "{oi.text.margin}"}
+      },
+      "desktop": {
+        "margin": {"value": "{oi.text.margin}"}
+      }
+    },
+    "typography": {
+      "sans-serif": {
+        "font-family": {"value": "Roboto, sans-serif"}
+      }
+    }
+  }
+}

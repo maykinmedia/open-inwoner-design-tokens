@@ -1,0 +1,11 @@
+{
+  "of": {
+    "fieldset": {
+      "legend": {
+        "color": {
+          "value": "{oi.color.primary}"
+        }
+      }
+    }
+  }
+}

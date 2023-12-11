@@ -1,0 +1,39 @@
+{
+  "of": {
+    "select": {
+      "$extensions": {
+        "dte.metadata": {
+          "groupDescription": "(Deprecated) select component theming."
+        }
+      },
+      "highlighted": {
+        "bg": {
+          "value": "#E6E6E6"
+        }
+      }
+    },
+    "select-menu": {
+      "$extensions": {
+        "dte.metadata": {
+          "groupDescription": "Select component theming, partially based on utrecht-select."
+        }
+      },
+      "background-color": {"value": "{oi.color.bg}"},
+      "border": {"value": "solid 1px {oi.color.border}"},
+      "border-radius": {"value": "0"},
+      "box-shadow": {"value": "0 0 0 1px hsla(0, 0%, 0%, 0.1), 0 4px 11px hsla(0, 0%, 0%, 0.1)"},
+      "margin-block-end": {"value": "0"},
+      "margin-block-start": {"value": "-1px"},
+      "option": {
+        "font-weight": {"value": "normal"},
+        "padding-block-end": {"value": "10px"},
+        "padding-block-start": {"value": "10px"},
+        "padding-inline-end": {"value": "12px"},
+        "padding-inline-start": {"value": "12px"},
+        "focus": {
+          "background-color": {"value": "#E6E6E6"}
+        }
+      }
+    }
+  }
+}

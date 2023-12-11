@@ -1,0 +1,23 @@
+{
+  "of": {
+    "utrecht-form-field": {
+      "radio": {
+        "margin-block-start": {"value": "8px"},
+        "label": {
+          "margin-block-end": {"value": 0}
+        }
+      }
+    },
+    "utrecht-form-label": {
+      "radio": {
+        "focus-within": {
+          "outline": {"value": "1px solid {oi.color.primary}"}
+        },
+        "padding-block-start": {"value": "11px"},
+        "padding-block-end": {"value": "11px"},
+        "padding-inline-start": {"value": "12px"},
+        "padding-inline-end": {"value": "12px"}
+      }
+    }
+  }
+}

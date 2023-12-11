@@ -1,0 +1,53 @@
+{
+  "utrecht": {
+    "page-header": {
+      "$extensions": {
+        "dte.metadata": {
+          "groupDescription": "Default Open Forms header styling."
+        }
+      },
+
+      "background-color": {"value": "#ffffff"},
+      "color": {"value": "{oi.color.fg}"},
+      "padding-inline-end": {"value": "20px"},
+      "padding-inline-start": {"value": "20px"},
+      "padding-block-end": {"value": "20px"},
+      "padding-block-start": {"value": "20px"}
+    }
+  },
+
+  "of": {
+    "utrecht-page-header": {
+      "$extensions": {
+        "dte.metadata": {
+          "groupDescription": "Open Forms' extensions on the utrecht-page-header, for responsive styling."
+        }
+      },
+
+      "mobile": {
+        "padding-block-end": {"value": "10px"},
+        "padding-block-start": {"value": "10px"},
+        "padding-inline-end": {"value": "15px"},
+        "padding-inline-start": {"value": "10px"}
+      },
+      "tablet": {
+        "padding-block-end": {"value": "20px"},
+        "padding-block-start": {"value": "20px"},
+        "padding-inline-end": {"value": "20px"},
+        "padding-inline-start": {"value": "20px"}
+      },
+      "laptop": {
+        "padding-block-end": {"value": "20px"},
+        "padding-block-start": {"value": "20px"},
+        "padding-inline-end": {"value": "20px"},
+        "padding-inline-start": {"value": "20px"}
+      },
+      "desktop": {
+        "padding-block-end": {"value": "20px"},
+        "padding-block-start": {"value": "20px"},
+        "padding-inline-end": {"value": "20px"},
+        "padding-inline-start": {"value": "20px"}
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "of": {
+    "login-options": {
+      "cosign": {
+        "background-color": {"value": "{oi.color.read-only.bg}"},
+        "padding-block": {"value": "0.6em"},
+        "padding-inline": {"value": "0.6em"}
+      }
+    }
+  }
+}

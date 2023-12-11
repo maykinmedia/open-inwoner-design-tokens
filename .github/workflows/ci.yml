@@ -1,0 +1,52 @@
+name: Run CI build
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - '*'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  prettier:
+    name: Check frontend code formatting with prettier
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run prettier linter
+        run: npm run checkformat
+
+  package-build:
+    name: Build NPM package dist
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Build artifacts
+        run: |
+          npm ci
+          npm run build
+
+      - name: Check for nesting level errors
+        run: ./bin/check_token_nesting.py
+
+      - name: Publish package to NPM
+        if: startsWith(github.ref, 'refs/tags/')
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

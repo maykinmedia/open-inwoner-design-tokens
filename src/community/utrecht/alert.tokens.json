@@ -1,0 +1,56 @@
+{
+  "utrecht": {
+    "alert": {
+      "icon": {
+        "gap": {
+          "value": "16px"
+        },
+        "error": {
+          "color": {
+            "value": "{oi.color.danger}"
+          }
+        },
+        "info": {
+          "color": {
+            "value": "{oi.color.info}"
+          }
+        },
+        "warning": {
+          "color": {
+            "value": "{oi.color.warning}"
+          }
+        },
+        "ok": {
+          "color": {
+            "value": "{oi.color.success}"
+          }
+        }
+      },
+      "padding-block-end": {"value": "20px"},
+      "padding-block-start": {"value": "20px"},
+      "padding-inline-start": {"value": "20px"},
+      "padding-inline-end": {"value": "20px"},
+      "error": {
+        "background-color": {
+          "value": "#f8d7da",
+          "comment": "from formio.form.css .formio-error"
+        }
+      },
+      "info": {
+        "background-color": {
+          "value": "#d9ebf7"
+        }
+      },
+      "warning": {
+        "background-color": {
+          "value": "#fff3cd"
+        }
+      },
+      "ok": {
+        "background-color": {
+          "value": "#ddffdd"
+        }
+      }
+    }
+  }
+}

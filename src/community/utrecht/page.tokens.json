@@ -1,0 +1,21 @@
+{
+  "utrecht": {
+    "page": {
+      "padding-inline-end": {"value": "20px"},
+      "padding-inline-start": {"value": "20px"}
+    }
+  },
+  "of": {
+    "utrecht-page": {
+      "$extensions": {
+        "dte.metadata": {
+          "groupDescription": "Open Forms' extensions on the utrecht-page, for responsive styling."
+        }
+      },
+      "mobile": {
+        "padding-inline-end": {"value": "0"},
+        "padding-inline-start": {"value": "0"}
+      }
+    }
+  }
+}

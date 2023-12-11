@@ -1,0 +1,122 @@
+{
+  "of": {
+    "color": {
+      "$extensions": {
+        "dte.metadata": {
+          "groupDescription": "Globally tweak commonly used colors."
+        }
+      },
+      "primary": {
+        "value": "#01689B",
+        "comment": "The primary color makes up a large part of the theme, it is used in buttons, accents and link color for example.",
+        "$extensions": {
+          "dte.metadata": {
+            "isCurated": true,
+            "category": "color"
+          }
+        }
+      },
+      "primary-light": {"value": "#d3e3ec"},
+      "secondary": {
+        "value": "#cee0ea",
+        "comment": "The secondary compliments the primary color and serves as the default for a number of more fine-grained tokens.",
+        "$extensions": {
+          "dte.metadata": {
+            "isCurated": true,
+            "category": "color"
+          }
+        }
+      },
+      "info": {
+        "value": "#007bc7",
+        "comment": "The highlight color for informational states and/or messages.",
+        "$extensions": {
+          "dte.metadata": {
+            "isCurated": true,
+            "category": "color"
+          }
+        }
+      },
+      "success": {
+        "value": "green",
+        "comment": "The highlight color for success states and/or messages.",
+        "$extensions": {
+          "dte.metadata": {
+            "isCurated": true,
+            "category": "color"
+          }
+        }
+      },
+      "warning": {
+        "value": "#E17000",
+        "comment": "The highlight color for warning states and/or messages.",
+        "$extensions": {
+          "dte.metadata": {
+            "isCurated": true,
+            "category": "color"
+          }
+        }
+      },
+      "danger": {
+        "value": "#D52B1E",
+        "comment": "The highlight color for error/critical states and/or messages.",
+        "$extensions": {
+          "dte.metadata": {
+            "isCurated": true,
+            "category": "color"
+          }
+        }
+      },
+      "bg": {
+        "value": "#ffffff",
+        "comment": "Background color for the (main) user interface.",
+        "$extensions": {
+          "dte.metadata": {
+            "isCurated": true,
+            "category": "color"
+          }
+        }
+      },
+      "fg": {
+        "value": "#000000",
+        "comment": "Font/foreground color for the (main) user interface.",
+        "$extensions": {
+          "dte.metadata": {
+            "isCurated": true,
+            "category": "color"
+          }
+        }
+      },
+      "fg-muted": {
+        "value": "#767676",
+        "comment": "Font/foreground color for non-actionable or less-important content.",
+        "$extensions": {
+          "dte.metadata": {
+            "category": "color"
+          }
+        }
+      },
+      "border": {
+        "value": "#767676",
+        "comment": "Default color for borders."
+      },
+      "focus": {
+        "$extensions": {
+          "dte.metadata": {
+            "stateType": "userAction"
+          }
+        },
+        "border": {
+          "value": "#0177b2",
+          "comment": "Default color for borders of focused elements."
+        }
+      },
+      "read-only": {
+        "bg": {
+          "value": "#e9ecef",
+          "comment": "Default color for disabled/non-interactable input elements."
+        }
+      }
+    }
+  }
+}

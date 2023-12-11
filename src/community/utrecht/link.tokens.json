@@ -1,0 +1,22 @@
+{
+  "utrecht": {
+    "link": {
+      "color": {"value": "{oi.color.primary}"},
+      "text-decoration": {
+        "value": "underline"
+      },
+      "hover": {
+        "color": {"value": "{oi.color.primary}"},
+        "text-decoration": {
+          "value": "none"
+        }
+      },
+      "current": {
+        "font-weight": {"value": "bold"}
+      },
+      "placeholder": {
+        "color": {"value": "{oi.color.fg-muted}"}
+      }
+    }
+  }
+}
