@@ -1,5 +1,5 @@
 {
-  "of": {
+  "oi": {
     "cosign": {
       "bg": {"value": "{oi.checkbox.bg}"}
     }

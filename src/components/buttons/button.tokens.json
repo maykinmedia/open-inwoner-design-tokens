@@ -1,5 +1,5 @@
 {
-  "of": {
+  "oi": {
     "button": {
       "fg": {"value": "{oi.color.fg}"},
       "bg": {"value": "{oi.color.bg}"},

@@ -1,5 +1,5 @@
 {
-  "of": {
+  "oi": {
     "progress-indicator": {
       "background-color": {"value": "{oi.color.bg}"},
       "inset-block-start": {"value": "{oi.app.grid-column-gap}"},

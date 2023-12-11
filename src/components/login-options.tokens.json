@@ -1,5 +1,5 @@
 {
-  "of": {
+  "oi": {
     "login-options": {
       "cosign": {
         "background-color": {"value": "{oi.color.read-only.bg}"},

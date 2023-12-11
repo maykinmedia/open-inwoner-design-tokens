@@ -1,5 +1,5 @@
 {
-  "of": {
+  "oi": {
     "helptext": {
       "bg": {"value": "#d3e3ec"},
       "fg": {"value": "{oi.color.fg}"}

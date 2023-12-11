@@ -1,5 +1,5 @@
 {
-  "of": {
+  "oi": {
     "card": {
       "background-color": {"value": "{oi.color.bg}"},
       "padding-block-end": {"value": "40px"},

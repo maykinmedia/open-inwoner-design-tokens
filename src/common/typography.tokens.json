@@ -1,5 +1,5 @@
 {
-  "of": {
+  "oi": {
     "heading": {
       "fg": {"value": "{oi.color.fg}"}
     },
