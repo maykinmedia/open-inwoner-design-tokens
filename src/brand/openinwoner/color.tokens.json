@@ -126,8 +126,7 @@
             "stateType": "userAction"
           }
         },
-        "border": {
-        }
+        "border": {}
       },
       "read-only": {
         "bg": {

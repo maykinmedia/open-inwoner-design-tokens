@@ -3,7 +3,7 @@
     "heading": {
       "color": {},
       "font-family": {},
-      "font-weight": { "value": "500" }
+      "font-weight": {"value": "500"}
     },
     "heading-1": {
       "color": {"value": "{oi.color.fg}"},
