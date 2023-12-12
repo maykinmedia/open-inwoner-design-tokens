@@ -16,7 +16,7 @@
           }
         }
       },
-      "primary-light": {"value": "#d3e3ec"},
+      "primary-light": {},
       "secondary": {
         "value": "#006A0F",
         "comment": "The secondary compliments the primary color and serves as the default for a number of more fine-grained tokens.",
@@ -38,8 +38,18 @@
         }
       },
       "info": {
-        "value": "#007bc7",
-        "comment": "The highlight color for informational states and/or messages.",
+        "value": "#2566A7",
+        "comment": "The light highlight color for informational states and/or messages.",
+        "$extensions": {
+          "dte.metadata": {
+            "isCurated": true,
+            "category": "color"
+          }
+        }
+      },
+      "info-light": {
+        "value": "#D5E6F6",
+        "comment": "The light highlight color for informational states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -48,8 +58,8 @@
         }
       },
       "success": {
-        "value": "green",
-        "comment": "The highlight color for success states and/or messages.",
+        "value": "#4A7746",
+        "comment": "The dark text color for success states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -58,8 +68,8 @@
         }
       },
       "warning": {
-        "value": "#E17000",
-        "comment": "The highlight color for warning states and/or messages.",
+        "value": "#704000",
+        "comment": "The dark text color for warning states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -68,8 +78,8 @@
         }
       },
       "danger": {
-        "value": "#D52B1E",
-        "comment": "The highlight color for error/critical states and/or messages.",
+        "value": "#5c000f",
+        "comment": "The dark text color for error/critical states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -98,7 +108,7 @@
         }
       },
       "fg-muted": {
-        "value": "#767676",
+        "value": "#d2d2d2",
         "comment": "Font/foreground color for non-actionable or less-important content.",
         "$extensions": {
           "dte.metadata": {
@@ -107,7 +117,7 @@
         }
       },
       "border": {
-        "value": "#767676",
+        "value": "#d2d2d2",
         "comment": "Default color for borders."
       },
       "focus": {
@@ -117,13 +127,11 @@
           }
         },
         "border": {
-          "value": "#0177b2",
-          "comment": "Default color for borders of focused elements."
         }
       },
       "read-only": {
         "bg": {
-          "value": "#e9ecef",
+          "value": "#d2d2d2",
           "comment": "Default color for disabled/non-interactable input elements."
         }
       }

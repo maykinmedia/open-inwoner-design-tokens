@@ -1,7 +1,8 @@
 # Design Tokens
 
-Open Inwoner projects follow the [NL Design System](https://github.com/nl-design-system). We organize
-the design tokens in JSON files and use them within the Open Forms
+The Open Inwoner project has the goal to follow the
+[NL Design System](https://github.com/nl-design-system). We organize
+the design tokens in JSON files and use them within the Open Inwoner
 backend project.
 
 ## How it works
@@ -16,7 +17,7 @@ structure of these design tokens.
 
 ## Usage
 
-Install the correct modules:
+Install the necessary modules:
 
 ```bash
 npm install
@@ -32,9 +33,8 @@ Then, import the desired build target artifact and run your usual build chain.
 **Developing and using tokens**
 
 If you actively need to add or change design tokens, we recommend installing the package locally and
-using npm workspaces or `npm link` for the least-friction experience. For Open Forms specifically,
-we include the package as a git-submodule and leverage npm workspaces with instructions in the
-downstream projects.
+using npm workspaces or `npm link` for the least-friction experience. You can include the package as
+a git-submodule and leverage npm workspaces with instructions in the downstream projects.
 
 This allows you to create atomic PRs with design token changes, while being able to develop against
 the newest changes.
