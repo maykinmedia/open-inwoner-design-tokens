@@ -39,7 +39,7 @@
       },
       "info": {
         "value": "#2566A7",
-        "comment": "The light highlight color for informational states and/or messages.",
+        "comment": "The dark text color for informational states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -49,7 +49,7 @@
       },
       "info-light": {
         "value": "#D5E6F6",
-        "comment": "The light highlight color for informational states and/or messages.",
+        "comment": "The light background color for informational states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -67,6 +67,16 @@
           }
         }
       },
+      "success-light": {
+        "value": "#ecf4ec",
+        "comment": "The light background color for success states and/or messages.",
+        "$extensions": {
+          "dte.metadata": {
+            "isCurated": true,
+            "category": "color"
+          }
+        }
+      },
       "warning": {
         "value": "#704000",
         "comment": "The dark text color for warning states and/or messages.",
@@ -77,9 +87,29 @@
           }
         }
       },
+      "warning-light": {
+        "value": "#ffdcad",
+        "comment": "The light background color for warning states and/or messages.",
+        "$extensions": {
+          "dte.metadata": {
+            "isCurated": true,
+            "category": "color"
+          }
+        }
+      },
       "danger": {
         "value": "#5c000f",
         "comment": "The dark text color for error/critical states and/or messages.",
+        "$extensions": {
+          "dte.metadata": {
+            "isCurated": true,
+            "category": "color"
+          }
+        }
+      },
+      "danger-light": {
+        "value": "#ffdbe1",
+        "comment": "The light background color for error/critical states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
