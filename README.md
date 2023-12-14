@@ -62,7 +62,7 @@ tokens. E.g. if you have two tokens definition files like:
 
 ```json
 {
-  "oi": {
+  "oip": {
     "color": {
       "fg": {"value": "#000000"}
     }
@@ -72,7 +72,7 @@ tokens. E.g. if you have two tokens definition files like:
 
 ```json
 {
-  "oi": {
+  "oip": {
     "color": {
       "fg": {
         "muted": {"value": "#000000"}
@@ -82,8 +82,8 @@ tokens. E.g. if you have two tokens definition files like:
 }
 ```
 
-Then only `--oi-color-fg` will be emitted since the merged object sees a `value` key at the
-`oi.color.fg` path.
+Then only `--oip-color-fg` will be emitted since the merged object sees a `value` key at the
+`oip.color.fg` path.
 
 You can usually avoid this by sticking to a structure adhering to:
 
@@ -98,7 +98,7 @@ e.g.:
 
 ```json
 {
-  "oi": {
+  "oip": {
     "color": {
       "fg-muted": {"value": "#000000"}
     }
