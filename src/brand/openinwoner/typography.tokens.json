@@ -1,10 +1,10 @@
 {
-  "oi": {
+  "oip": {
     "heading": {
-      "fg": {"value": "{oi.color.fg}"}
+      "fg": {"value": "{oip.color.fg}"}
     },
     "utrecht-link": {
-      "font-family": {"value": "{oi.typography.sans-serif.font-family}"}
+      "font-family": {"value": "{oip.typography.sans-serif.font-family}"}
     },
     "text": {
       "margin": {"value": "20px"},
@@ -16,16 +16,16 @@
         "font-size": {"value": "14px"}
       },
       "mobile": {
-        "margin": {"value": "{oi.text.margin}"}
+        "margin": {"value": "{oip.text.margin}"}
       },
       "tablet": {
-        "margin": {"value": "{oi.text.margin}"}
+        "margin": {"value": "{oip.text.margin}"}
       },
       "laptop": {
-        "margin": {"value": "{oi.text.margin}"}
+        "margin": {"value": "{oip.text.margin}"}
       },
       "desktop": {
-        "margin": {"value": "{oi.text.margin}"}
+        "margin": {"value": "{oip.text.margin}"}
       }
     },
     "typography": {

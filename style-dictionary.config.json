@@ -12,14 +12,15 @@
           "destination": "index.css",
           "format": "css/variables",
           "options": {
+            "selector": ".oip-theme",
             "outputReferences": true
           }
         },
         {
-          "destination": "components/headings.css",
+          "destination": "oip-theme/index.css",
           "format": "css/variables",
           "options": {
-            "selector": ".heading-1",
+            "selector": ".openinwoner-theme",
             "outputReferences": true
           }
         }
