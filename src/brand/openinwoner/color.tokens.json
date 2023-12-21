@@ -8,7 +8,7 @@
       },
       "primary": {
         "value": "#0065BD",
-        "comment": "The primary color makes up a large part of the theme, it is used in buttons, accents and link color for example.",
+        "comment": "The primary color makes up a large part of the theme, it is used in buttons for example.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -19,7 +19,7 @@
       "primary-light": {},
       "secondary": {
         "value": "#006A0F",
-        "comment": "The secondary compliments the primary color and serves as the default for a number of more fine-grained tokens.",
+        "comment": "The secondary compliments the primary color and serves as the default for text-links.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -39,7 +39,7 @@
       },
       "info": {
         "value": "#2566A7",
-        "comment": "The dark text color for informational states and/or messages.",
+        "comment": "The dark blue text color for informational states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -49,7 +49,7 @@
       },
       "info-light": {
         "value": "#D5E6F6",
-        "comment": "The light background color for informational states and/or messages.",
+        "comment": "The light blue background color for informational states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -59,7 +59,7 @@
       },
       "success": {
         "value": "#4A7746",
-        "comment": "The dark text color for success states and/or messages.",
+        "comment": "The dark green text color for success states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -69,7 +69,7 @@
       },
       "success-light": {
         "value": "#ecf4ec",
-        "comment": "The light background color for success states and/or messages.",
+        "comment": "The light green background color for success states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -79,7 +79,7 @@
       },
       "warning": {
         "value": "#704000",
-        "comment": "The dark text color for warning states and/or messages.",
+        "comment": "The dark orange text color for warning states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -89,7 +89,7 @@
       },
       "warning-light": {
         "value": "#ffdcad",
-        "comment": "The light background color for warning states and/or messages.",
+        "comment": "The light orange background color for warning states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -99,7 +99,7 @@
       },
       "danger": {
         "value": "#5c000f",
-        "comment": "The dark text color for error/critical states and/or messages.",
+        "comment": "The dark red text color for error/critical states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -109,7 +109,7 @@
       },
       "danger-light": {
         "value": "#ffdbe1",
-        "comment": "The light background color for error/critical states and/or messages.",
+        "comment": "The light red background color for error/critical states and/or messages.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -128,7 +128,7 @@
         }
       },
       "fg": {
-        "value": "#000000",
+        "value": "#4b4b4b",
         "comment": "Black foreground color for the (main) user interface.",
         "$extensions": {
           "dte.metadata": {

@@ -7,8 +7,8 @@
       "font-weight": {},
       "letter-spacing": {"value": "normal"},
       "line-height": {"value": "1.100"},
-      "margin-block-end": {},
-      "margin-block-start": {}
+      "margin-block-end": {"value": "0.67em"},
+      "margin-block-start": {"value": "0.67em"}
     }
   }
 }

@@ -15,13 +15,42 @@ in downstream projects.
 The draft [Design Token Format](https://design-tokens.github.io/community-group/format/) drives the
 structure of these design tokens.
 
-## Usage
+## Add this as a submodule
 
-Install the necessary modules:
+In root folder of your project, create a dir:
 
 ```bash
-npm install
+mkdir design-tokens
+
+cd design-tokens
+
+git submodule add git@github.com:maykinmedia/open-inwoner-design-tokens.git
+
+git status
+
+git submodule update --init
 ```
+
+Do not forget to commit these changes to your repository.
+
+
+## Usage
+
+Install the necessary modules (from inside the `open-inwoner-design-tokens` directory):
+
+```bash
+npm ci --legacy-peer-deps
+```
+
+Generate the CSS files
+
+```bash
+npm run build
+```
+
+In order to update an existing Git submodule, you need to execute the “git submodule update” with the “–remote” and the “–merge” option.
+
+`$ git submodule update --remote --merge`
 
 **Using tokens**
 
