@@ -17,12 +17,10 @@ structure of these design tokens.
 
 ## Add this as a submodule
 
-In root folder of your project, create a dir:
+In root folder of your project, create a dir or directly add the submodule in its own directory:
 
 ```bash
-mkdir design-tokens
-
-cd design-tokens
+cd open-inwoner-design-tokens
 
 git submodule add git@github.com:maykinmedia/open-inwoner-design-tokens.git
 
@@ -32,6 +30,14 @@ git submodule update --init
 ```
 
 Do not forget to commit these changes to your repository.
+
+If you are using Github actions, add these to your script:
+
+```bash
+      - uses: actions/checkout@v3
+        with:
+          submodules: 'true'
+```
 
 
 ## Usage

@@ -15,14 +15,6 @@
             "selector": ".openinwoner-theme",
             "outputReferences": true
           }
-        },
-        {
-          "destination": "oip-theme/index.css",
-          "format": "css/variables",
-          "options": {
-            "selector": ".openinwoner-theme",
-            "outputReferences": true
-          }
         }
       ]
     },
