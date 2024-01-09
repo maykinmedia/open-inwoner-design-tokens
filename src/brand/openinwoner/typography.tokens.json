@@ -11,29 +11,16 @@
       "font-size": {"value": "16px"},
       "big": {
         "font-size": {"value": "24px"}
-      },
-      "small": {
-        "font-size": {"value": "14px"}
-      },
-      "mobile": {
-        "margin": {"value": "{oip.text.margin}"}
-      },
-      "tablet": {
-        "margin": {"value": "{oip.text.margin}"}
-      },
-      "laptop": {
-        "margin": {"value": "{oip.text.margin}"}
-      },
-      "desktop": {
-        "margin": {"value": "{oip.text.margin}"}
       }
     },
     "typography": {
       "sans-serif": {
-        "font-family": {"value": "Roboto, sans-serif"}
+        "font-family": {"value": "TheSans C5, sans-serif"}
       },
       "heading": {
-        "font-family": {"value": "Roboto Medium, sans-serif"}
+        "font-family": {"value": "TheMix C5"},
+        "display": {"value": "flex"},
+        "justify-content": {"value": "space-between"}
       }
     }
   }

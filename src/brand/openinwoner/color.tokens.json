@@ -129,7 +129,7 @@
       },
       "fg": {
         "value": "#4b4b4b",
-        "comment": "Black foreground color for the (main) user interface.",
+        "comment": "Blackish foreground color for the (main) user interface.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -140,6 +140,15 @@
       "fg-muted": {
         "value": "#d2d2d2",
         "comment": "Font/foreground color for non-actionable or less-important content.",
+        "$extensions": {
+          "dte.metadata": {
+            "category": "color"
+          }
+        }
+      },
+      "fg-heading": {
+        "value": "#000000",
+        "comment": "Black foreground color for fully black elements.",
         "$extensions": {
           "dte.metadata": {
             "category": "color"
