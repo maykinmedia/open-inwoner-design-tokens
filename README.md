@@ -17,7 +17,7 @@ structure of these design tokens.
 
 ## Add this as a submodule
 
-In root folder of your project, create a dir or directly add the submodule in its own directory:
+In the root folder of your project, create a dir or directly add the submodule in its own directory:
 
 ```bash
 cd open-inwoner-design-tokens
@@ -56,7 +56,9 @@ npm run build
 
 In order to update an existing Git submodule, you need to execute the “git submodule update” with the “–remote” and the “–merge” option.
 
-`$ git submodule update --remote --merge`
+```bash
+git submodule update --remote --merge
+```
 
 **Using tokens**
 
