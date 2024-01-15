@@ -1,7 +1,8 @@
 {
   "oip": {
     "heading": {
-      "fg": {"value": "{oip.color.fg}"}
+      "fg": {"value": "{oip.color.fg}"},
+      "font-family": {"value": "TheMix C5"}
     },
     "utrecht-link": {
       "font-family": {"value": "{oip.typography.sans-serif.font-family}"}
