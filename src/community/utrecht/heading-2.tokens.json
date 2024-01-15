@@ -2,7 +2,7 @@
   "utrecht": {
     "heading-2": {
       "color": {"value": "{oip.color.fg-heading}"},
-      "font-family": {"value": "{oip.typography.heading.font-family}"},
+      "font-family": {"value": "TheMix C5"},
       "font-size": {"value": "24px"},
       "font-weight": {"value": "bold"},
       "letter-spacing": {"value": "normal"},
