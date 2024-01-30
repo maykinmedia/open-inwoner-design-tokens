@@ -2,7 +2,7 @@
   "oip": {
     "heading": {
       "fg": {"value": "{oip.color.fg}"},
-      "font-family": {"value": "TheMix C5"}
+      "font-family": {"value": "Heading"}
     },
     "utrecht-link": {
       "font-family": {"value": "{oip.typography.sans-serif.font-family}"}
@@ -19,7 +19,7 @@
         "font-family": {"value": "TheSans C5, sans-serif"}
       },
       "heading": {
-        "font-family": {"value": "TheMix C5"},
+        "font-family": {"value": "Heading"},
         "display": {"value": "flex"},
         "justify-content": {"value": "space-between"}
       }
