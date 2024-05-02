@@ -1,11 +1,11 @@
 {
   "utrecht": {
-    "heading-3": {
+    "heading-4": {
       "color": {"value": "{oip.color.fg-heading}"},
       "font-family": {"value": "{oip.typography.heading.font-family}"},
-      "font-size": {"value": "20px"},
+      "font-size": {"value": "16px"},
       "font-weight": {"value": "bold"},
-      "line-height": {"value": "30px"},
+      "line-height": {"value": "26px"},
       "margin-block-end": {"value": "0"},
       "margin-block-start": {"value": "0"}
     }

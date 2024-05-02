@@ -1,0 +1,10 @@
+{
+  "utrecht": {
+    "document": {
+      "font-family": {
+        "value": "{oip.typography.sans-serif.font-family}",
+        "comment": "The body font-style for the theme."
+      }
+    }
+  }
+}
