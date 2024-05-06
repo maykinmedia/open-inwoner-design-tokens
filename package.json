@@ -1,6 +1,6 @@
 {
   "name": "@open-inwoner/design-tokens",
-  "version": "0.0.1",
+  "version": "0.0.2-alpha.0",
   "description": "Design tokens for Open Inwoner",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
