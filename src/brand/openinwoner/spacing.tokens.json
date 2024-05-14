@@ -1,0 +1,46 @@
+{
+  "oip": {
+    "row": {
+      "height": {
+        "value": "40px"
+      },
+      "height-small": {
+        "value": "24px"
+      },
+      "height-big": {
+        "value": "48px"
+      },
+      "height-giant": {
+        "value": "57px"
+      }
+    },
+    "gutter": {
+      "width": {
+        "value": "32px"
+      }
+    },
+    "spacing": {
+      "tiny": {
+        "value": "2px"
+      },
+      "small": {
+        "value": "4px"
+      },
+      "medium": {
+        "value": "8px"
+      },
+      "large": {
+        "value": "16px"
+      },
+      "extra-large": {
+        "value": "24px"
+      },
+      "giant": {
+        "value": "32px"
+      },
+      "mega": {
+        "value": "80px"
+      }
+    }
+  }
+}
