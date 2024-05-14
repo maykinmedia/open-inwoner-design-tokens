@@ -16,7 +16,7 @@
     },
     "typography": {
       "sans-serif": {
-        "font-family": {"value": "TheSans C5, sans-serif"}
+        "font-family": {"value": "Body"}
       },
       "heading": {
         "font-family": {"value": "Heading"},
