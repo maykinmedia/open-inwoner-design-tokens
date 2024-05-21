@@ -1,0 +1,26 @@
+{
+  "oip": {
+    "utrecht": {
+      "paragraph": {
+        "small": {
+          "font-size": {
+            "value": "14px"
+          },
+          "line-height": {
+            "value": "{utrecht.paragraph.small.line-height}"
+          }
+        },
+        "muted": {
+          "color": {
+            "value": "{oip.color.fg-muted}"
+          }
+        },
+        "centered": {
+          "text-align": {
+            "value": "center"
+          }
+        }
+      }
+    }
+  }
+}

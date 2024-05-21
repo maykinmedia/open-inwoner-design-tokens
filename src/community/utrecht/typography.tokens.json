@@ -4,6 +4,17 @@
       "font-family": {
         "value": "{oip.typography.sans-serif.font-family}",
         "comment": "The body font-style for the theme."
+      },
+      "font-size": {
+        "value": "16px",
+        "comment": "The body font-size for the theme."
+      },
+      "color": {
+        "value": "#4b4b4b"
+      },
+      "line-height": {
+        "value": "24px",
+        "comment": "Default body line-height."
       }
     }
   }
