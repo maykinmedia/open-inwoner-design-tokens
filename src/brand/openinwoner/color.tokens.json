@@ -90,7 +90,7 @@
         "comment": "Blackish foreground color for the (main) user interface."
       },
       "fg-muted": {
-        "value": "#d2d2d2",
+        "value": "#949494",
         "comment": "Font/foreground color for non-actionable or less-important content."
       },
       "fg-heading": {

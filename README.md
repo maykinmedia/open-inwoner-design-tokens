@@ -1,8 +1,6 @@
 # Design Tokens
 
-The Open Inwoner Project (OIP) has the goal to follow the
-[NL Design System](https://github.com/nl-design-system). We organize
-the design tokens in JSON files and use them within the Open Inwoner
+The Open Inwoner Platform (OIP) project has the goal to follow the [NL Design System](https://github.com/nl-design-system). We organize the design tokens in JSON files and use them within the Open Inwoner
 backend project.
 
 For any component that OIP has that corresponds with a community component, we use the community
@@ -13,6 +11,14 @@ used repeatedly, like for example `border-radius`.
 Long term goal is to make it possible for different municipalities to make their own design-tokens
 and then simply switch themes in OIP.
 
+## How it works
+
+The design tokens are specified in JSON files, which are picked up and merged using the
+[style-dictionary](https://www.npmjs.com/package/style-dictionary) library. The resulting packages
+include various build targets, such as CSS variables files, SASS vars... to be consumed in downstream projects.
+
+The draft [Design Token Format](https://design-tokens.github.io/community-group/format/) drives the structure of these design tokens.
+
 **Using tokens**
 
 If you are only _consuming_ the design tokens, the easiest integration path is adding the
@@ -21,13 +27,13 @@ NPM-package in your own project.
 ## Add this package to your project
 
 This package can be added to your project as an NPM node module: after building the node, you will
-only need to work with its rendered CSS.
-
-Get the node module from https://www.npmjs.com/package/@open-inwoner/design-tokens
+only need to work with its rendered CSS. The easiest integration path is adding the NPM package as dependency to your project:
 
 ```bash
-npm i @open-inwoner/design-tokens
+npm install --save-dev @open-inwoner/design-tokens
 ```
+
+This gets the node module from https://www.npmjs.com/package/@open-inwoner/design-tokens
 
 ## Usage
 
@@ -52,29 +58,15 @@ Import the CSS in your own CSS files by using our theme class in your Master HTM
 
 ```css
 .openinwoner-theme {
-. . .
+  ...
 }
 ```
 
 ## Developing and using tokens
 
-In case you do not just wish to consume, but add completely new tokens or adjust their values,
-follow these steps. Then, import the desired build target artifact and run your usual build chain.
+In case you do not just wish to consume, but add completely new tokens or adjust their values, we recommend installing the package locally and using npm workspaces or `npm link` for the least-friction experience. You can include the package as a git-submodule and leverage npm workspaces with instructions in the downstream projects.
 
-Specify the design tokens in JSON files, which are picked up and merged using the
-[style-dictionary](https://www.npmjs.com/package/style-dictionary) library. The resulting packages
-include various build targets, such as ES6 modules, CSS variables files, SASS vars... to be consumed
-in downstream projects.
-
-The draft [Design Token Format](https://design-tokens.github.io/community-group/format/) drives the
-structure of these design tokens.
-
-For adding or changing design tokens, we recommend installing the package locally and
-using npm workspaces or `npm link` for the least-friction experience. You can include the package as
-a git-submodule and leverage npm workspaces with instructions in the downstream projects.
-
-This allows you to create atomic PRs with design token changes, while being able to develop against
-the newest changes.
+This allows you to create atomic PRs with design token changes, while being able to develop against the newest changes.
 
 Run:
 
@@ -153,7 +145,7 @@ The latter form is harder to keep track off across files though.
 
 ### Add as a submodule instead of NPM
 
-In the root folder of your project, create a dir or directly add the submodule in its own directory:
+From the root folder of your project:
 
 ```bash
 cd open-inwoner-design-tokens

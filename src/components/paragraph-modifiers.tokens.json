@@ -1,25 +1,15 @@
 {
   "oip": {
-    "utrecht": {
-      "paragraph": {
-        "small": {
-          "font-size": {
-            "value": "14px"
-          },
-          "line-height": {
-            "value": "{utrecht.paragraph.small.line-height}"
-          }
-        },
-        "muted": {
-          "color": {
-            "value": "{oip.color.fg-muted}"
-          }
-        },
-        "centered": {
-          "text-align": {
-            "value": "center"
-          }
-        }
+    "utrecht-paragraph": {
+      "muted": {
+        "color": {"value": "{oip.color.fg-muted}"}
+      },
+      "centered": {
+        "text-align": {"value": "center"}
+      },
+      "compact": {
+        "margin-bottom": {"value": "0 !important"},
+        "margin-top": {"value": "0 !important"}
       }
     }
   }
