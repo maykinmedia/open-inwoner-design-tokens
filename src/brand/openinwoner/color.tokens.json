@@ -59,101 +59,43 @@
       },
       "success": {
         "value": "#4A7746",
-        "comment": "The dark green text color for success states and/or messages.",
-        "$extensions": {
-          "dte.metadata": {
-            "isCurated": true,
-            "category": "color"
-          }
-        }
+        "comment": "The dark green text color for success states and/or messages."
       },
       "success-light": {
         "value": "#ecf4ec",
-        "comment": "The light green background color for success states and/or messages.",
-        "$extensions": {
-          "dte.metadata": {
-            "isCurated": true,
-            "category": "color"
-          }
-        }
+        "comment": "The light green background color for success states and/or messages."
       },
       "warning": {
         "value": "#704000",
-        "comment": "The dark orange text color for warning states and/or messages.",
-        "$extensions": {
-          "dte.metadata": {
-            "isCurated": true,
-            "category": "color"
-          }
-        }
+        "comment": "The dark orange text color for warning states and/or messages."
       },
       "warning-light": {
         "value": "#ffdcad",
-        "comment": "The light orange background color for warning states and/or messages.",
-        "$extensions": {
-          "dte.metadata": {
-            "isCurated": true,
-            "category": "color"
-          }
-        }
+        "comment": "The light orange background color for warning states and/or messages."
       },
       "danger": {
         "value": "#5c000f",
-        "comment": "The dark red text color for error/critical states and/or messages.",
-        "$extensions": {
-          "dte.metadata": {
-            "isCurated": true,
-            "category": "color"
-          }
-        }
+        "comment": "The dark red text color for error/critical states and/or messages."
       },
       "danger-light": {
         "value": "#ffdbe1",
-        "comment": "The light red background color for error/critical states and/or messages.",
-        "$extensions": {
-          "dte.metadata": {
-            "isCurated": true,
-            "category": "color"
-          }
-        }
+        "comment": "The light red background color for error/critical states and/or messages."
       },
       "bg": {
         "value": "#ffffff",
-        "comment": "Background color for the (main) user interface.",
-        "$extensions": {
-          "dte.metadata": {
-            "isCurated": true,
-            "category": "color"
-          }
-        }
+        "comment": "Background color for the (main) user interface."
       },
       "fg": {
         "value": "#4b4b4b",
-        "comment": "Blackish foreground color for the (main) user interface.",
-        "$extensions": {
-          "dte.metadata": {
-            "isCurated": true,
-            "category": "color"
-          }
-        }
+        "comment": "Blackish foreground color for the (main) user interface."
       },
       "fg-muted": {
-        "value": "#d2d2d2",
-        "comment": "Font/foreground color for non-actionable or less-important content.",
-        "$extensions": {
-          "dte.metadata": {
-            "category": "color"
-          }
-        }
+        "value": "#949494",
+        "comment": "Font/foreground color for non-actionable or less-important content."
       },
       "fg-heading": {
         "value": "#000000",
-        "comment": "Black foreground color for fully black elements.",
-        "$extensions": {
-          "dte.metadata": {
-            "category": "color"
-          }
-        }
+        "comment": "Black foreground color for fully black elements."
       },
       "border": {
         "value": "#d2d2d2",
@@ -167,11 +109,9 @@
         },
         "border": {}
       },
-      "read-only": {
-        "bg": {
-          "value": "#d2d2d2",
-          "comment": "Default color for disabled/non-interactable input elements."
-        }
+      "red-notification": {
+        "value": "#d94100",
+        "comment": "The bright red color for notification badges and texts."
       }
     }
   }

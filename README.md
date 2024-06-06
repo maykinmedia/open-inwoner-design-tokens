@@ -1,44 +1,39 @@
 # Design Tokens
 
-The Open Inwoner project has the goal to follow the
-[NL Design System](https://github.com/nl-design-system). We organize
-the design tokens in JSON files and use them within the Open Inwoner
+The Open Inwoner Platform (OIP) project has the goal to follow the [NL Design System](https://github.com/nl-design-system). We organize the design tokens in JSON files and use them within the Open Inwoner
 backend project.
+
+For any component that OIP has that corresponds with a community component, we use the community
+classes. But for any component that OIP has that does not have an NLDS equivalent, we use our own
+OIP brand tokens. We also set OIP (brand/component) tokens in case we have certain values that are
+used repeatedly, like for example `border-radius`.
+
+Long term goal is to make it possible for different municipalities to make their own design-tokens
+and then simply switch themes in OIP.
 
 ## How it works
 
-Specify the design tokens in JSON files, which are picked up and merged using the
+The design tokens are specified in JSON files, which are picked up and merged using the
 [style-dictionary](https://www.npmjs.com/package/style-dictionary) library. The resulting packages
-include various build targets, such as ES6 modules, CSS variables files, SASS vars... to be consumed
-in downstream projects.
+include various build targets, such as CSS variables files, SASS vars... to be consumed in downstream projects.
 
-The draft [Design Token Format](https://design-tokens.github.io/community-group/format/) drives the
-structure of these design tokens.
+The draft [Design Token Format](https://design-tokens.github.io/community-group/format/) drives the structure of these design tokens.
 
-## Add this as a submodule
+**Using tokens**
 
-In the root folder of your project, create a dir or directly add the submodule in its own directory:
+If you are only _consuming_ the design tokens, the easiest integration path is adding the
+NPM-package in your own project.
 
-```bash
-cd open-inwoner-design-tokens
+## Add this package to your project
 
-git submodule add git@github.com:maykinmedia/open-inwoner-design-tokens.git
-
-git status
-
-git submodule update --init
-```
-
-Do not forget to commit these changes to your repository.
-
-If you are using Github actions, add these to your script:
+This package can be added to your project as an NPM node module: after building the node, you will
+only need to work with its rendered CSS. The easiest integration path is adding the NPM package as dependency to your project:
 
 ```bash
-      - uses: actions/checkout@v3
-        with:
-          submodules: 'true'
+npm install --save-dev @open-inwoner/design-tokens
 ```
 
+This gets the node module from https://www.npmjs.com/package/@open-inwoner/design-tokens
 
 ## Usage
 
@@ -54,27 +49,24 @@ Generate the CSS files
 npm run build
 ```
 
-In order to update an existing Git submodule, you need to execute the “git submodule update” with the “–remote” and the “–merge” option.
+Import the CSS in your own CSS files by using our theme class in your Master HTML template
 
-```bash
-git submodule update --remote --merge
+```HTML
+
+<html lang="nl" class="view openinwoner-theme">
 ```
 
-**Using tokens**
+```css
+.openinwoner-theme {
+  ...
+}
+```
 
-If you are only _consuming_ the design tokens, the easiest integration path is adding this
-package in your own project.
+## Developing and using tokens
 
-Then, import the desired build target artifact and run your usual build chain.
+In case you do not just wish to consume, but add completely new tokens or adjust their values, we recommend installing the package locally and using npm workspaces or `npm link` for the least-friction experience. You can include the package as a git-submodule and leverage npm workspaces with instructions in the downstream projects.
 
-**Developing and using tokens**
-
-If you actively need to add or change design tokens, we recommend installing the package locally and
-using npm workspaces or `npm link` for the least-friction experience. You can include the package as
-a git-submodule and leverage npm workspaces with instructions in the downstream projects.
-
-This allows you to create atomic PRs with design token changes, while being able to develop against
-the newest changes.
+This allows you to create atomic PRs with design token changes, while being able to develop against the newest changes.
 
 Run:
 
@@ -101,7 +93,9 @@ tokens. E.g. if you have two tokens definition files like:
 {
   "oip": {
     "color": {
-      "fg": {"value": "#000000"}
+      "fg": {
+        "value": "#000000"
+      }
     }
   }
 }
@@ -112,7 +106,9 @@ tokens. E.g. if you have two tokens definition files like:
   "oip": {
     "color": {
       "fg": {
-        "muted": {"value": "#000000"}
+        "muted": {
+          "value": "#000000"
+        }
       }
     }
   }
@@ -137,10 +133,43 @@ e.g.:
 {
   "oip": {
     "color": {
-      "fg-muted": {"value": "#000000"}
+      "fg-muted": {
+        "value": "#000000"
+      }
     }
   }
 }
 ```
 
 The latter form is harder to keep track off across files though.
+
+### Add as a submodule instead of NPM
+
+From the root folder of your project:
+
+```bash
+cd open-inwoner-design-tokens
+
+git submodule add git@github.com:maykinmedia/open-inwoner-design-tokens.git
+
+git status
+
+git submodule update --init
+```
+
+Do not forget to commit these changes to your repository.
+
+If you are using Github actions, add these to your script:
+
+```bash
+      - uses: actions/checkout@v3
+        with:
+          submodules: 'true'
+```
+
+In order to update an existing Git submodule, you need to execute the “git submodule update” with
+the “–remote” and the “–merge” option.
+
+```bash
+git submodule update --remote --merge
+```

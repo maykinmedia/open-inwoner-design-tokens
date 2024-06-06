@@ -4,9 +4,6 @@
       "fg": {"value": "{oip.color.fg}"},
       "font-family": {"value": "Heading"}
     },
-    "utrecht-link": {
-      "font-family": {"value": "{oip.typography.sans-serif.font-family}"}
-    },
     "text": {
       "margin": {"value": "20px"},
       "font-size": {"value": "16px"},
