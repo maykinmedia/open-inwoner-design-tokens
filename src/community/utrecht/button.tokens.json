@@ -1,0 +1,92 @@
+{
+  "utrecht": {
+    "button": {
+      "background-color": {"value": "transparent"},
+      "border-color": {"value": "transparent"},
+      "border-radius": {"value": "{oip.button.border-radius}"},
+      "border-width": {"value": "1px"},
+      "color": {"value": "{oip.color.secondary}"},
+      "cursor": {"value": "pointer"},
+      "font-size": {"value": "{oip.text.font-size}"},
+      "line-height": {"value": "{oip.text.line-height}"},
+      "min-block-size": {"value": "0"},
+      "min-inline-size": {"value": "0"},
+      "padding-block-start": {"value": "{oip.button.padding-top}"},
+      "padding-block-end": {"value": "{oip.button.padding-bottom}"},
+      "padding-inline-start": {"value": "{oip.button.padding-left}"},
+      "padding-inline-end": {"value": "{oip.button.padding-right}"},
+
+      "focus": {
+        "border-color": {"value": "transparent"},
+        "color": {"value": "{oip.color.secondary}"}
+      },
+
+      "hover": {
+        "background-color": {"value": "transparent"},
+        "border-color": {"value": "transparent"},
+        "color": {"value": "{oip.color.secondary}"}
+      },
+
+      "primary-action": {
+        "background-color": {"value": "{oip.color.primary}"},
+        "border-color": {
+          "value": "{oip.color.primary}",
+          "comment": "The primary button-background color determined by the configuration."
+        },
+        "color": {"value": "#ffffff"},
+
+        "hover": {
+          "background-color": {"value": "{oip.color.primary-darker}"},
+          "border-color": {"value": "{oip.color.primary-darker}"},
+          "color": {"value": "#ffffff"}
+        },
+
+        "focus": {
+          "background-color": {"value": "{oip.color.primary-darker}"},
+          "border-color": {"value": "{oip.color.primary-darker}"},
+          "color": {"value": "#ffffff"}
+        },
+
+        "warning": {
+          "background-color": {"value": "{oip.color.danger-lightest}"},
+          "border-color": {"value": "{oip.color.danger-lightest}"},
+          "color": {"value": "{oip.color.danger}"},
+
+          "hover": {
+            "background-color": {"value": "{oip.button.danger}"},
+            "border-color": {"value": "{oip.color.danger}"},
+            "color": {"value": "{oip.color.danger-lightest}"}
+          }
+        }
+      },
+      "secondary-action": {
+        "background-color": {"value": "{oip.color.secondary}"},
+        "border-color": {
+          "value": "{oip.color.secondary}",
+          "comment": "The secondary button-background color determined by the configuration."
+        },
+        "color": {"value": "#ffffff"},
+
+        "hover": {
+          "background-color": {"value": "{oip.color.secondary-darker}"},
+          "border-color": {"value": "{oip.color.secondary-darker}"},
+          "color": {"value": "#ffffff"}
+        },
+
+        "focus": {
+          "background-color": {"value": "{oip.color.secondary-darker}"},
+          "border-color": {"value": "{oip.color.secondary-darker}"},
+          "color": {"value": "#ffffff"}
+        }
+      },
+      "disabled": {
+        "background-color": {"value": "{oip.color.gray}"},
+        "border-color": {
+          "value": "{oip.color.gray}",
+          "comment": "Default gray for disabled elements"
+        },
+        "color": {"value": "#ffffff"}
+      }
+    }
+  }
+}
