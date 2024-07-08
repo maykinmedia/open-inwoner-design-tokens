@@ -16,9 +16,7 @@
         "font-family": {"value": "Body"}
       },
       "heading": {
-        "font-family": {"value": "Heading"},
-        "display": {"value": "flex"},
-        "justify-content": {"value": "space-between"}
+        "font-family": {"value": "Heading"}
       }
     }
   }
