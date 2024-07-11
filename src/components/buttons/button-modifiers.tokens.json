@@ -1,0 +1,56 @@
+{
+  "oip": {
+    "button": {
+      "focus": {
+        "transform": {
+          "value": "translateY(-1px)"
+        }
+      },
+      "hover": {
+        "transform": {
+          "value": "translateY(-1px)"
+        }
+      },
+      "primary": {
+        "hover": {
+          "bg": {
+            "value": "{oip.color.primary-darker}"
+          },
+          "color-border": {
+            "value": "{oip.color.primary-darker}"
+          }
+        },
+        "focus": {
+          "color-border": {
+            "value": "{oip.color.primary-darker}"
+          }
+        },
+        "focus-visible": {
+          "color-border": {
+            "value": "{oip.color.primary-darker}"
+          }
+        }
+      },
+      "danger": {
+        "hover": {
+          "bg": {
+            "value": "{oip.color.danger}"
+          },
+          "color-border": {
+            "value": "{oip.color.danger}"
+          }
+        },
+        "focus": {
+          "color-border": {
+            "value": "{oip.color.danger}"
+          }
+        },
+        "focus-visible": {
+          "color-border": {
+            "value": "{oip.color.danger}"
+          }
+        }
+      }
+    }
+  }
+}

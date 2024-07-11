@@ -5,8 +5,7 @@ backend project.
 
 For any component that OIP has that corresponds with a community component, we use the community
 classes. But for any component that OIP has that does not have an NLDS equivalent, we use our own
-OIP brand tokens. We also set OIP (brand/component) tokens in case we have certain values that are
-used repeatedly, like for example `border-radius`.
+oip brand tokens.
 
 Long term goal is to make it possible for different municipalities to make their own design-tokens
 and then simply switch themes in OIP.
@@ -21,8 +20,10 @@ The draft [Design Token Format](https://design-tokens.github.io/community-group/
 
 **Using tokens**
 
-If you are only _consuming_ the design tokens, the easiest integration path is adding the
-NPM-package in your own project.
+If you are only _consuming_ the design tokens, the easiest integration path is adding this
+package in your own project.
+
+Then, import the desired build target artifact and run your usual build chain.
 
 ## Add this package to your project
 
@@ -93,9 +94,7 @@ tokens. E.g. if you have two tokens definition files like:
 {
   "oip": {
     "color": {
-      "fg": {
-        "value": "#000000"
-      }
+      "fg": {"value": "#000000"}
     }
   }
 }
@@ -106,9 +105,7 @@ tokens. E.g. if you have two tokens definition files like:
   "oip": {
     "color": {
       "fg": {
-        "muted": {
-          "value": "#000000"
-        }
+        "muted": {"value": "#000000"}
       }
     }
   }
@@ -133,9 +130,7 @@ e.g.:
 {
   "oip": {
     "color": {
-      "fg-muted": {
-        "value": "#000000"
-      }
+      "fg-muted": {"value": "#000000"}
     }
   }
 }
