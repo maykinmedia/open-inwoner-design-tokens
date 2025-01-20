@@ -2,7 +2,7 @@
   "oip": {
     "heading": {
       "fg": {"value": "{oip.color.fg}"},
-      "font-family": {"value": "Heading"}
+      "font-family": {"value": "\"Heading\", \"Arial\", sans-serif"}
     },
     "text": {
       "margin": {"value": "20px"},
@@ -13,10 +13,10 @@
     },
     "typography": {
       "sans-serif": {
-        "font-family": {"value": "Body"}
+        "font-family": {"value": "\"Body\", \"Arial\", sans-serif"}
       },
       "heading": {
-        "font-family": {"value": "Heading"}
+        "font-family": {"value": "\"Heading\", \"Arial\", sans-serif"}
       }
     }
   }

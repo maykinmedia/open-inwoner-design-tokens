@@ -16,6 +16,33 @@
         "value": "24px",
         "comment": "Default body line-height."
       }
+    },
+    "typography": {
+      "sans-serif": {
+        "font-family": {"value": "\"Body\", \"Arial\", sans-serif"}
+      },
+      "scale": {
+        "sm": {"font-size": {"value": "14px"}},
+        "md": {"font-size": {"value": "16px"}},
+        "lg": {"font-size": {"value": "24px"}},
+        "xl": {"font-size": {"value": "20px"}},
+        "2xl": {"font-size": {"value": "32px"}},
+        "3xl": {"font-size": {"value": "40px"}}
+      },
+      "weight-scale": {
+        "bold": {"font-weight": {"value": "bold"}},
+        "normal": {"font-weight": {"value": "normal"}}
+      },
+      "font-style": {
+        "normal": {"value": "normal"},
+        "inherit": {"value": "inherit"}
+      },
+      "line-height": {
+        "xs": {"value": "16px"},
+        "sm": {"value": "22px"},
+        "md": {"value": "24px"},
+        "lg": {"value": "32px"}
+      }
     }
   }
 }
