@@ -1,0 +1,20 @@
+{
+  "oip": {
+    "fieldset": {
+      "horizontal": {
+        "display": {
+          "value": "flex"
+        },
+        "flex-direction": {
+          "value": "row"
+        },
+        "gap": {
+          "value": "7px"
+        },
+        "margin-bottom": {
+          "value": "20px"
+        }
+      }
+    }
+  }
+}
