@@ -8,54 +8,32 @@
       },
       "primary": {
         "value": "#0065BD",
-        "comment": "The primary color makes up a large part of the theme, it is used in buttons for example.",
-        "$extensions": {
-          "dte.metadata": {
-            "isCurated": true,
-            "category": "color"
-          }
-        }
+        "comment": "The primary color makes up a large part of the theme, it is used in buttons for example."
+      },
+      "primary-darker": {
+        "value": "#0065BD",
+        "comment": "The primary darker color is for hover states mainly."
       },
       "primary-light": {},
       "secondary": {
         "value": "#006A0F",
-        "comment": "The secondary compliments the primary color and serves as the default for text-links.",
-        "$extensions": {
-          "dte.metadata": {
-            "isCurated": true,
-            "category": "color"
-          }
-        }
+        "comment": "The secondary color compliments the primary color and serves as the default for text-links."
+      },
+      "secondary-darker": {
+        "value": "navy",
+        "comment": "The secondary darker color is for hover states mainly."
       },
       "accent": {
         "value": "#E10019",
-        "comment": "The accent color is usually the main identity color for a municipality",
-        "$extensions": {
-          "dte.metadata": {
-            "isCurated": true,
-            "category": "color"
-          }
-        }
+        "comment": "The accent color is usually the main identity color for a municipality"
       },
       "info": {
         "value": "#2566A7",
-        "comment": "The dark blue text color for informational states and/or messages.",
-        "$extensions": {
-          "dte.metadata": {
-            "isCurated": true,
-            "category": "color"
-          }
-        }
+        "comment": "The dark blue text color for informational states and/or messages."
       },
       "info-light": {
         "value": "#D5E6F6",
-        "comment": "The light blue background color for informational states and/or messages.",
-        "$extensions": {
-          "dte.metadata": {
-            "isCurated": true,
-            "category": "color"
-          }
-        }
+        "comment": "The light blue background color for informational states and/or messages."
       },
       "success": {
         "value": "#4A7746",
@@ -81,6 +59,14 @@
         "value": "#ffdbe1",
         "comment": "The light red background color for error/critical states and/or messages."
       },
+      "danger-lighter": {
+        "value": "rgb(204, 116, 0)",
+        "comment": "The lighter orange text color for warning states and/or messages."
+      },
+      "danger-lightest": {
+        "value": "rgb(255, 220, 173)",
+        "comment": "The very lightest orange background-color for warning states and/or messages."
+      },
       "bg": {
         "value": "#ffffff",
         "comment": "Background color for the (main) user interface."
@@ -95,7 +81,7 @@
       },
       "fg-muted": {
         "value": "#949494",
-        "comment": "Font/foreground color for non-actionable or less-important content."
+        "comment": "Font/foreground gray §1color for non-actionable or less-important content."
       },
       "fg-heading": {
         "value": "#000000",
@@ -104,6 +90,10 @@
       "border": {
         "value": "#d2d2d2",
         "comment": "Default color for borders."
+      },
+      "gray": {
+        "value": "#d2d2d2",
+        "comment": "Default gray for borders."
       },
       "focus": {
         "$extensions": {
