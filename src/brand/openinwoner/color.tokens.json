@@ -89,6 +89,10 @@
         "value": "#4b4b4b",
         "comment": "Blackish foreground color for the (main) user interface."
       },
+      "fg-lighter": {
+        "value": "#676767",
+        "comment": "Blackish foreground color for lighter text elements (eg date)."
+      },
       "fg-muted": {
         "value": "#949494",
         "comment": "Font/foreground color for non-actionable or less-important content."
