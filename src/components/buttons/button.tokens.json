@@ -1,0 +1,48 @@
+{
+  "oip": {
+    "button": {
+      "border-radius": {"value": "3px"},
+      "border-radius-large": {"value": "6px"},
+      "padding-top": {"value": "{oip.spacing.medium}"},
+      "padding-right": {"value": "{oip.spacing.large}"},
+      "padding-bottom": {"value": "{oip.spacing.medium}"},
+      "padding-left": {"value": "{oip.spacing.large}"},
+      "primary": {
+        "fg": {
+          "value": "#ffffff"
+        },
+        "bg": {
+          "value": "{oip.color.primary}",
+          "comment": "The primary button-background color determined by the configuration."
+        },
+        "color-border": {
+          "value": "{oip.color.primary}"
+        }
+      },
+      "secondary": {
+        "fg": {
+          "value": "#ffffff"
+        },
+        "bg": {
+          "value": "{oip.color.secondary}",
+          "comment": "The secondary button-background color determined by the configuration."
+        },
+        "color-border": {
+          "value": "{oip.color.secondary}"
+        }
+      },
+      "disabled": {
+        "fg": {
+          "value": "#ffffff"
+        },
+        "bg": {
+          "value": "{oip.color.secondary}",
+          "comment": "The secondary button-background color determined by the configuration."
+        },
+        "color-border": {
+          "value": "{oip.color.secondary}"
+        }
+      }
+    }
+  }
+}
