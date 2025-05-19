@@ -6,14 +6,14 @@
       "line-height": {"value": "{utrecht.document.line-height}"},
       "margin-block-start": {"value": "0"},
       "margin-block-end": {"value": "0"},
-      "padding-inline-start": {"value": "24px"},
+      "padding-inline-start": {"value": "0"},
       "item": {
         "margin-block-start": {"value": "0"},
-        "margin-block-end": {"value": "4px"},
-        "padding-inline-start": {"value": "4px"}
+        "margin-block-end": {"value": "0"},
+        "padding-inline-start": {"value": "0"}
       },
       "marker": {
-        "color": {"value": "{oip.color.secondary}"}
+        "color": {"value": "transparent"}
       }
     }
   }

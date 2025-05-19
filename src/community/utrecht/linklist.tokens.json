@@ -1,0 +1,17 @@
+{
+  "utrecht": {
+    "link-list": {
+      "margin-block-start": {"value": "0"},
+      "margin-block-end": {"value": "0"},
+      "row-gap": {"value": "8px"},
+      "link": {
+        "column-gap": {"value": "8px"},
+        "font-weight": {"value": "bold"},
+        "text-decoration": {"value": "none"}
+      },
+      "icon": {
+        "size": {"value": "14px"}
+      }
+    }
+  }
+}
