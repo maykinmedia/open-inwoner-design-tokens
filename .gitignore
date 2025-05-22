@@ -105,3 +105,8 @@ dist
 
 # IDE files
 .idea/
+
+# misc
+.DS_Store
+Icon?
+Icon[\r]
