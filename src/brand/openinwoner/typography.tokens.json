@@ -9,7 +9,8 @@
       "font-size": {"value": "16px"},
       "big": {
         "font-size": {"value": "24px"}
-      }
+      },
+      "line-height": {"value": "24px"}
     },
     "typography": {
       "sans-serif": {
