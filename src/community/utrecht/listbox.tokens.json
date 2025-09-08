@@ -1,0 +1,64 @@
+{
+  "utrecht": {
+    "listbox": {
+      "background-color": {"value": "transparent"},
+      "border-color": {"value": "{oip.color.gray}"},
+      "border-radius": {"value": "3px"},
+      "border-width": {"value": "1px"},
+      "color": {"value": "{oip.color.gray}"},
+      "font-weight": {"value": "16px"},
+      "inline-size": {},
+      "max-block-size": {},
+      "padding-block-end": {"value": "8px"},
+      "padding-block-start": {"value": "8px"},
+      "padding-inline-end": {"value": "12px"},
+      "padding-inline-start": {"value": "12px"},
+      "group": {
+        "margin-block-end": {}
+      },
+      "group-label": {
+        "color": {},
+        "font-size": {},
+        "font-weight": {},
+        "line-height": {},
+        "margin-inline-start": {}
+      },
+      "option": {
+        "background-color": {"value": "#ffffff"},
+        "color": {"value": "{oip.color.fg}"},
+        "min-block-size": {},
+        "padding-block-end": {"value": "8px"},
+        "padding-block-start": {"value": "8px"},
+        "padding-inline-end": {"value": "12px"},
+        "padding-inline-start": {"value": "12px"},
+        "active": {
+          "background-color": {"value": "{oip.color.fg-muted}"},
+          "color": {"value": "{oip.color.fg}"}
+        },
+        "disabled": {
+          "background-color": {"value": "#eeeeee"},
+          "color": {"value": "#ffffff"}
+        },
+        "hover": {
+          "background-color": {"value": "{oip.color.info-light}"},
+          "color": {"value": "{oip.color.fg}"}
+        },
+        "selected": {
+          "background-color": {"value": "{oip.color.fg-muted}"},
+          "color": {},
+          "disabled": {
+            "background-color": {"value": "#eeeeee"},
+            "color": {"value": "{oip.color.fg-muted}"}
+          },
+          "hover": {
+            "background-color": {"value": "{oip.color.info-light}"},
+            "color": {"value": "{oip.color.fg}"}
+          }
+        },
+        "icon": {
+          "size": {}
+        }
+      }
+    }
+  }
+}

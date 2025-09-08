@@ -1,0 +1,46 @@
+{
+  "utrecht": {
+    "textbox": {
+      "background-color": {},
+      "border-block-end-width": {},
+      "border-bottom-width": {},
+      "border-color": {},
+      "border-radius": {},
+      "border-width": {},
+      "color": {},
+      "font-family": {},
+      "font-size": {},
+      "font-weight": {},
+      "line-height": {},
+      "max-inline-size": {},
+      "padding-block-end": {},
+      "padding-block-start": {},
+      "padding-inline-end": {},
+      "padding-inline-start": {},
+      "placeholder": {
+        "color": {}
+      },
+      "disabled": {
+        "background-color": {},
+        "border-color": {},
+        "color": {}
+      },
+      "focus": {
+        "background-color": {},
+        "border-color": {},
+        "color": {}
+      },
+      "invalid": {
+        "background-color": {},
+        "border-color": {},
+        "border-width": {},
+        "color": {}
+      },
+      "read-only": {
+        "background-color": {},
+        "border-color": {},
+        "color": {}
+      }
+    }
+  }
+}

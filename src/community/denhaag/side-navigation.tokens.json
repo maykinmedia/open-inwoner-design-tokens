@@ -29,10 +29,10 @@
         "padding-block-end": {"value": "12px"},
         "color": {"value": "{oip.color.fg}"},
         "hover": {
-          "color": {"value": "{oip.color.secondary}"}
+          "color": {"value": "{oip.color.primary}"}
         },
         "active": {
-          "color": {"value": "{oip.color.secondary}"},
+          "color": {"value": "{oip.color.primary}"},
           "font-weight": {"value": "bold"}
         }
       }
