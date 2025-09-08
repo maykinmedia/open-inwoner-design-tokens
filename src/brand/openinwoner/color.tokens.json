@@ -16,7 +16,26 @@
           }
         }
       },
-      "primary-light": {},
+      "primary-h": {
+        "value": "210",
+        "comment": "Primary color hue value"
+      },
+      "primary-s": {
+        "value": "100%",
+        "comment": "Primary color saturation value"
+      },
+      "primary-l": {
+        "value": "37%",
+        "comment": "Primary color lightness value"
+      },
+      "primary-lighter": {
+        "value": "hsl(var(--oip-color-primary-h), var(--oip-color-primary-s), calc(var(--oip-color-primary-l) + 30%))",
+        "comment": "Lighter version of primary color"
+      },
+      "primary-darker": {
+        "value": "hsl(var(--oip-color-primary-h), var(--oip-color-primary-s), calc(var(--oip-color-primary-l) - 10%))",
+        "comment": "Darker version of primary color"
+      },
       "secondary": {
         "value": "#006A0F",
         "comment": "The secondary compliments the primary color and serves as the default for text-links.",
@@ -26,6 +45,22 @@
             "category": "color"
           }
         }
+      },
+      "secondary-h": {
+        "value": "207",
+        "comment": "Secondary color hue value"
+      },
+      "secondary-s": {
+        "value": "80%",
+        "comment": "Secondary color saturation value"
+      },
+      "secondary-l": {
+        "value": "35%",
+        "comment": "Secondary color lightness value"
+      },
+      "secondary-darker": {
+        "value": "hsl(var(--oip-color-secondary-h), var(--oip-color-secondary-s), calc(var(--oip-color-secondary-l) - 10%))",
+        "comment": "Darker version of secondary color"
       },
       "accent": {
         "value": "#E10019",
@@ -77,9 +112,25 @@
         "value": "#5c000f",
         "comment": "The dark red text color for error/critical states and/or messages."
       },
+      "danger-h": {
+        "value": "34",
+        "comment": "Danger color hue value"
+      },
+      "danger-s": {
+        "value": "100%",
+        "comment": "Danger color saturation value"
+      },
+      "danger-l": {
+        "value": "27%",
+        "comment": "Danger color lightness value"
+      },
       "danger-light": {
         "value": "#ffdbe1",
         "comment": "The light red background color for error/critical states and/or messages."
+      },
+      "danger-lightest": {
+        "value": "hsl(var(--oip-color-danger-h), var(--oip-color-danger-s), calc(var(--oip-color-danger-l) + 57%))",
+        "comment": "Lightest version of danger color"
       },
       "bg": {
         "value": "#ffffff",
@@ -104,6 +155,10 @@
       "border": {
         "value": "#d2d2d2",
         "comment": "Default color for borders."
+      },
+      "gray": {
+        "value": "#d2d2d2",
+        "comment": "Default gray for borders."
       },
       "focus": {
         "$extensions": {

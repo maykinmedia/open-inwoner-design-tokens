@@ -1,0 +1,30 @@
+{
+  "oip": {
+    "combobox": {
+      "inline-size": {"value": "100%"},
+      "max-inline-size": {"value": "{utrecht.textbox.max-inline-size}"},
+      "position": {"value": "relative"},
+      "popover": {
+        "border-width": {"value": "0"},
+        "padding-block-end": {"value": "0"},
+        "padding-block-start": {"value": "0"},
+        "padding-inline-end": {"value": "0"},
+        "padding-inline-start": {"value": "0"},
+        "background-color": {"value": "canvas"},
+        "block-size": {"value": "fit-content"},
+        "color": {"value": "canvastext"},
+        "inline-size": {"value": "fit-content"},
+        "inset": {"value": "0"},
+        "overflow": {"value": "auto"},
+        "position": {"value": "absolute"},
+        "z-index": {"value": "1"},
+        "block-end": {
+          "inset-block-start": {"value": "100%"}
+        },
+        "hidden": {
+          "display": {"value": "none !important"}
+        }
+      }
+    }
+  }
+}
