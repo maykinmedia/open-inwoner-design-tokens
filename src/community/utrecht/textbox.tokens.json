@@ -1,45 +1,29 @@
 {
   "utrecht": {
     "textbox": {
-      "background-color": {},
-      "border-block-end-width": {},
-      "border-bottom-width": {},
-      "border-color": {},
-      "border-radius": {},
-      "border-width": {},
-      "color": {},
-      "font-family": {},
-      "font-size": {},
-      "font-weight": {},
-      "line-height": {},
-      "max-inline-size": {},
-      "padding-block-end": {},
-      "padding-block-start": {},
-      "padding-inline-end": {},
-      "padding-inline-start": {},
+      "background-color": {"value": "transparent"},
+      "border-block-end-width": {"value": "1px"},
+      "border-bottom-width": {"value": "1px"},
+      "border-color": {"value": "transparent"},
+      "border-radius": {"value": "3px"},
+      "border-width": {"value": "1px"},
+      "color": {"value": "{oip.color.fg}"},
+      "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
+      "font-size": {"value": "{oip.text.font-size}"},
+      "font-weight": {"value": "normal"},
+      "line-height": {"value": "initial"},
+      "max-inline-size": {"value": "fit-content"},
+      "padding-block-end": {"value": "8px"},
+      "padding-block-start": {"value": "8px"},
+      "padding-inline-end": {"value": "16px"},
+      "padding-inline-start": {"value": "16px"},
       "placeholder": {
-        "color": {}
-      },
-      "disabled": {
-        "background-color": {},
-        "border-color": {},
-        "color": {}
+        "color": {"value": "{oip.color.fg-muted}"}
       },
       "focus": {
-        "background-color": {},
-        "border-color": {},
-        "color": {}
-      },
-      "invalid": {
-        "background-color": {},
-        "border-color": {},
-        "border-width": {},
-        "color": {}
-      },
-      "read-only": {
-        "background-color": {},
-        "border-color": {},
-        "color": {}
+        "background-color": {"value": "#ffffff"},
+        "border-color": {"value": "{oip.color.secondary}"},
+        "color": {"value": "{oip.color.fg}"}
       }
     }
   }
