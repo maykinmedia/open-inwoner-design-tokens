@@ -2,7 +2,11 @@
   "oip": {
     "combobox": {
       "inline-size": {"value": "100%"},
-      "max-inline-size": {"value": "{utrecht.textbox.max-inline-size}"},
+      "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
+      "font-size": {"value": "{oip.text.font-size}"},
+      "font-weight": {"value": "normal"},
+      "line-height": {"value": "initial"},
+      "max-inline-size": {"value": "550px"},
       "position": {"value": "relative"},
       "popover": {
         "border-width": {"value": "0"},
@@ -10,9 +14,9 @@
         "padding-block-start": {"value": "0"},
         "padding-inline-end": {"value": "0"},
         "padding-inline-start": {"value": "0"},
-        "background-color": {"value": "canvas"},
+        "background-color": {"value": "#FFFFFF"},
         "block-size": {"value": "fit-content"},
-        "color": {"value": "canvastext"},
+        "color": {"value": "{oip.color.fg}"},
         "inline-size": {"value": "fit-content"},
         "inset": {"value": "0"},
         "overflow": {"value": "auto"},
@@ -23,7 +27,21 @@
         },
         "hidden": {
           "display": {"value": "none !important"}
+        },
+        "listbox-list": {
+          "option": {
+            "selected": {
+              "icon": {
+                "color": {"value": "{oip.color.fg}"},
+                "size": {"value": "16px"}
+              }
+            }
+          }
         }
+      },
+      "icon": {
+        "color": {"value": "{oip.color.fg}"},
+        "size": {"value": "16px"}
       }
     }
   }

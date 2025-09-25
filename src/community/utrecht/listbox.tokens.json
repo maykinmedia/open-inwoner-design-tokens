@@ -7,26 +7,25 @@
       "border-width": {"value": "1px"},
       "color": {"value": "{oip.color.gray}"},
       "font-weight": {"value": "16px"},
-      "inline-size": {},
-      "max-block-size": {},
+      "inline-size": {"value": "fit-content"},
+      "max-block-size": {"value": "16px"},
       "padding-block-end": {"value": "8px"},
       "padding-block-start": {"value": "8px"},
       "padding-inline-end": {"value": "12px"},
       "padding-inline-start": {"value": "12px"},
       "group": {
-        "margin-block-end": {}
+        "margin-block-end": {"value": "0"}
       },
       "group-label": {
-        "color": {},
-        "font-size": {},
-        "font-weight": {},
-        "line-height": {},
-        "margin-inline-start": {}
+        "color": {"value": "{oip.color.fg}"},
+        "font-size": {"value": "{oip.text.font-size}"},
+        "font-weight": {"value": "normal"},
+        "margin-inline-start": {"value": "8px"}
       },
       "option": {
         "background-color": {"value": "#ffffff"},
         "color": {"value": "{oip.color.fg}"},
-        "min-block-size": {},
+        "min-block-size": {"value": "24px"},
         "padding-block-end": {"value": "8px"},
         "padding-block-start": {"value": "8px"},
         "padding-inline-end": {"value": "12px"},
@@ -44,8 +43,8 @@
           "color": {"value": "{oip.color.fg}"}
         },
         "selected": {
-          "background-color": {"value": "{oip.color.fg-muted}"},
-          "color": {},
+          "background-color": {"value": "#ffffff"},
+          "color": {"value": "{oip.color.fg}"},
           "disabled": {
             "background-color": {"value": "#eeeeee"},
             "color": {"value": "{oip.color.fg-muted}"}
@@ -56,7 +55,8 @@
           }
         },
         "icon": {
-          "size": {}
+          "color": {"value": "{oip.color.fg}"},
+          "size": {"value": "16px"}
         }
       }
     }
