@@ -1,4 +1,4 @@
-name: Run CI build and tests
+name: Run CI build
 
 on:
   push:
@@ -42,12 +42,6 @@ jobs:
         run: npm run build
       - name: Check for nesting level errors
         run: ./bin/check_token_nesting.py
-      - name: Store build artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: build
-          path: dist/
-          retention-days: 1
 
   publish:
     name: Publish the NPM package
@@ -77,15 +71,10 @@ jobs:
           scope: '@open-inwoner'
 
       - name: Install dependencies
-        run: |
-          npm install -g npm@latest
-          npm ci
+        run: npm ci
 
-      - name: Download build artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: build
-          path: dist/
+      - name: Build package
+        run: npm run build
 
       - name: Publish package to NPM
         run: |
