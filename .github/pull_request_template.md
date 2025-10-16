@@ -13,6 +13,8 @@
 
 <!-- Remove if not applicable -->
 
-- [ ] Bumped the version number in both `package.json` and in `package-lock.json`
-- [ ] Published the package to NPM <!-- visible in https://www.npmjs.com/package/@open-inwoner/design-tokens?activeTab=versions -->
-- [ ] After merging: create and push git Tag <!-- visible in https://github.com/maykinmedia/open-inwoner-design-tokens/tags -->
+- [ ] Bumped version number in both `package.json` and in `package-lock.json` (can also be done after merge with `npm version ...`)
+
+<!-- After merging: publish the package to NPM by creating/pushing a Tag with exact same version name;
+visible in https://www.npmjs.com/package/@open-inwoner/design-tokens?activeTab=versions,
+Tag visible in https://github.com/maykinmedia/open-inwoner-design-tokens/tags -->
