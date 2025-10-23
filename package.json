@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/maykinmedia/open-inwoner-design-tokens#readme",
   "devDependencies": {
-    "chokidar": "^3.5.3",
+    "chokidar": "^4.0.3",
     "chokidar-cli": "^3.0.0",
     "prettier": "^2.8.0",
     "style-dictionary": "^3.7.0"
