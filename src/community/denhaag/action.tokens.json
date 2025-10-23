@@ -14,7 +14,8 @@
       },
       "single": {
         "padding-block-start": {"value": "{denhaag.action.padding-block-start}"},
-        "padding-block-end": {"value": "{denhaag.action.padding-block-end}"}
+        "padding-block-end": {"value": "{denhaag.action.padding-block-end}"},
+        "hover": {"background-color": {"value": "{oip.color.gray-lightest}"}}
       },
       "lg-single": {
         "padding-block-start": {"value": "{denhaag.action.lg.padding-block-start}"},
@@ -30,7 +31,13 @@
       },
       "gap": {"value": "8px"},
       "lg-gap": {"value": "16px"},
-      "actions-gap": {"value": "16px"}
+      "actions-gap": {"value": "16px"},
+      "link": {
+        "icon": {
+          "color": {"value": "{oip.color.primary}"},
+          "width": {"value": "16px"}
+        }
+      }
     }
   }
 }
