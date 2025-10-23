@@ -1,11 +1,8 @@
 {
-  "source": [
-    "./src/**/tokens.json",
-    "./src/**/*.tokens.json"
-  ],
+  "source": ["./src/**/tokens.json", "./src/**/*.tokens.json"],
   "platforms": {
     "css": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4"],
+      "transforms": ["attribute/cti", "name/kebab", "color/hsl-4"],
       "buildPath": "dist/css/",
       "files": [
         {
@@ -19,7 +16,7 @@
       ]
     },
     "scss": {
-      "transforms": ["attribute/cti", "name/cti/kebab", "color/hsl-4"],
+      "transforms": ["attribute/cti", "name/kebab", "color/hsl-4"],
       "buildPath": "dist/",
       "files": [
         {
