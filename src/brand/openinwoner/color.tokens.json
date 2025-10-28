@@ -7,8 +7,8 @@
         }
       },
       "primary": {
-        "value": "#0065BD",
-        "comment": "The primary color makes up a large part of the theme, it is used in buttons for example.",
+        "value": "hsl(var(--oip-color-primary-h), var(--oip-color-primary-s), var(--oip-color-primary-l))",
+        "comment": "The primary color #0065BD makes up a large part of the theme, it is used in buttons for example.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -37,8 +37,8 @@
         "comment": "Darker version of primary color"
       },
       "secondary": {
-        "value": "#006A0F",
-        "comment": "The secondary compliments the primary color and serves as the default for text-links.",
+        "value": "hsl(var(--oip-color-secondary-h), var(--oip-color-secondary-s), var(--oip-color-secondary-l))",
+        "comment": "The secondary color #006A0F compliments the primary color and serves as the default for text-links.",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
@@ -63,14 +63,34 @@
         "comment": "Darker version of secondary color"
       },
       "accent": {
-        "value": "#E10019",
-        "comment": "The accent color is usually the main identity color for a municipality",
+        "value": "hsl(var(--oip-color-accent-h), var(--oip-color-accent-s), var(--oip-color-accent-l))",
+        "comment": "The accent color #E10019 is usually the main identity color for a municipality",
         "$extensions": {
           "dte.metadata": {
             "isCurated": true,
             "category": "color"
           }
         }
+      },
+      "accent-h": {
+        "value": "50",
+        "comment": "Accent color hue value"
+      },
+      "accent-s": {
+        "value": "94%",
+        "comment": "Accent color saturation value"
+      },
+      "accent-l": {
+        "value": "57%",
+        "comment": "Accent color lightness value"
+      },
+      "accent-darker": {
+        "value": "hsl(var(--oip-color-accent-h), var(--oip-color-accent-s), calc(var(--oip-color-accent-l) - 10%))",
+        "comment": "Darker version of accent color"
+      },
+      "accent-lighter": {
+        "value": "hsl(var(--oip-color-accent-h), var(--oip-color-accent-s), calc(var(--oip-color-accent-l) + 10%))",
+        "comment": "Lighter version of accent color"
       },
       "info": {
         "value": "#2566A7",
@@ -125,7 +145,7 @@
         "comment": "Danger color lightness value"
       },
       "danger-light": {
-        "value": "#ffdbe1",
+        "value": "hsl(var(--oip-color-danger-h), var(--oip-color-danger-s), calc(var(--oip-color-danger-l) + 13%))",
         "comment": "The light red background color for error/critical states and/or messages."
       },
       "danger-lightest": {
@@ -138,11 +158,23 @@
       },
       "fg": {
         "value": "#4b4b4b",
-        "comment": "Blackish foreground color for the (main) user interface."
+        "comment": "Blackish/gray-dark foreground color for the (main) user interface."
+      },
+      "fg-font-primary": {
+        "value": "#ffffff",
+        "comment": "White font color for texts inside primary buttons."
+      },
+      "fg-font-secondary": {
+        "value": "#ffffff",
+        "comment": "White font color for texts inside secondary buttons."
+      },
+      "fg-font-accent": {
+        "value": "#4b4b4b",
+        "comment": "Dark gray font color for texts inside areas with a very light accent color as a light background-color."
       },
       "fg-lighter": {
         "value": "#676767",
-        "comment": "Blackish 90% grey foreground color for lighter text elements (eg date)."
+        "comment": "Blackish 90% gray foreground color for lighter text elements (eg date)."
       },
       "fg-muted": {
         "value": "#949494",
@@ -150,7 +182,7 @@
       },
       "fg-heading": {
         "value": "#000000",
-        "comment": "Black foreground color for fully black elements."
+        "comment": "Black foreground color for fully black elements, like headings."
       },
       "border": {
         "value": "#d2d2d2",
