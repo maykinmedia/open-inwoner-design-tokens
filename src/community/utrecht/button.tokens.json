@@ -8,6 +8,7 @@
       "color": {"value": "{oip.color.secondary}"},
       "cursor": {"value": "pointer"},
       "font-size": {"value": "{oip.text.font-size}"},
+      "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
       "line-height": {"value": "{oip.text.line-height}"},
       "min-block-size": {"value": "0"},
       "min-inline-size": {"value": "0"},
