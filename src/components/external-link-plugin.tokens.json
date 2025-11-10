@@ -1,0 +1,77 @@
+{
+  "oip": {
+    "external-link": {
+      "background-color": {"value": "transparent"},
+      "color": {"value": "#000000"},
+      "border-color": {"value": "{oip.color.border}"},
+      "border-radius": {"value": "3px"},
+      "border-style": {"value": "solid"},
+      "border-width": {"value": "1px"},
+      "box-shadow": {"value": "none"},
+      "display": {"value": "flex"},
+      "flex-direction": {"value": "row"},
+      "align-items": {"value": "center"},
+      "row-gap": {"value": "8px"},
+      "column-gap": {"value": "32px"},
+      "text-decoration": {"value": "none"},
+      "hover": {
+        "background-color": {"value": "#f3f3f3"},
+        "text-decoration-thickness": {"value": "bold"}
+      },
+      "focus-visible": {
+        "background-color": {"value": "#f3f3f3"},
+        "text-decoration-thickness": {"value": "bold"}
+      },
+      "body": {
+        "margin-block-start": {"value": "0"},
+        "margin-block-end": {"value": "0"},
+        "margin-inline-start": {"value": "0"},
+        "margin-inline-end": {"value": "0"},
+        "padding-block-start": {"value": "24px"},
+        "padding-block-end": {"value": "24px"},
+        "padding-inline-start": {"value": "24px"},
+        "padding-inline-end": {"value": "24px"}
+      },
+      "custom-icon": {
+        "color": {"value": "#000000"},
+        "display": {"value": "inline-block"},
+        "font-size": {"value": "24px"},
+        "margin-block-start": {"value": "8px"},
+        "margin-block-end": {"value": "0"},
+        "margin-inline-start": {"value": "0"},
+        "margin-inline-end": {"value": "8px"},
+        "padding-block-start": {"value": "0"},
+        "padding-block-end": {"value": "0"},
+        "padding-inline-start": {"value": "0"},
+        "padding-inline-end": {"value": "0"}
+      },
+      "content": {
+        "color": {"value": "#000000"},
+        "font-size": {"value": "20px"},
+        "margin-block-start": {"value": "0"},
+        "margin-block-end": {"value": "0"},
+        "margin-inline-start": {"value": "0"},
+        "margin-inline-end": {"value": "0"},
+        "padding-block-start": {"value": "0"},
+        "padding-block-end": {"value": "0"},
+        "padding-inline-start": {"value": "0"},
+        "padding-inline-end": {"value": "0"}
+      },
+      "arrow-icon": {
+        "color": {"value": "{oip.color.primary}"},
+        "font-size": {"value": "16px"},
+        "margin-block-start": {"value": "0"},
+        "margin-block-end": {"value": "0"},
+        "margin-inline-start": {
+          "value": "auto",
+          "comment": "Make icon align to the relative end inside a flex-box."
+        },
+        "margin-inline-end": {"value": "0"},
+        "padding-block-start": {"value": "0"},
+        "padding-block-end": {"value": "0"},
+        "padding-inline-start": {"value": "0"},
+        "padding-inline-end": {"value": "0"}
+      }
+    }
+  }
+}
