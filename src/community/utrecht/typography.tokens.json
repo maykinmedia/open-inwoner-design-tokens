@@ -9,6 +9,10 @@
         "value": "16px",
         "comment": "The body font-size for the theme."
       },
+      "font-weight": {
+        "value": "normal",
+        "comment": "The body font-weight for the theme."
+      },
       "color": {
         "value": "#4b4b4b"
       },
