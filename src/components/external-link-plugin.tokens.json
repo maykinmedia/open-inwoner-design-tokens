@@ -31,8 +31,8 @@
         "margin-inline-end": {"value": "0"},
         "padding-block-start": {"value": "24px"},
         "padding-block-end": {"value": "24px"},
-        "padding-inline-start": {"value": "24px"},
-        "padding-inline-end": {"value": "24px"}
+        "padding-inline-start": {"value": "16px"},
+        "padding-inline-end": {"value": "16px"}
       },
       "custom-icon": {
         "color": {"value": "#000000"},
