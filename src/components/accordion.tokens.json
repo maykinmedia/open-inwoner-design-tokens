@@ -1,0 +1,32 @@
+{
+  "oip": {
+    "accordion": {
+      "margin-block-start": {"value": "40px"},
+      "margin-block-end": {"value": "0"},
+      "heading": {
+        "color": {"value": "{oip.color.fg}"},
+        "font-family": {"value": "{oip.typography.heading.font-family}"},
+        "font-size": {"value": "20px"},
+        "font-weight": {"value": "bold"},
+        "line-height": {"value": "initial"},
+        "margin-block-start": {"value": "0"},
+        "margin-block-end": {"value": "0"},
+        "margin-inline-start": {"value": "0"},
+        "margin-inline-end": {"value": "0"}
+      },
+      "summary": {
+        "border-bottom-width": {"value": "1px"},
+        "border-bottom-style": {"value": "solid"},
+        "border-bottom-color": {"value": "{oip.color.gray}"},
+        "color": {"value": "{oip.color.fg}"},
+        "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
+        "font-size": {"value": "16px"},
+        "font-weight": {"value": "normal"},
+        "line-height": {"value": "initial"},
+        "margin-block-end": {"value": "16px"},
+        "padding-block-start": {"value": "0"},
+        "padding-block-end": {"value": "8px"}
+      }
+    }
+  }
+}
