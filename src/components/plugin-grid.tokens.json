@@ -14,23 +14,11 @@
         "margin-inline-end": {
           "value": "0"
         },
-        "display": {
-          "value": "flex"
-        },
         "font-family": {
           "value": "{oip.typography.heading.font-family}"
         },
         "align-items": {
           "value": "center"
-        },
-        "justify-content": {
-          "value": "space-between"
-        },
-        "flex-direction-mobile": {
-          "value": "column"
-        },
-        "align-items-mobile": {
-          "value": "flex-start"
         },
         "word-break-mobile": {
           "value": "normal"
@@ -39,12 +27,6 @@
           "value": "break-word"
         },
         "indicator": {
-          "display": {
-            "value": "flex"
-          },
-          "flex-direction": {
-            "value": "row"
-          },
           "notification-indicator-color": {
             "value": "{oip.color.red-notification}"
           },
@@ -56,9 +38,6 @@
           },
           "display-inline": {
             "value": "inline-block"
-          },
-          "justify-content": {
-            "value": "flex-start"
           },
           "overflow": {
             "value": "visible"
@@ -89,9 +68,6 @@
         }
       },
       "grid": {
-        "display": {
-          "value": "grid"
-        },
         "template-columns-mobile": {
           "value": "repeat(1, 1fr)"
         },
