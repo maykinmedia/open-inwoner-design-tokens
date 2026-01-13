@@ -26,8 +26,8 @@
         "font-size": {"value": "16px"},
         "font-weight": {"value": "normal"},
         "line-height": {"value": "initial"},
-        "margin-block-end": {"value": "16px"},
-        "padding-block-start": {"value": "0"},
+        "margin-block-end": {"value": "8px"},
+        "padding-block-start": {"value": "16px"},
         "padding-block-end": {"value": "8px"}
       }
     }
