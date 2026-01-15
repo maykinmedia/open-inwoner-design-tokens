@@ -17,8 +17,16 @@
       "column-gap": {"value": "32px"},
       "text-decoration": {"value": "none"},
       "hover": {
-        "background-color": {"value": "#f3f3f3"},
-        "text-decoration-thickness": {"value": "bold"}
+        "background-color": {"value": "#ffffff"},
+        "text-decoration-thickness": {"value": "bold"},
+        "border-color": {"value": "{oip.color.primary}"},
+        "border-style": {"value": "solid"},
+        "border-width-block-start": {"value": "1px"},
+        "border-width-block-end": {"value": "1px"},
+        "border-width-inline-start": {"value": "3px"},
+        "border-width-inline-end": {"value": "1px"},
+        "border-radius": {"value": "3px"},
+        "margin-inline-start": {"value": "-2px"}
       },
       "focus-visible": {
         "background-color": {"value": "#f3f3f3"},
