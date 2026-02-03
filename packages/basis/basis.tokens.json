@@ -1,0 +1,390 @@
+{
+  "basis": {
+    "document": {
+      "color": {
+        "$value": "#4b4b4b",
+        "$description": "Experimental setup as import for Figma for future Basis tokens colors, only for use with the NLDS Theme Wizard."
+      }
+    },
+    "color": {
+      "secondary": {
+        "bg-1": {
+          "$value": "#fcfcfc"
+        },
+        "bg-2": {
+          "$value": "#f9f9f9"
+        },
+        "interactive-1": {
+          "$value": "#f0f0f0"
+        },
+        "interactive-2": {
+          "$value": "#e8e8e8"
+        },
+        "interactive-3": {
+          "$value": "#e1e1e1"
+        },
+        "border-1": {
+          "$value": "#d8d8d8"
+        },
+        "border-2": {
+          "$value": "#cdcdcd"
+        },
+        "border-3": {
+          "$value": "#bababa"
+        },
+        "fill-1": {
+          "$value": "#8c8c8c"
+        },
+        "fill-2": {
+          "$value": "#7f7f7f"
+        },
+        "text-1": {
+          "$value": "#646464"
+        },
+        "text-2": {
+          "$value": "#212121"
+        }
+      },
+      "text": {
+        "bg-1": {
+          "$value": "#fcfdff"
+        },
+        "bg-2": {
+          "$value": "#f5faff"
+        },
+        "interactive-1": {
+          "$value": "#e9f2ff"
+        },
+        "interactive-2": {
+          "$value": "#d8eaff"
+        },
+        "interactive-3": {
+          "$value": "#c9dfff"
+        },
+        "border-1": {
+          "$value": "#b5d2ff"
+        },
+        "border-2": {
+          "$value": "#99bfff"
+        },
+        "border-3": {
+          "$value": "#73a4ff"
+        },
+        "fill-1": {
+          "$value": "#00f"
+        },
+        "fill-2": {
+          "$value": "#0500e2"
+        },
+        "text-1": {
+          "$value": "#0744ff"
+        },
+        "text-2": {
+          "$value": "#0a2775"
+        }
+      },
+      "primary": {
+        "bg-1": {
+          "$value": "#fcfdff"
+        },
+        "bg-2": {
+          "$value": "#f6f9ff"
+        },
+        "interactive-1": {
+          "$value": "#ebf2fe"
+        },
+        "interactive-2": {
+          "$value": "#deebff"
+        },
+        "interactive-3": {
+          "$value": "#cee1ff"
+        },
+        "border-1": {
+          "$value": "#bcd4fa"
+        },
+        "border-2": {
+          "$value": "#a4c2f3"
+        },
+        "border-3": {
+          "$value": "#82aaeb"
+        },
+        "fill-1": {
+          "$value": "#4a86e8"
+        },
+        "fill-2": {
+          "$value": "#3e79da"
+        },
+        "text-1": {
+          "$value": "#3570d0"
+        },
+        "text-2": {
+          "$value": "#18335e"
+        }
+      },
+      "disabled": {
+        "bg-1": {
+          "$value": "#fffcfb"
+        },
+        "bg-2": {
+          "$value": "#fff7f6"
+        },
+        "interactive-1": {
+          "$value": "#ffe9e5"
+        },
+        "interactive-2": {
+          "$value": "#ffd9d0"
+        },
+        "interactive-3": {
+          "$value": "#ffc9be"
+        },
+        "border-1": {
+          "$value": "#ffb6a9"
+        },
+        "border-2": {
+          "$value": "#ffa090"
+        },
+        "border-3": {
+          "$value": "#fe8170"
+        },
+        "fill-1": {
+          "$value": "#f00"
+        },
+        "fill-2": {
+          "$value": "#f00000"
+        },
+        "text-1": {
+          "$value": "#e50000"
+        },
+        "text-2": {
+          "$value": "#681710"
+        }
+      },
+      "error": {
+        "bg-1": {
+          "$value": "#fefdfb"
+        },
+        "bg-2": {
+          "$value": "#fff7eb"
+        },
+        "interactive-1": {
+          "$value": "#ffedd0"
+        },
+        "interactive-2": {
+          "$value": "#ffe1b9"
+        },
+        "interactive-3": {
+          "$value": "#ffd5a1"
+        },
+        "border-1": {
+          "$value": "#ffc580"
+        },
+        "border-2": {
+          "$value": "#fbb36c"
+        },
+        "border-3": {
+          "$value": "#ec9a41"
+        },
+        "fill-1": {
+          "$value": "#f90"
+        },
+        "fill-2": {
+          "$value": "#e6953b"
+        },
+        "text-1": {
+          "$value": "#b46100"
+        },
+        "text-2": {
+          "$value": "#4f3419"
+        }
+      },
+      "warning": {
+        "bg-1": {
+          "$value": "#f7fffe"
+        },
+        "bg-2": {
+          "$value": "#eefcfc"
+        },
+        "interactive-1": {
+          "$value": "#d1fcfb"
+        },
+        "interactive-2": {
+          "$value": "#b3f8f7"
+        },
+        "interactive-3": {
+          "$value": "#94f1f0"
+        },
+        "border-1": {
+          "$value": "#72e6e5"
+        },
+        "border-2": {
+          "$value": "#3bd6d6"
+        },
+        "border-3": {
+          "$value": "#00c0c1"
+        },
+        "fill-1": {
+          "$value": "#00f2f2"
+        },
+        "fill-2": {
+          "$value": "#00e8e8"
+        },
+        "text-1": {
+          "$value": "#007a7a"
+        },
+        "text-2": {
+          "$value": "#004646"
+        }
+      },
+      "info": {
+        "bg-1": {
+          "$value": "#fafefa"
+        },
+        "bg-2": {
+          "$value": "#f3fcf2"
+        },
+        "interactive-1": {
+          "$value": "#d8fed4"
+        },
+        "interactive-2": {
+          "$value": "#bffcb9"
+        },
+        "interactive-3": {
+          "$value": "#a7f4a0"
+        },
+        "border-1": {
+          "$value": "#8fe888"
+        },
+        "border-2": {
+          "$value": "#73d76c"
+        },
+        "border-3": {
+          "$value": "#3fc539"
+        },
+        "fill-1": {
+          "$value": "#0f0"
+        },
+        "fill-2": {
+          "$value": "#00f400"
+        },
+        "text-1": {
+          "$value": "#168713"
+        },
+        "text-2": {
+          "$value": "#1a4718"
+        }
+      },
+      "success": {
+        "bg-1": {
+          "$value": "#fdfdf9"
+        },
+        "bg-2": {
+          "$value": "#fcfdea"
+        },
+        "interactive-1": {
+          "$value": "#fafcb9"
+        },
+        "interactive-2": {
+          "$value": "#f4f797"
+        },
+        "interactive-3": {
+          "$value": "#ecee77"
+        },
+        "border-1": {
+          "$value": "#dedf6f"
+        },
+        "border-2": {
+          "$value": "#ced06e"
+        },
+        "border-3": {
+          "$value": "#b9ba44"
+        },
+        "fill-1": {
+          "$value": "#f1f100"
+        },
+        "fill-2": {
+          "$value": "#e6e729"
+        },
+        "text-1": {
+          "$value": "#7f7e00"
+        },
+        "text-2": {
+          "$value": "#3e3f21"
+        }
+      },
+      "highlight": {
+        "bg-1": {
+          "$value": "#fffcfb"
+        },
+        "bg-2": {
+          "$value": "#fff6f4"
+        },
+        "interactive-1": {
+          "$value": "#ffe9e4"
+        },
+        "interactive-2": {
+          "$value": "#ffd9d1"
+        },
+        "interactive-3": {
+          "$value": "#ffcabf"
+        },
+        "border-1": {
+          "$value": "#ffb7aa"
+        },
+        "border-2": {
+          "$value": "#ff9d8d"
+        },
+        "border-3": {
+          "$value": "#ff7967"
+        },
+        "fill-1": {
+          "$value": "#980000"
+        },
+        "fill-2": {
+          "$value": "#830000"
+        },
+        "text-1": {
+          "$value": "#c8392c"
+        },
+        "text-2": {
+          "$value": "#750000"
+        }
+      }
+    },
+    "typography": {
+      "font-size": {
+        "size-5": {
+          "$value": "16px"
+        },
+        "size-6": {
+          "$value": "12px"
+        },
+        "size-4": {
+          "$value": "22px"
+        }
+      },
+      "font-family": {
+        "default": {
+          "$value": "Lato"
+        }
+      }
+    },
+    "heading": {
+      "font-family": {
+        "$value": "Ubuntu"
+      }
+    },
+    "border-radius": {
+      "sm": {
+        "$value": "3px"
+      },
+      "md": {
+        "$value": "6px"
+      }
+    },
+    "form-control": {
+      "border-radius": {
+        "$value": "3px"
+      }
+    }
+  }
+}

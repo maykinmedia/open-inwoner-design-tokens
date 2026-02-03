@@ -1,29 +1,29 @@
 {
   "utrecht": {
     "textbox": {
-      "background-color": {"value": "transparent"},
-      "border-block-end-width": {"value": "1px"},
-      "border-bottom-width": {"value": "1px"},
-      "border-color": {"value": "transparent"},
-      "border-radius": {"value": "3px"},
-      "border-width": {"value": "1px"},
-      "color": {"value": "{oip.color.fg}"},
-      "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
-      "font-size": {"value": "{oip.text.font-size}"},
-      "font-weight": {"value": "normal"},
-      "line-height": {"value": "initial"},
-      "max-inline-size": {"value": "fit-content"},
-      "padding-block-end": {"value": "8px"},
-      "padding-block-start": {"value": "8px"},
-      "padding-inline-end": {"value": "16px"},
-      "padding-inline-start": {"value": "16px"},
+      "background-color": {"$value": "transparent"},
+      "border-block-end-width": {"$value": "1px"},
+      "border-bottom-width": {"$value": "1px"},
+      "border-color": {"$value": "transparent"},
+      "border-radius": {"$value": "3px"},
+      "border-width": {"$value": "1px"},
+      "color": {"$value": "{oip.color.fg}"},
+      "font-family": {"$value": "{oip.typography.sans-serif.font-family}"},
+      "font-size": {"$value": "{oip.text.font-size}"},
+      "font-weight": {"$value": "normal"},
+      "line-height": {"$value": "initial"},
+      "max-inline-size": {"$value": "fit-content"},
+      "padding-block-end": {"$value": "8px"},
+      "padding-block-start": {"$value": "8px"},
+      "padding-inline-end": {"$value": "16px"},
+      "padding-inline-start": {"$value": "16px"},
       "placeholder": {
-        "color": {"value": "{oip.color.fg-muted}"}
+        "color": {"$value": "{oip.color.fg-muted}"}
       },
       "focus": {
-        "background-color": {"value": "#ffffff"},
-        "border-color": {"value": "{oip.color.secondary}"},
-        "color": {"value": "{oip.color.fg}"}
+        "background-color": {"$value": "#ffffff"},
+        "border-color": {"$value": "{oip.color.secondary}"},
+        "color": {"$value": "{oip.color.fg}"}
       }
     }
   }

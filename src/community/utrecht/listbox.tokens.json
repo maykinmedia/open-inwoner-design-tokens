@@ -1,62 +1,62 @@
 {
   "utrecht": {
     "listbox": {
-      "background-color": {"value": "transparent"},
-      "border-color": {"value": "transparent"},
-      "border-radius": {"value": "3px"},
-      "border-width": {"value": "1px"},
-      "color": {"value": "{oip.color.gray}"},
-      "font-weight": {"value": "16px"},
-      "inline-size": {"value": "fit-content"},
-      "max-block-size": {"value": "550px"},
-      "padding-block-end": {"value": "8px"},
-      "padding-block-start": {"value": "8px"},
-      "padding-inline-end": {"value": "12px"},
-      "padding-inline-start": {"value": "0"},
+      "background-color": {"$value": "transparent"},
+      "border-color": {"$value": "transparent"},
+      "border-radius": {"$value": "3px"},
+      "border-width": {"$value": "1px"},
+      "color": {"$value": "{oip.color.gray}"},
+      "font-weight": {"$value": "16px"},
+      "inline-size": {"$value": "fit-content"},
+      "max-block-size": {"$value": "550px"},
+      "padding-block-end": {"$value": "8px"},
+      "padding-block-start": {"$value": "8px"},
+      "padding-inline-end": {"$value": "12px"},
+      "padding-inline-start": {"$value": "0"},
       "group": {
-        "margin-block-end": {"value": "0"}
+        "margin-block-end": {"$value": "0"}
       },
       "group-label": {
-        "color": {"value": "{oip.color.fg}"},
-        "font-size": {"value": "{oip.text.font-size}"},
-        "font-weight": {"value": "normal"},
-        "margin-inline-start": {"value": "8px"}
+        "color": {"$value": "{oip.color.fg}"},
+        "font-size": {"$value": "{oip.text.font-size}"},
+        "font-weight": {"$value": "normal"},
+        "margin-inline-start": {"$value": "8px"}
       },
       "option": {
-        "background-color": {"value": "#ffffff"},
-        "color": {"value": "{oip.color.fg}"},
-        "min-block-size": {"value": "100px"},
-        "padding-block-end": {"value": "16px"},
-        "padding-block-start": {"value": "16px"},
-        "padding-inline-end": {"value": "16px"},
-        "padding-inline-start": {"value": "16px"},
+        "background-color": {"$value": "#ffffff"},
+        "color": {"$value": "{oip.color.fg}"},
+        "min-block-size": {"$value": "100px"},
+        "padding-block-end": {"$value": "16px"},
+        "padding-block-start": {"$value": "16px"},
+        "padding-inline-end": {"$value": "16px"},
+        "padding-inline-start": {"$value": "16px"},
         "active": {
-          "background-color": {"value": "{oip.color.gray-lightest}"},
-          "color": {"value": "{oip.color.fg}"}
+          "background-color": {"$value": "{oip.color.gray-lightest}"},
+          "color": {"$value": "{oip.color.fg}"}
         },
         "disabled": {
-          "background-color": {"value": "#eeeeee"},
-          "color": {"value": "#ffffff"}
+          "background-color": {"$value": "#eeeeee"},
+          "color": {"$value": "#ffffff"}
         },
         "hover": {
-          "background-color": {"value": "{oip.color.gray-lightest}"},
-          "color": {"value": "{oip.color.fg}"}
+          "background-color": {"$value": "{oip.color.gray-lightest}"},
+          "color": {"$value": "{oip.color.fg}"}
         },
         "selected": {
-          "background-color": {"value": "#ffffff"},
-          "color": {"value": "{oip.color.fg}"},
+          "background-color": {"$value": "#ffffff"},
+          "color": {"$value": "{oip.color.fg}"},
           "disabled": {
-            "background-color": {"value": "#eeeeee"},
-            "color": {"value": "{oip.color.fg-muted}"}
+            "background-color": {"$value": "#eeeeee"},
+            "color": {"$value": "{oip.color.fg-muted}"}
           },
           "hover": {
-            "background-color": {"value": "{oip.color.info-light}"},
-            "color": {"value": "{oip.color.fg}"}
+            "background-color": {"$value": "{oip.color.info-light}"},
+            "color": {"$value": "{oip.color.fg}"}
           }
         },
         "icon": {
-          "color": {"value": "{oip.color.fg}"},
-          "size": {"value": "16px"}
+          "color": {"$value": "{oip.color.fg}"},
+          "size": {"$value": "16px"}
         }
       }
     }

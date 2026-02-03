@@ -1,66 +1,66 @@
 {
   "oip": {
     "combobox": {
-      "border-color": {"value": "{oip.color.fg}"},
-      "border-radius": {"value": "3px"},
-      "border-style": {"value": "solid"},
-      "border-width": {"value": "1px"},
-      "display": {"value": "inline-block"},
-      "inline-size": {"value": "100%"},
-      "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
-      "font-size": {"value": "{oip.text.font-size}"},
-      "font-weight": {"value": "normal"},
-      "line-height": {"value": "initial"},
-      "max-inline-size": {"value": "550px"},
-      "position": {"value": "relative"},
+      "border-color": {"$value": "{oip.color.fg}"},
+      "border-radius": {"$value": "3px"},
+      "border-style": {"$value": "solid"},
+      "border-width": {"$value": "1px"},
+      "display": {"$value": "inline-block"},
+      "inline-size": {"$value": "100%"},
+      "font-family": {"$value": "{oip.typography.sans-serif.font-family}"},
+      "font-size": {"$value": "{oip.text.font-size}"},
+      "font-weight": {"$value": "normal"},
+      "line-height": {"$value": "initial"},
+      "max-inline-size": {"$value": "550px"},
+      "position": {"$value": "relative"},
       "popover": {
-        "border-color": {"value": "{oip.color.fg}"},
-        "border-style": {"value": "solid"},
-        "border-width": {"value": "1px"},
-        "margin-block-start": {"value": "0"},
-        "margin-block-end": {"value": "0"},
-        "margin-inline-start": {"value": "0"},
-        "margin-inline-end": {"value": "0"},
-        "padding-block-end": {"value": "0"},
-        "padding-block-start": {"value": "0"},
-        "padding-inline-end": {"value": "0"},
-        "padding-inline-start": {"value": "0"},
-        "background-color": {"value": "#FFFFFF"},
-        "block-size": {"value": "fit-content"},
-        "color": {"value": "{oip.color.fg}"},
-        "inline-size": {"value": "fit-content"},
-        "inset": {"value": "0"},
-        "overflow": {"value": "auto"},
-        "position": {"value": "static"},
-        "z-index": {"value": "1"},
+        "border-color": {"$value": "{oip.color.fg}"},
+        "border-style": {"$value": "solid"},
+        "border-width": {"$value": "1px"},
+        "margin-block-start": {"$value": "0"},
+        "margin-block-end": {"$value": "0"},
+        "margin-inline-start": {"$value": "0"},
+        "margin-inline-end": {"$value": "0"},
+        "padding-block-end": {"$value": "0"},
+        "padding-block-start": {"$value": "0"},
+        "padding-inline-end": {"$value": "0"},
+        "padding-inline-start": {"$value": "0"},
+        "background-color": {"$value": "#FFFFFF"},
+        "block-size": {"$value": "fit-content"},
+        "color": {"$value": "{oip.color.fg}"},
+        "inline-size": {"$value": "fit-content"},
+        "inset": {"$value": "0"},
+        "overflow": {"$value": "auto"},
+        "position": {"$value": "static"},
+        "z-index": {"$value": "1"},
         "block-end": {
-          "inset-block-start": {"value": "100%"}
+          "inset-block-start": {"$value": "100%"}
         },
         "hidden": {
-          "display": {"value": "none !important"}
+          "display": {"$value": "none !important"}
         },
         "listbox-list": {
-          "margin-block-start": {"value": "0"},
-          "margin-block-end": {"value": "0"},
-          "margin-inline-start": {"value": "0"},
-          "margin-inline-end": {"value": "0"},
-          "padding-block-end": {"value": "0"},
-          "padding-block-start": {"value": "0"},
-          "padding-inline-end": {"value": "0"},
-          "padding-inline-start": {"value": "0"},
+          "margin-block-start": {"$value": "0"},
+          "margin-block-end": {"$value": "0"},
+          "margin-inline-start": {"$value": "0"},
+          "margin-inline-end": {"$value": "0"},
+          "padding-block-end": {"$value": "0"},
+          "padding-block-start": {"$value": "0"},
+          "padding-inline-end": {"$value": "0"},
+          "padding-inline-start": {"$value": "0"},
           "option": {
             "selected": {
               "icon": {
-                "color": {"value": "{oip.color.fg}"},
-                "size": {"value": "16px"}
+                "color": {"$value": "{oip.color.fg}"},
+                "size": {"$value": "16px"}
               }
             }
           }
         }
       },
       "icon": {
-        "color": {"value": "{oip.color.fg}"},
-        "size": {"value": "16px"}
+        "color": {"$value": "{oip.color.fg}"},
+        "size": {"$value": "16px"}
       }
     }
   }
