@@ -3,16 +3,16 @@
     "fieldset": {
       "horizontal": {
         "display": {
-          "value": "flex"
+          "$value": "flex"
         },
         "flex-direction": {
-          "value": "row"
+          "$value": "row"
         },
         "gap": {
-          "value": "7px"
+          "$value": "7px"
         },
         "margin-bottom": {
-          "value": "20px"
+          "$value": "20px"
         }
       }
     }
