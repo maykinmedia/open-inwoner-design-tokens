@@ -10,7 +10,7 @@
       "legend": {
         "color": {"value": "{oip.color.fg-lighter}"},
         "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
-        "font-size": {"value": "{utrecht.paragraph.small.font-size}"},
+        "font-size": {"value": "{nl.paragraph.font-size}"},
         "font-weight": {"value": "normal"},
         "line-height": {"value": "21px"},
         "margin-block-end": {"value": "0"},
