@@ -3,115 +3,115 @@
     "plugin": {
       "header": {
         "margin-block-start": {
-          "value": "0"
+          "$value": "0"
         },
         "margin-block-end": {
-          "value": "0"
+          "$value": "0"
         },
         "margin-inline-start": {
-          "value": "0"
+          "$value": "0"
         },
         "margin-inline-end": {
-          "value": "0"
+          "$value": "0"
         },
         "padding-block-start": {
-          "value": "0"
+          "$value": "0"
         },
         "padding-block-end": {
-          "value": "0"
+          "$value": "0"
         },
         "padding-inline-start": {
-          "value": "0"
+          "$value": "0"
         },
         "padding-inline-end": {
-          "value": "24px"
+          "$value": "24px"
         },
         "font-family": {
-          "value": "{oip.typography.heading.font-family}"
+          "$value": "{oip.typography.heading.font-family}"
         },
         "align-items": {
-          "value": "center"
+          "$value": "center"
         },
         "word-break-mobile": {
-          "value": "normal"
+          "$value": "normal"
         },
         "overflow-wrap-mobile": {
-          "value": "break-word"
+          "$value": "break-word"
         },
         "indicator": {
           "notification-indicator-color": {
-            "value": "{oip.color.red-notification}"
+            "$value": "{oip.color.red-notification}"
           },
           "notification-indicator-font-size": {
-            "value": "12px"
+            "$value": "12px"
           },
           "notification-indicator-vertical-align": {
-            "value": "super"
+            "$value": "super"
           },
           "display-inline": {
-            "value": "inline-block"
+            "$value": "inline-block"
           },
           "overflow": {
-            "value": "visible"
+            "$value": "visible"
           },
           "position": {
-            "value": "relative"
+            "$value": "relative"
           }
         },
         "heading": {
           "color": {
-            "value": "{oip.color.fg-heading}"
+            "$value": "{oip.color.fg-heading}"
           },
           "font-family": {
-            "value": "{oip.typography.heading.font-family}"
+            "$value": "{oip.typography.heading.font-family}"
           },
           "margin-block-start": {
-            "value": "0"
+            "$value": "0"
           },
           "margin-block-end": {
-            "value": "0"
+            "$value": "0"
           },
           "margin-inline-start": {
-            "value": "0"
+            "$value": "0"
           },
           "margin-inline-end": {
-            "value": "0"
+            "$value": "0"
           },
           "padding-block-start": {
-            "value": "0"
+            "$value": "0"
           },
           "padding-block-end": {
-            "value": "0"
+            "$value": "0"
           },
           "padding-inline-start": {
-            "value": "0"
+            "$value": "0"
           },
           "padding-inline-end": {
-            "value": "0"
+            "$value": "0"
           }
         }
       },
       "grid": {
         "list-style-type": {
-          "value": "none"
+          "$value": "none"
         },
         "margin-block-start": {
-          "value": "0"
+          "$value": "0"
         },
         "margin-block-end": {
-          "value": "0"
+          "$value": "0"
         },
         "padding-inline-start": {
-          "value": "0"
+          "$value": "0"
         },
         "padding-inline-end": {
-          "value": "0"
+          "$value": "0"
         },
         "row-gap": {
-          "value": "16px"
+          "$value": "16px"
         },
         "column-gap": {
-          "value": "32px"
+          "$value": "32px"
         }
       }
     }

@@ -1,9 +1,9 @@
 {
   "utrecht": {
     "form-label": {
-      "color": {"value": "{oip.color.fg}"},
-      "font-weight": {"value": "normal"},
-      "font-size": {"value": "16px"}
+      "color": {"$value": "{oip.color.fg}"},
+      "font-weight": {"$value": "normal"},
+      "font-size": {"$value": "16px"}
     }
   }
 }

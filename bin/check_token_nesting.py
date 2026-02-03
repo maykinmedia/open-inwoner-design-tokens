@@ -40,7 +40,7 @@ def get_emitted_var_count(file_path: str) -> int:
 def count_leaf_nodes(data: dict) -> int:
     num_leaf_nodes = 0
     for key, value in data.items():
-        if key in "value":
+        if key in "$value":
             if isinstance(value, (dict, list)):
                 raise TypeError("The 'value' key value must be a scalar")
             num_leaf_nodes += 1

@@ -2,55 +2,55 @@
   "utrecht": {
     "skip-link": {
       "background-color": {
-        "value": "{oip.color.accent}"
+        "$value": "{oip.color.accent}"
       },
       "color": {
-        "value": "#fff"
+        "$value": "#fff"
       },
       "min-block-size": {
-        "value": "0"
+        "$value": "0"
       },
       "min-inline-size": {
-        "value": "0"
+        "$value": "0"
       },
       "padding-block-start": {
-        "value": "24px"
+        "$value": "24px"
       },
       "padding-block-end": {
-        "value": "24px"
+        "$value": "24px"
       },
       "padding-inline-start": {
-        "value": "16px"
+        "$value": "16px"
       },
       "padding-inline-end": {
-        "value": "16px"
+        "$value": "16px"
       },
       "text-decoration": {
-        "value": "underline"
+        "$value": "underline"
       },
       "z-index": {
-        "value": "5000"
+        "$value": "5000"
       },
       "focus": {
         "background-color": {
-          "value": "{oip.color.accent}"
+          "$value": "{oip.color.accent}"
         },
         "color": {
-          "value": "#fff"
+          "$value": "#fff"
         },
         "text-decoration": {
-          "value": "underline"
+          "$value": "underline"
         }
       },
       "focus-visible": {
         "background-color": {
-          "value": "{oip.color.accent}"
+          "$value": "{oip.color.accent}"
         },
         "color": {
-          "value": "#fff"
+          "$value": "#fff"
         },
         "text-decoration": {
-          "value": "underline"
+          "$value": "underline"
         }
       }
     }

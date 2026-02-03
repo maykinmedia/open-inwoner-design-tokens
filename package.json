@@ -1,10 +1,10 @@
 {
   "name": "@open-inwoner/design-tokens",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "description": "Design tokens for Open Inwoner",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "style-dictionary build -c style-dictionary.config.json",
+    "build": "style-dictionary build -c style-dictionary.config.json --verbose",
     "start": "chokidar --initial --command 'npm run build' 'src/**/*.tokens.json' 'src/**/tokens.json'",
     "format": "prettier --write 'src/**/*'",
     "checkformat": "prettier --check 'src/**/*'"
@@ -38,6 +38,6 @@
     "chokidar": "^4.0.3",
     "chokidar-cli": "^3.0.0",
     "prettier": "^2.8.0",
-    "style-dictionary": "^5.1.1"
+    "style-dictionary": "^5.2.0"
   }
 }
