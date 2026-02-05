@@ -1,0 +1,15 @@
+{
+  "utrecht": {
+    "paragraph": {
+      "small": {
+        "color": {"value": "{oip.color.fg}"},
+        "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
+        "font-weight": {"value": "normal"},
+        "font-size": {"value": "14px"},
+        "line-height": {"value": "20px"},
+        "margin-block-end": {"value": "0"},
+        "margin-block-start": {"value": "0"}
+      }
+    }
+  }
+}
