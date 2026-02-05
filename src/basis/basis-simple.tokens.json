@@ -1,0 +1,417 @@
+{
+  "basis": {
+    "color": {
+      "text": {
+        "bg-1": {
+          "$value": "#fdfdfd"
+        },
+        "bg-2": {
+          "$value": "#fbfbfb"
+        },
+        "interactive-1": {
+          "$value": "#f6f6f6"
+        },
+        "interactive-2": {
+          "$value": "#efefef"
+        },
+        "interactive-3": {
+          "$value": "#e6e6e6"
+        },
+        "border-1": {
+          "$value": "#d8d8d8"
+        },
+        "border-2": {
+          "$value": "#c9c9c9"
+        },
+        "border-3": {
+          "$value": "#b3b3b3"
+        },
+        "fill-1": {
+          "$value": "#4b4b4b"
+        },
+        "fill-2": {
+          "$value": "#3c3c3c"
+        },
+        "text-1": {
+          "$value": "#797979"
+        },
+        "text-2": {
+          "$value": "#3c3c3c"
+        }
+      },
+      "primary": {
+        "bg-1": {
+          "$value": "#fcfdfe"
+        },
+        "bg-2": {
+          "$value": "#f6fafe"
+        },
+        "interactive-1": {
+          "$value": "#ebf3fd"
+        },
+        "interactive-2": {
+          "$value": "#dcecfe"
+        },
+        "interactive-3": {
+          "$value": "#cbe2fe"
+        },
+        "border-1": {
+          "$value": "#b6d5fb"
+        },
+        "border-2": {
+          "$value": "#9dc3f1"
+        },
+        "border-3": {
+          "$value": "#7aace7"
+        },
+        "fill-1": {
+          "$value": "#0065bd"
+        },
+        "fill-2": {
+          "$value": "#0056ad"
+        },
+        "text-1": {
+          "$value": "#0969c1"
+        },
+        "text-2": {
+          "$value": "#0f3259"
+        }
+      },
+      "secondary": {
+        "bg-1": {
+          "$value": "#fbfefa"
+        },
+        "bg-2": {
+          "$value": "#f5fbf5"
+        },
+        "interactive-1": {
+          "$value": "#e8f7e7"
+        },
+        "interactive-2": {
+          "$value": "#d9f1d8"
+        },
+        "interactive-3": {
+          "$value": "#c7eac5"
+        },
+        "border-1": {
+          "$value": "#b0dfae"
+        },
+        "border-2": {
+          "$value": "#92d090"
+        },
+        "border-3": {
+          "$value": "#64bb63"
+        },
+        "fill-1": {
+          "$value": "#006a0f"
+        },
+        "fill-2": {
+          "$value": "#005a00"
+        },
+        "text-1": {
+          "$value": "#258029"
+        },
+        "text-2": {
+          "$value": "#203d1f"
+        }
+      },
+      "disabled": {
+        "bg-1": {
+          "$value": "#fcfcfc"
+        },
+        "bg-2": {
+          "$value": "#f9f9f9"
+        },
+        "interactive-1": {
+          "$value": "#efefef"
+        },
+        "interactive-2": {
+          "$value": "#e8e8e8"
+        },
+        "interactive-3": {
+          "$value": "#e0e0e0"
+        },
+        "border-1": {
+          "$value": "#d8d8d8"
+        },
+        "border-2": {
+          "$value": "#cecece"
+        },
+        "border-3": {
+          "$value": "#bbb"
+        },
+        "fill-1": {
+          "$value": "#949494"
+        },
+        "fill-2": {
+          "$value": "#888"
+        },
+        "text-1": {
+          "$value": "#646464"
+        },
+        "text-2": {
+          "$value": "#202020"
+        }
+      },
+      "error": {
+        "bg-1": {
+          "$value": "#fffcfc"
+        },
+        "bg-2": {
+          "$value": "#fff7f7"
+        },
+        "interactive-1": {
+          "$value": "#ffebea"
+        },
+        "interactive-2": {
+          "$value": "#ffdad8"
+        },
+        "interactive-3": {
+          "$value": "#ffccc9"
+        },
+        "border-1": {
+          "$value": "#ffbbb8"
+        },
+        "border-2": {
+          "$value": "#faa6a3"
+        },
+        "border-3": {
+          "$value": "#f18b88"
+        },
+        "fill-1": {
+          "$value": "#5c000f"
+        },
+        "fill-2": {
+          "$value": "#741c22"
+        },
+        "text-1": {
+          "$value": "#b15152"
+        },
+        "text-2": {
+          "$value": "#681019"
+        }
+      },
+      "warning": {
+        "bg-1": {
+          "$value": "#fffcf9"
+        },
+        "bg-2": {
+          "$value": "#fff5e4"
+        },
+        "interactive-1": {
+          "$value": "#ffedcf"
+        },
+        "interactive-2": {
+          "$value": "#ffdfb6"
+        },
+        "interactive-3": {
+          "$value": "#ffd39d"
+        },
+        "border-1": {
+          "$value": "#ffc279"
+        },
+        "border-2": {
+          "$value": "#ffae57"
+        },
+        "border-3": {
+          "$value": "#ed9a40"
+        },
+        "fill-1": {
+          "$value": "#704000"
+        },
+        "fill-2": {
+          "$value": "#5f3000"
+        },
+        "text-1": {
+          "$value": "#b46600"
+        },
+        "text-2": {
+          "$value": "#5c2e00"
+        }
+      },
+      "success": {
+        "bg-1": {
+          "$value": "#fbfdfb"
+        },
+        "bg-2": {
+          "$value": "#f6faf6"
+        },
+        "interactive-1": {
+          "$value": "#e8f7e6"
+        },
+        "interactive-2": {
+          "$value": "#d9f1d7"
+        },
+        "interactive-3": {
+          "$value": "#cae8c6"
+        },
+        "border-1": {
+          "$value": "#b7dbb3"
+        },
+        "border-2": {
+          "$value": "#a0ca9b"
+        },
+        "border-3": {
+          "$value": "#80b57a"
+        },
+        "fill-1": {
+          "$value": "#4a7746"
+        },
+        "fill-2": {
+          "$value": "#3c6939"
+        },
+        "text-1": {
+          "$value": "#4e7b4a"
+        },
+        "text-2": {
+          "$value": "#2c3e2a"
+        }
+      },
+      "info": {
+        "bg-1": {
+          "$value": "#fbfdff"
+        },
+        "bg-2": {
+          "$value": "#f5f9fe"
+        },
+        "interactive-1": {
+          "$value": "#e9f3ff"
+        },
+        "interactive-2": {
+          "$value": "#dbecff"
+        },
+        "interactive-3": {
+          "$value": "#cbe2fc"
+        },
+        "border-1": {
+          "$value": "#b7d5f6"
+        },
+        "border-2": {
+          "$value": "#9fc3ec"
+        },
+        "border-3": {
+          "$value": "#7bace1"
+        },
+        "fill-1": {
+          "$value": "#2566a7"
+        },
+        "fill-2": {
+          "$value": "#135797"
+        },
+        "text-1": {
+          "$value": "#2b6bac"
+        },
+        "text-2": {
+          "$value": "#1c3957"
+        }
+      },
+      "highlight": {
+        "bg-1": {
+          "$value": "#f7fffe"
+        },
+        "bg-2": {
+          "$value": "#eefcfc"
+        },
+        "interactive-1": {
+          "$value": "#d1fcfb"
+        },
+        "interactive-2": {
+          "$value": "#b3f8f7"
+        },
+        "interactive-3": {
+          "$value": "#94f1f0"
+        },
+        "border-1": {
+          "$value": "#72e6e5"
+        },
+        "border-2": {
+          "$value": "#3bd6d6"
+        },
+        "border-3": {
+          "$value": "#00c0c1"
+        },
+        "fill-1": {
+          "$value": "#00f2f2"
+        },
+        "fill-2": {
+          "$value": "#00e8e8"
+        },
+        "text-1": {
+          "$value": "#007a7a"
+        },
+        "text-2": {
+          "$value": "#004646"
+        }
+      },
+      "mark": {
+        "bg-1": {
+          "$value": "#fdfdf9"
+        },
+        "bg-2": {
+          "$value": "#fcfdea"
+        },
+        "interactive-1": {
+          "$value": "#fafcb9"
+        },
+        "interactive-2": {
+          "$value": "#f4f797"
+        },
+        "interactive-3": {
+          "$value": "#ecee77"
+        },
+        "border-1": {
+          "$value": "#dedf6f"
+        },
+        "border-2": {
+          "$value": "#ced06e"
+        },
+        "border-3": {
+          "$value": "#b9ba44"
+        },
+        "fill-1": {
+          "$value": "#f1f100"
+        },
+        "fill-2": {
+          "$value": "#e6e729"
+        },
+        "text-1": {
+          "$value": "#7f7e00"
+        },
+        "text-2": {
+          "$value": "#3e3f21"
+        }
+      }
+    },
+    "typography": {
+      "font-family": {
+        "default": {
+          "$value": "\"Lato\",sans-serif"
+        }
+      },
+      "font-size": {
+        "size-4": {
+          "$value": "24px"
+        },
+        "size-5": {
+          "$value": "16px"
+        },
+        "size-6": {
+          "$value": "12px"
+        }
+      }
+    },
+    "heading": {
+      "font-family": {
+        "$value": "\"Ubuntu\",sans-serif"
+      }
+    },
+    "border-radius": {
+      "sm": {
+        "$value": "3px"
+      },
+      "md": {
+        "$value": "3px"
+      }
+    }
+  }
+}

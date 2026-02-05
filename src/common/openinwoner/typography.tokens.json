@@ -1,0 +1,24 @@
+{
+  "oip": {
+    "heading": {
+      "fg": {"value": "{oip.color.fg}"},
+      "font-family": {"value": "{basis.heading.font-family}"}
+    },
+    "text": {
+      "margin": {"value": "20px"},
+      "font-size": {"value": "{basis.typography.font-size.size-5}"},
+      "big": {
+        "font-size": {"value": "{basis.typography.font-size.size-4}"}
+      },
+      "line-height": {"value": "24px"}
+    },
+    "typography": {
+      "sans-serif": {
+        "font-family": {"value": "{basis.typography.font-family}"}
+      },
+      "heading": {
+        "font-family": {"value": "{basis.heading.font-family}"}
+      }
+    }
+  }
+}
