@@ -1,0 +1,24 @@
+{
+  "oip": {
+    "heading": {
+      "fg": {"$value": "{oip.color.fg}"},
+      "font-family": {"$value": "\"Heading\", \"Arial\", sans-serif"}
+    },
+    "text": {
+      "margin": {"$value": "20px"},
+      "font-size": {"$value": "16px"},
+      "big": {
+        "font-size": {"$value": "24px"}
+      },
+      "line-height": {"$value": "24px"}
+    },
+    "typography": {
+      "sans-serif": {
+        "font-family": {"$value": "\"Body\", \"Arial\", sans-serif"}
+      },
+      "heading": {
+        "font-family": {"$value": "\"Heading\", \"Arial\", sans-serif"}
+      }
+    }
+  }
+}

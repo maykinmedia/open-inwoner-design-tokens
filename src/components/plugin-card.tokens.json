@@ -1,62 +1,62 @@
 {
   "oip": {
     "plugin-card": {
-      "background-color": {"value": "#ffffff"},
-      "color": {"value": "#4b4b4b"},
-      "max-inline-size": {"value": "100%"},
-      "border-color": {"value": "{oip.color.border}"},
-      "border-style": {"value": "solid"},
-      "border-width": {"value": "1px"},
-      "border-radius": {"value": "3px"},
-      "box-shadow": {"value": "none"},
-      "inline-size": {"value": "100%"},
-      "row-gap": {"value": "24px"},
+      "background-color": {"$value": "#ffffff"},
+      "color": {"$value": "#4b4b4b"},
+      "max-inline-size": {"$value": "100%"},
+      "border-color": {"$value": "{oip.color.border}"},
+      "border-style": {"$value": "solid"},
+      "border-width": {"$value": "1px"},
+      "border-radius": {"$value": "3px"},
+      "box-shadow": {"$value": "none"},
+      "inline-size": {"$value": "100%"},
+      "row-gap": {"$value": "24px"},
       "heading": {
-        "color": {"value": "{oip.color.fg-heading}"},
-        "padding-inline-start": {"value": "16px"},
-        "padding-inline-end": {"value": "16px"}
+        "color": {"$value": "{oip.color.fg-heading}"},
+        "padding-inline-start": {"$value": "16px"},
+        "padding-inline-end": {"$value": "16px"}
       },
       "hover": {
-        "background-color": {"value": "#ffffff"},
-        "color": {"value": "#4b4b4b"},
-        "border-color": {"value": "{oip.color.primary}"},
-        "border-style": {"value": "solid"},
-        "border-width-block-start": {"value": "1px"},
-        "border-width-block-end": {"value": "1px"},
-        "border-width-inline-start": {"value": "3px"},
-        "border-width-inline-end": {"value": "1px"},
-        "border-radius": {"value": "3px"},
-        "box-shadow": {"value": "none"},
-        "margin-inline-start": {"value": "-2px"}
+        "background-color": {"$value": "#ffffff"},
+        "color": {"$value": "#4b4b4b"},
+        "border-color": {"$value": "{oip.color.primary}"},
+        "border-style": {"$value": "solid"},
+        "border-width-block-start": {"$value": "1px"},
+        "border-width-block-end": {"$value": "1px"},
+        "border-width-inline-start": {"$value": "3px"},
+        "border-width-inline-end": {"$value": "1px"},
+        "border-radius": {"$value": "3px"},
+        "box-shadow": {"$value": "none"},
+        "margin-inline-start": {"$value": "-2px"}
       },
       "link": {
-        "padding": {"value": "0"}
+        "padding": {"$value": "0"}
       },
       "link-hover": {
-        "text-decoration-thickness": {"value": "1px"},
-        "text-decoration-line": {"value": "underline"},
-        "text-underline-offset": {"value": "auto"}
+        "text-decoration-thickness": {"$value": "1px"},
+        "text-decoration-line": {"$value": "underline"},
+        "text-underline-offset": {"$value": "auto"}
       },
       "content": {
-        "gap": {"value": "24px"},
-        "padding-block-start": {"value": "24px"},
-        "padding-block-end": {"value": "24px"},
-        "padding-inline-start": {"value": "16px"},
-        "padding-inline-end": {"value": "16px"}
+        "gap": {"$value": "24px"},
+        "padding-block-start": {"$value": "24px"},
+        "padding-block-end": {"$value": "24px"},
+        "padding-inline-start": {"$value": "16px"},
+        "padding-inline-end": {"$value": "16px"}
       },
       "body": {
-        "padding-inline-start": {"value": "16px"},
-        "padding-inline-end": {"value": "16px"}
+        "padding-inline-start": {"$value": "16px"},
+        "padding-inline-end": {"$value": "16px"}
       },
       "list": {
-        "grid-template-columns": {"value": "repeat(1, 1fr)"},
-        "grid-template-columns-desktop": {"value": "repeat(2, 1fr)"},
-        "list-style-type": {"value": "none"},
-        "margin-block-start": {"value": "0"},
-        "margin-block-end": {"value": "0"},
-        "padding-inline-start": {"value": "0"},
-        "grid-row-gap": {"value": "8px"},
-        "grid-column-gap": {"value": "32px"}
+        "grid-template-columns": {"$value": "repeat(1, 1fr)"},
+        "grid-template-columns-desktop": {"$value": "repeat(2, 1fr)"},
+        "list-style-type": {"$value": "none"},
+        "margin-block-start": {"$value": "0"},
+        "margin-block-end": {"$value": "0"},
+        "padding-inline-start": {"$value": "0"},
+        "grid-row-gap": {"$value": "8px"},
+        "grid-column-gap": {"$value": "32px"}
       }
     }
   }

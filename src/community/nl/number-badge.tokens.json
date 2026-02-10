@@ -1,19 +1,19 @@
 {
   "nl": {
     "number-badge": {
-      "background-color": {"value": "#f3f3f3"},
-      "border-color": {"value": "#f3f3f3"},
-      "border-radius": {"value": "3px"},
-      "border-width": {"value": "1px"},
-      "color": {"value": "{oip.color.fg}"},
-      "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
-      "font-size": {"value": "{oip.text.font-size}"},
-      "font-weight": {"value": "bold"},
-      "min-size": {"value": "1em"},
-      "min-block-size": {"value": "1em"},
-      "min-inline-size": {"value": "max-content"},
-      "padding-block": {"value": "0.5em"},
-      "padding-inline": {"value": "0.5em"}
+      "background-color": {"$value": "#f3f3f3"},
+      "border-color": {"$value": "#f3f3f3"},
+      "border-radius": {"$value": "3px"},
+      "border-width": {"$value": "1px"},
+      "color": {"$value": "{oip.color.fg}"},
+      "font-family": {"$value": "{oip.typography.sans-serif.font-family}"},
+      "font-size": {"$value": "{oip.text.font-size}"},
+      "font-weight": {"$value": "bold"},
+      "min-size": {"$value": "1em"},
+      "min-block-size": {"$value": "1em"},
+      "min-inline-size": {"$value": "max-content"},
+      "padding-block": {"$value": "0.5em"},
+      "padding-inline": {"$value": "0.5em"}
     }
   }
 }

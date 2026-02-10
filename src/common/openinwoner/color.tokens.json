@@ -1,0 +1,218 @@
+{
+  "oip": {
+    "color": {
+      "$type": "group",
+      "$description": "Globally tweak commonly used colors.",
+      "primary": {
+        "$type": "color",
+        "$value": "hsl(var(--oip-color-primary-h), var(--oip-color-primary-s), var(--oip-color-primary-l))",
+        "$description": "The primary color #0065BD makes up a large part of the theme, it is used in buttons for example."
+      },
+      "primary-h": {
+        "$type": "dimension",
+        "$value": "210",
+        "$description": "Primary color hue value"
+      },
+      "primary-s": {
+        "$type": "dimension",
+        "$value": "100%",
+        "$description": "Primary color saturation value"
+      },
+      "primary-l": {
+        "$type": "dimension",
+        "$value": "37%",
+        "$description": "Primary color lightness value"
+      },
+      "primary-lighter": {
+        "$type": "color",
+        "$value": "hsl(var(--oip-color-primary-h), var(--oip-color-primary-s), calc(var(--oip-color-primary-l) + 30%))",
+        "$description": "Lighter version of primary color"
+      },
+      "primary-darker": {
+        "$type": "color",
+        "$value": "hsl(var(--oip-color-primary-h), var(--oip-color-primary-s), calc(var(--oip-color-primary-l) - 10%))",
+        "$description": "Darker version of primary color"
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "hsl(var(--oip-color-secondary-h), var(--oip-color-secondary-s), var(--oip-color-secondary-l))",
+        "$description": "The secondary color #006A0F compliments the primary color and serves as the default for text-links."
+      },
+      "secondary-h": {
+        "$type": "dimension",
+        "$value": "207",
+        "$description": "Secondary color hue value"
+      },
+      "secondary-s": {
+        "$type": "dimension",
+        "$value": "80%",
+        "$description": "Secondary color saturation value"
+      },
+      "secondary-l": {
+        "$type": "dimension",
+        "$value": "35%",
+        "$description": "Secondary color lightness value"
+      },
+      "secondary-darker": {
+        "$type": "color",
+        "$value": "hsl(var(--oip-color-secondary-h), var(--oip-color-secondary-s), calc(var(--oip-color-secondary-l) - 10%))",
+        "$description": "Darker version of secondary color"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "hsl(var(--oip-color-accent-h), var(--oip-color-accent-s), var(--oip-color-accent-l))",
+        "$description": "The accent color #E10019 is usually the main identity color for a municipality"
+      },
+      "accent-h": {
+        "$type": "dimension",
+        "$value": "50",
+        "$description": "Accent color hue value"
+      },
+      "accent-s": {
+        "$type": "dimension",
+        "$value": "94%",
+        "$description": "Accent color saturation value"
+      },
+      "accent-l": {
+        "$type": "dimension",
+        "$value": "57%",
+        "$description": "Accent color lightness value"
+      },
+      "accent-darker": {
+        "$type": "color",
+        "$value": "hsl(var(--oip-color-accent-h), var(--oip-color-accent-s), calc(var(--oip-color-accent-l) - 10%))",
+        "$description": "Darker version of accent color"
+      },
+      "accent-lighter": {
+        "$type": "color",
+        "$value": "hsl(var(--oip-color-accent-h), var(--oip-color-accent-s), calc(var(--oip-color-accent-l) + 10%))",
+        "$description": "Lighter version of accent color"
+      },
+      "info": {
+        "$type": "color",
+        "$value": "#2566A7",
+        "$description": "The dark blue text color for informational states and/or messages."
+      },
+      "info-light": {
+        "$type": "color",
+        "$value": "#D5E6F6",
+        "$description": "The light blue background color for informational states and/or messages."
+      },
+      "success": {
+        "$type": "color",
+        "$value": "#4A7746",
+        "$description": "The dark green text color for success states and/or messages."
+      },
+      "success-light": {
+        "$type": "color",
+        "$value": "#ecf4ec",
+        "$description": "The light green background color for success states and/or messages."
+      },
+      "warning": {
+        "$type": "color",
+        "$value": "#704000",
+        "$description": "The dark orange text color for warning states and/or messages."
+      },
+      "warning-light": {
+        "$type": "color",
+        "$value": "#ffdcad",
+        "$description": "The light orange background color for warning states and/or messages."
+      },
+      "danger": {
+        "$type": "color",
+        "$value": "#5c000f",
+        "$description": "The dark red text color for error/critical states and/or messages."
+      },
+      "danger-h": {
+        "$type": "dimension",
+        "$value": "34",
+        "$description": "Danger color hue value"
+      },
+      "danger-s": {
+        "$type": "dimension",
+        "$value": "100%",
+        "$description": "Danger color saturation value"
+      },
+      "danger-l": {
+        "$type": "dimension",
+        "$value": "27%",
+        "$description": "Danger color lightness value"
+      },
+      "danger-light": {
+        "$type": "color",
+        "$value": "hsl(var(--oip-color-danger-h), var(--oip-color-danger-s), calc(var(--oip-color-danger-l) + 13%))",
+        "$description": "The light red background color for error/critical states and/or messages."
+      },
+      "danger-lightest": {
+        "$type": "color",
+        "$value": "hsl(var(--oip-color-danger-h), var(--oip-color-danger-s), calc(var(--oip-color-danger-l) + 57%))",
+        "$description": "Lightest version of danger color"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "Background color for the (main) user interface."
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "#4b4b4b",
+        "$description": "Blackish/gray-dark foreground color for the (main) user interface."
+      },
+      "fg-font-primary": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "White font color for texts inside primary buttons."
+      },
+      "fg-font-secondary": {
+        "$type": "color",
+        "$value": "#ffffff",
+        "$description": "White font color for texts inside secondary buttons."
+      },
+      "fg-font-accent": {
+        "$type": "color",
+        "$value": "#4b4b4b",
+        "$description": "Dark gray font color for texts inside areas with a very light accent color as a light background-color."
+      },
+      "fg-lighter": {
+        "$type": "color",
+        "$value": "#676767",
+        "$description": "Blackish 90% gray foreground color for lighter text elements (eg date)."
+      },
+      "fg-muted": {
+        "$type": "color",
+        "$value": "#949494",
+        "$description": "Font/foreground color for non-actionable or less-important content."
+      },
+      "fg-heading": {
+        "$type": "color",
+        "$value": "#000000",
+        "$description": "Black foreground color for fully black elements, like headings."
+      },
+      "border": {
+        "$type": "color",
+        "$value": "#d2d2d2",
+        "$description": "Default color for borders."
+      },
+      "gray": {
+        "$type": "color",
+        "$value": "#d2d2d2",
+        "$description": "Default 80% gray for borders."
+      },
+      "gray-lighter": {
+        "$type": "color",
+        "$value": "#7a7a7a",
+        "$description": "Default light-gray for table text."
+      },
+      "gray-lightest": {
+        "$type": "color",
+        "$value": "#f3f3f3",
+        "$description": "Very lightest gray for hover styles."
+      },
+      "red-notification": {
+        "$type": "color",
+        "$value": "#e50026",
+        "$description": "The bright red color for notification badges and texts."
+      }
+    }
+  }
+}

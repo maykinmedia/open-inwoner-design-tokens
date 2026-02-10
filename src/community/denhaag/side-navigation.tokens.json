@@ -1,37 +1,37 @@
 {
   "denhaag": {
     "side-navigation": {
-      "display": {"value": "flex"},
-      "flex-direction": {"value": "column"},
-      "min-width": {"value": "14.5rem"},
-      "row-gap": {"value": "30px"},
+      "display": {"$value": "flex"},
+      "flex-direction": {"$value": "column"},
+      "min-width": {"$value": "14.5rem"},
+      "row-gap": {"$value": "30px"},
       "mobile": {
-        "display": {"value": "none"}
+        "display": {"$value": "none"}
       },
       "item": {
-        "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
-        "font-size": {"value": "{oip.text.font-size}"},
-        "font-weight": {"value": "normal"},
-        "height": {"value": "48px"},
-        "line-height": {"value": "1.5"},
-        "margin-block-start": {"value": "0"},
-        "margin-block-end": {"value": "0"},
-        "margin-inline-start": {"value": "0"},
-        "margin-inline-end": {"value": "0"}
+        "font-family": {"$value": "{oip.typography.sans-serif.font-family}"},
+        "font-size": {"$value": "{oip.text.font-size}"},
+        "font-weight": {"$value": "normal"},
+        "height": {"$value": "48px"},
+        "line-height": {"$value": "1.5"},
+        "margin-block-start": {"$value": "0"},
+        "margin-block-end": {"$value": "0"},
+        "margin-inline-start": {"$value": "0"},
+        "margin-inline-end": {"$value": "0"}
       },
       "link": {
         "label": {
-          "gap": {"value": "30px"}
+          "gap": {"$value": "30px"}
         },
-        "padding-block-start": {"value": "12px"},
-        "padding-block-end": {"value": "12px"},
-        "color": {"value": "{oip.color.fg}"},
+        "padding-block-start": {"$value": "12px"},
+        "padding-block-end": {"$value": "12px"},
+        "color": {"$value": "{oip.color.fg}"},
         "hover": {
-          "color": {"value": "{oip.color.primary}"}
+          "color": {"$value": "{oip.color.primary}"}
         },
         "active": {
-          "color": {"value": "{oip.color.primary}"},
-          "font-weight": {"value": "bold"}
+          "color": {"$value": "{oip.color.primary}"},
+          "font-weight": {"$value": "bold"}
         }
       }
     }
