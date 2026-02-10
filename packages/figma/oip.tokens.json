@@ -1,12 +1,5 @@
 {
-  "brand": {
-    "document": {
-      "color": {
-        "$value": "#4b4b4b",
-        "$description": "Experimental setup for future Basis tokens colors, only for use with the NLDS Theme Wizard."
-      }
-    }
-  },
+  "brand": {},
   "common": {
     "basis": {
       "text": {
@@ -2281,11 +2274,11 @@
       "border-radius": {
         "sm": {
           "$type": "dimension",
-          "$value": "3px"
+          "$value": "4px"
         },
         "md": {
           "$type": "dimension",
-          "$value": "6px"
+          "$value": "8px"
         },
         "lg": {
           "$type": "dimension",
