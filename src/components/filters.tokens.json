@@ -46,7 +46,7 @@
         "background-color": {"value": "{oip.color.bg}"},
         "color": {"value": "{oip.color.fg}"},
         "border-color": {"value": "transparent"},
-        "border-radius": {"value": "8px"},
+        "border-radius": {"value": "3px"},
         "padding-inline": {"value": "12px"},
         "padding-block": {"value": "8px"},
         "gap": {"value": "8px"},
