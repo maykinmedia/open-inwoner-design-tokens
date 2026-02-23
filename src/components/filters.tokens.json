@@ -17,7 +17,7 @@
         "gap": {"value": "{oip.spacing.large}"},
         "min-width": {"value": "204px"},
         "max-width": {"value": "220px"},
-        "icon-size": {"value": "20px"},
+        "icon": {"size": {"value": "20px"}},
         "hover": {"background-color": {"value": "{oip.color.gray-lightest}"}},
         "active": {
           "color": {"value": "{oip.color.primary}"},
@@ -27,16 +27,14 @@
       },
       "choices": {
         "background-color": {"value": "{oip.color.bg}"},
+        "color": {"value": "{oip.color.fg}"},
         "border-color": {"value": "{oip.color.gray}"},
         "border-radius": {"value": "3px"},
-        "shadow": {"value": "0 4px 12px rgba(0, 0, 0, 0.15)"},
+        "box-shadow": {"value": "0 4px 12px rgba(0, 0, 0, 0.15)"},
         "gap": {"value": "{oip.spacing.small}"}
       },
       "dropdown": {"min-width": {"value": "200px"}},
-      "mobile": {
-        "padding": {"value": "{oip.spacing.large}"},
-        "gap": {"value": "{oip.spacing.medium}"}
-      },
+      "mobile": {"gap": {"value": "{oip.spacing.medium}"}},
       "title": {
         "font-size": {"value": "{oip.text.font-size}"},
         "font-weight": {"value": "400"},
@@ -55,8 +53,10 @@
           "border-color": {"value": "{oip.color.secondary}"},
           "icon-color": {"value": "{oip.color.secondary}"}
         },
-        "icon-color": {"value": "{oip.color.fg}"},
-        "icon-size": {"value": "24px"},
+        "icon": {
+          "size": {"value": "24px"},
+          "color": {"value": "{oip.color.fg}"}
+        },
         "label-color": {"value": "{oip.color.fg}"},
         "label-gap": {"value": "{oip.spacing.small}"}
       },
@@ -69,42 +69,54 @@
         "gap": {"value": "2rem"},
         "border-radius": {"value": "8px"},
         "background-color": {"value": "{oip.color.gray-lightest}"},
-        "header-gap": {"value": "2rem"},
-        "heading-color": {"value": "{oip.color.fg-heading}"},
-        "heading-font-size": {"value": "18px"},
-        "heading-font-weight": {"value": "500"},
+        "header": {"gap": {"value": "2rem"}},
+        "heading": {
+          "color": {"value": "{oip.color.fg-heading}"},
+          "font-size": {"value": "18px"},
+          "font-weight": {"value": "500"}
+        },
         "close-button-size": {"value": "32px"},
         "content-gap": {"value": "32px"},
         "footer-padding-bottom": {"value": "32px"},
         "backdrop-background-color": {"value": "rgb(0 0 0 / 0.4)"}
       },
       "bar": {
-        "padding-mobile": {"value": "0"},
-        "bg-mobile": {"value": "transparent"},
-        "border-radius-mobile": {"value": "3px"},
-        "bg": {"value": "transparent"},
+        "background-color": {"value": "transparent"},
         "border-radius": {"value": "3px"},
         "gap": {"value": "1rem"},
-        "padding": {"value": "1rem"},
-        "label-color": {"value": "#000"},
-        "label-font-weight": {"value": "400"},
-        "label-font-family": {"value": "{oip.typography.sans-serif.font-family}"}
+        "padding": {
+          "block": {"start": {"value": "1rem"}, "end": {"value": "1rem"}},
+          "inline": {"start": {"value": "1rem"}, "end": {"value": "1rem"}}
+        },
+        "label": {
+          "color": {"value": "#000"},
+          "font-weight": {"value": "400"},
+          "font-family": {"value": "{oip.typography.sans-serif.font-family}"}
+        }
       },
       "chip": {
         "background-color": {"value": "transparent"},
-        "color": {"value": "{oip.color.fg}"},
         "border-color": {"value": "{oip.color.primary}"},
         "border-radius": {"value": "3px"},
-        "padding": {"value": "8px"},
-        "padding-desktop": {"value": "8px 16px"},
-        "gap": {"value": "8px"},
+        "color": {"value": "{oip.color.fg}"},
         "font-size": {"value": "14px"},
-        "font-size-desktop": {"value": "{oip.text.font-size}"},
+        "gap": {"value": "8px"},
         "line-height": {"value": "20px"},
-        "line-height-desktop": {"value": "{oip.text.line-height}"},
-        "group-font-weight": {"value": "600"},
-        "label-font-weight": {"value": "400"},
-        "remove-icon-size": {"value": "16px"}
+        "padding": {
+          "block": {"start": {"value": "8px"}, "end": {"value": "8px"}},
+          "inline": {"start": {"value": "8px"}, "end": {"value": "8px"}}
+        },
+        "desktop": {
+          "font-size": {"value": "{oip.text.font-size}"},
+          "line-height": {"value": "{oip.text.line-height}"},
+          "padding": {
+            "block": {"start": {"value": "8px"}, "end": {"value": "8px"}},
+            "inline": {"start": {"value": "1rem"}, "end": {"value": "1rem"}}
+          }
+        },
+        "group": {"font-weight": {"value": "600"}},
+        "label": {"font-weight": {"value": "400"}},
+        "remove": {"icon": {"size": {"value": "16px"}}}
       }
     }
   }
