@@ -1,0 +1,36 @@
+{
+  "denhaag": {
+    "file": {
+      "border-width": {"value": "1px"},
+      "border-color": {"value": "{oip.color.border}"},
+      "border-style": {"value": "solid"},
+      "hover": {
+        "color": {"value": "{oip.color.primary-darker}"}
+      },
+      "focus": {
+        "outline-color": {"value": "{oip.color.border}"},
+        "outline-width": {"value": "1px"},
+        "outline-style": {"value": "solid"}
+      },
+      "left": {
+        "padding-inline-start": {"value": "{oip.spacing.large}"},
+        "padding-inline-end": {"value": "{oip.spacing.large}"},
+        "background-color": {"value": "{oip.color.gray-lightest}"}
+      },
+      "right": {
+        "gap": {"value": "{oip.spacing.tiny}"},
+        "padding-block-start": {"value": "{oip.spacing.large}"},
+        "padding-block-end": {"value": "{oip.spacing.large}"},
+        "padding-inline-start": {"value": "{oip.spacing.large}"},
+        "padding-inline-end": {"value": "{oip.spacing.large}"}
+      },
+      "link": {
+        "color": {"value": "{oip.color.primary}"},
+        "gap": {"value": "{oip.spacing.small}"},
+        "icon": {
+          "width": {"value": "20px"}
+        }
+      }
+    }
+  }
+}
