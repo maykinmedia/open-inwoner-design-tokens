@@ -11,6 +11,18 @@
         "margin-bottom": {"value": "0 !important"},
         "margin-top": {"value": "0 !important"}
       }
+    },
+    "nl-paragraph": {
+      "muted": {
+        "color": {"value": "{oip.color.fg-muted}"}
+      },
+      "centered": {
+        "text-align": {"value": "center"}
+      },
+      "compact": {
+        "margin-bottom": {"value": "0 !important"},
+        "margin-top": {"value": "0 !important"}
+      }
     }
   }
 }

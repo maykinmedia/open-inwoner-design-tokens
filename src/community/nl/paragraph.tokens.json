@@ -1,0 +1,56 @@
+{
+  "nl": {
+    "paragraph": {
+      "color": {
+        "$type": "color",
+        "value": "{oip.color.fg}"
+      },
+      "font-family": {
+        "$type": "fontFamilies",
+        "value": "{oip.typography.sans-serif.font-family}"
+      },
+      "font-size": {
+        "$type": "fontSizes",
+        "value": "{oip.text.font-size}"
+      },
+      "font-weight": {
+        "$type": "fontWeights",
+        "value": "normal"
+      },
+      "line-height": {
+        "$type": "lineHeights",
+        "value": "24px"
+      },
+      "margin-block-end": {
+        "$type": "dimension",
+        "value": "0"
+      },
+      "margin-block-start": {
+        "$type": "dimension",
+        "value": "0"
+      },
+      "lead": {
+        "font-size": {
+          "$type": "fontSizes",
+          "value": "14px"
+        },
+        "font-weight": {
+          "$type": "fontWeights",
+          "value": "normal"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "value": "20px"
+        },
+        "margin-block-end": {
+          "$type": "dimension",
+          "value": "0"
+        },
+        "margin-block-start": {
+          "$type": "dimension",
+          "value": "0"
+        }
+      }
+    }
+  }
+}
