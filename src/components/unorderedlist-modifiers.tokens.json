@@ -4,12 +4,12 @@
       "unordered-list": {
         "marker": {
           "content": {
-            "value": "none"
+            "$value": "none"
           }
         },
         "nested": {
-          "margin-inline-start": {"value": "0"},
-          "padding-inline-start": {"value": "16px"}
+          "margin-inline-start": {"$value": "0"},
+          "padding-inline-start": {"$value": "16px"}
         }
       }
     }

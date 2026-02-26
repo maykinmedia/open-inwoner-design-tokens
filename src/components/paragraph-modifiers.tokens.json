@@ -2,14 +2,14 @@
   "oip": {
     "utrecht-paragraph": {
       "muted": {
-        "color": {"value": "{oip.color.fg-muted}"}
+        "color": {"$value": "{oip.color.fg-muted}"}
       },
       "centered": {
-        "text-align": {"value": "center"}
+        "text-align": {"$value": "center"}
       },
       "compact": {
-        "margin-bottom": {"value": "0 !important"},
-        "margin-top": {"value": "0 !important"}
+        "margin-bottom": {"$value": "0 !important"},
+        "margin-top": {"$value": "0 !important"}
       }
     }
   }

@@ -1,20 +1,20 @@
 {
   "utrecht": {
     "form-fieldset": {
-      "margin-block-end": {"value": "0"},
-      "margin-block-start": {"value": "0"},
+      "margin-block-end": {"$value": "0"},
+      "margin-block-start": {"$value": "0"},
       "section": {
-        "background-color": {"value": "#FFFFFF"},
-        "color": {"value": "{oip.color.fg-lighter}"}
+        "background-color": {"$value": "#FFFFFF"},
+        "color": {"$value": "{oip.color.fg-lighter}"}
       },
       "legend": {
-        "color": {"value": "{oip.color.fg-lighter}"},
-        "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
-        "font-size": {"value": "{utrecht.paragraph.small.font-size}"},
-        "font-weight": {"value": "normal"},
-        "line-height": {"value": "21px"},
-        "margin-block-end": {"value": "0"},
-        "margin-block-start": {"value": "0"}
+        "color": {"$value": "{oip.color.fg-lighter}"},
+        "font-family": {"$value": "{oip.typography.sans-serif.font-family}"},
+        "font-size": {"$value": "{utrecht.paragraph.small.font-size}"},
+        "font-weight": {"$value": "normal"},
+        "line-height": {"$value": "21px"},
+        "margin-block-end": {"$value": "0"},
+        "margin-block-start": {"$value": "0"}
       }
     }
   }

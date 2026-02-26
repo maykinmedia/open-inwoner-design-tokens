@@ -1,0 +1,10 @@
+{
+  "basis": {
+    "document": {
+      "color": {
+        "$value": "#4b4b4b",
+        "$description": "Experimental setup for future Basis tokens colors, only for use with the NLDS Theme Wizard."
+      }
+    }
+  }
+}
