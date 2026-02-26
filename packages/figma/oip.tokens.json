@@ -1,16 +1,43 @@
 {
-  "brand": {},
+  "brand": {
+    "oip": {
+      "color": {
+        "primary": {
+          "default": {
+            "$type": "color",
+            "$value": "#50388F"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "#3C296A"
+          }
+        },
+        "secondary": {
+          "default": {
+            "$type": "color",
+            "$value": "#8D5825"
+          }
+        },
+        "accent": {
+          "default": {
+            "$type": "color",
+            "$value": "#00BECC"
+          }
+        }
+      }
+    }
+  },
   "common": {
     "basis": {
       "text": {
         "font-family": {
           "default": {
             "$type": "fontFamilies",
-            "$value": "IBM Plex Sans, sans-serif"
+            "$value": "Lato, sans-serif"
           },
           "monospace": {
             "$type": "fontFamilies",
-            "$value": "IBM Plex Mono, monospace"
+            "$value": "Lato, monospace"
           }
         },
         "font-weight": {
@@ -128,11 +155,11 @@
           },
           "color-default": {
             "$type": "color",
-            "$value": "#595959"
+            "$value": "{oip.color.primary.default}"
           },
           "color-hover": {
             "$type": "color",
-            "$value": "#4B4B4B"
+            "$value": "{oip.color.primary.hover}"
           },
           "color-active": {
             "$type": "color",
@@ -186,11 +213,11 @@
           },
           "color-default": {
             "$type": "color",
-            "$value": "#1B59A4"
+            "$value": "{oip.color.primary.default}"
           },
           "color-hover": {
             "$type": "color",
-            "$value": "#04499A"
+            "$value": "{oip.color.primary.hover}"
           },
           "color-active": {
             "$type": "color",
@@ -232,7 +259,7 @@
           },
           "border-default": {
             "$type": "color",
-            "$value": "{basis.color.accent-1.border-default}"
+            "$value": "{oip.color.primary.default}"
           },
           "border-hover": {
             "$type": "color",
@@ -244,11 +271,11 @@
           },
           "color-default": {
             "$type": "color",
-            "$value": "{basis.color.accent-1.color-default}"
+            "$value": "{oip.color.secondary.default}"
           },
           "color-hover": {
             "$type": "color",
-            "$value": "{basis.color.accent-1.color-hover}"
+            "$value": "{oip.color.secondary.default}"
           },
           "color-active": {
             "$type": "color",
@@ -302,11 +329,11 @@
           },
           "color-default": {
             "$type": "color",
-            "$value": "{basis.color.accent-1.color-default}"
+            "$value": "{oip.color.accent.default}"
           },
           "color-hover": {
             "$type": "color",
-            "$value": "{basis.color.accent-1.color-hover}"
+            "$value": "{oip.color.accent.default}"
           },
           "color-active": {
             "$type": "color",
@@ -348,7 +375,7 @@
           },
           "border-default": {
             "$type": "color",
-            "$value": "{basis.color.accent-1.border-default}"
+            "$value": "{oip.color.primary.default}"
           },
           "border-hover": {
             "$type": "color",
@@ -406,7 +433,7 @@
           },
           "border-default": {
             "$type": "color",
-            "$value": "{basis.color.accent-1.border-default}"
+            "$value": "{oip.color.primary.default}"
           },
           "border-hover": {
             "$type": "color",
@@ -418,11 +445,11 @@
           },
           "color-default": {
             "$type": "color",
-            "$value": "{basis.color.accent-1.color-default}"
+            "$value": "{oip.color.secondary.default}"
           },
           "color-hover": {
             "$type": "color",
-            "$value": "{basis.color.accent-1.color-hover}"
+            "$value": "{oip.color.secondary.default}"
           },
           "color-active": {
             "$type": "color",
@@ -912,11 +939,11 @@
           },
           "bg-default": {
             "$type": "color",
-            "$value": "#1B59A4"
+            "$value": "{oip.color.primary.default}"
           },
           "bg-hover": {
             "$type": "color",
-            "$value": "#04499A"
+            "$value": "{oip.color.primary.hover}"
           },
           "bg-active": {
             "$type": "color",
@@ -970,7 +997,7 @@
           },
           "bg-default": {
             "$type": "color",
-            "$value": "{basis.color.accent-1-inverse.bg-default}"
+            "$value": "{oip.color.secondary.default}"
           },
           "bg-hover": {
             "$type": "color",
@@ -1028,7 +1055,7 @@
           },
           "bg-default": {
             "$type": "color",
-            "$value": "{basis.color.accent-1-inverse.bg-default}"
+            "$value": "{oip.color.accent.default}"
           },
           "bg-hover": {
             "$type": "color",
@@ -1086,11 +1113,11 @@
           },
           "bg-default": {
             "$type": "color",
-            "$value": "{basis.color.accent-1-inverse.bg-default}"
+            "$value": "{oip.color.primary.default}"
           },
           "bg-hover": {
             "$type": "color",
-            "$value": "{basis.color.accent-1-inverse.bg-hover}"
+            "$value": "{oip.color.primary.hover}"
           },
           "bg-active": {
             "$type": "color",
@@ -2571,7 +2598,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{basis.text.font-family.default}"
+          "$value": "Ubuntu, sans-serif"
         },
         "font-weight": {
           "$type": "fontWeights",
