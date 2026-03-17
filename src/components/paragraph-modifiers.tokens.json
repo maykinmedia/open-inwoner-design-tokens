@@ -5,11 +5,22 @@
         "color": {"value": "{oip.color.fg-muted}"}
       },
       "centered": {
+        "comment": "TODO: This modifier can be removed in future and let styling be set by parent.",
         "text-align": {"value": "center"}
       },
       "compact": {
+        "comment": "TODO: This modifier can be removed in future and let styling be set by parent.",
         "margin-bottom": {"value": "0 !important"},
         "margin-top": {"value": "0 !important"}
+      }
+    },
+    "nl-paragraph": {
+      "muted": {
+        "color": {"value": "{oip.color.fg-muted}"}
+      },
+      "small": {
+        "comment": "TODO: When Basis tokens become available, this should point to 'basis.text.font-size.sm'.",
+        "font-size": {"value": "0.875rem"}
       }
     }
   }

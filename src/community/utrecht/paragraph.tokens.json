@@ -2,6 +2,7 @@
   "utrecht": {
     "paragraph": {
       "color": {"value": "{oip.color.fg}"},
+      "comment": "TODO: remove these Utrecht paragraph community legacy tokens when Candidate is implemented.",
       "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
       "font-size": {"value": "{oip.text.font-size}"},
       "font-weight": {"value": "normal"},
@@ -10,6 +11,7 @@
       "margin-block-start": {"value": "0"},
       "small": {
         "color": {"value": "rgba(75,75,75,0.9)"},
+        "comment": "Utrecht paragraph--small will become deprecated and should point to 'basis.text.font-size.sm' once Basis tokens become available.",
         "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
         "font-weight": {"value": "normal"},
         "font-size": {"value": "14px"},
