@@ -2860,7 +2860,7 @@
         },
         "border-radius": {
           "$type": "dimension",
-          "$value": "0px"
+          "$value": "3px"
         },
         "border-width": {
           "$type": "dimension",
