@@ -1,0 +1,44 @@
+{
+  "nl": {
+    "paragraph": {
+      "color": {
+        "value": "{oip.color.fg}"
+      },
+      "font-family": {
+        "value": "{oip.typography.sans-serif.font-family}"
+      },
+      "font-size": {
+        "value": "{oip.text.font-size}"
+      },
+      "font-weight": {
+        "value": "normal"
+      },
+      "line-height": {
+        "value": "1.5"
+      },
+      "margin-block-end": {
+        "value": "0"
+      },
+      "margin-block-start": {
+        "value": "0"
+      },
+      "lead": {
+        "font-size": {
+          "value": "1.25rem"
+        },
+        "font-weight": {
+          "value": "normal"
+        },
+        "line-height": {
+          "value": "1.4286"
+        },
+        "margin-block-end": {
+          "value": "0"
+        },
+        "margin-block-start": {
+          "value": "0"
+        }
+      }
+    }
+  }
+}
