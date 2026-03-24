@@ -9,8 +9,9 @@
       },
       "legend": {
         "color": {"value": "{oip.color.fg-lighter}"},
+        "comment": "Utrecht paragraph--small will become deprecated and smaller texts should point to 'basis.text.font-size.sm' when Basis tokens become available.",
         "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
-        "font-size": {"value": "{utrecht.paragraph.small.font-size}"},
+        "font-size": {"value": "{oip.text.small.font-size}"},
         "font-weight": {"value": "normal"},
         "line-height": {"value": "21px"},
         "margin-block-end": {"value": "0"},
