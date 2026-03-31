@@ -10,6 +10,9 @@
       "big": {
         "font-size": {"value": "24px"}
       },
+      "small": {
+        "font-size": {"value": "0.875rem"}
+      },
       "line-height": {"value": "24px"}
     },
     "typography": {
