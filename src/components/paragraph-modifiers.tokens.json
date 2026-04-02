@@ -10,8 +10,8 @@
       },
       "compact": {
         "comment": "TODO: modifier may be removed in future, or added to the shadow DOM.",
-        "margin-bottom": {"value": "0 !important"},
-        "margin-top": {"value": "0 !important"}
+        "margin-block-end": {"value": "0 !important"},
+        "margin-block-start": {"value": "0 !important"}
       }
     },
     "nl-paragraph": {
