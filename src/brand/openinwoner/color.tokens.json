@@ -177,7 +177,7 @@
         "comment": "Blackish 90% gray foreground color for lighter text elements (eg date)."
       },
       "fg-muted": {
-        "value": "#949494",
+        "value": "#757575",
         "comment": "Font/foreground color for non-actionable or less-important content."
       },
       "fg-heading": {
