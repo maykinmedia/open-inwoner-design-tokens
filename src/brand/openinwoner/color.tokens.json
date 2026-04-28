@@ -1,152 +1,128 @@
 {
   "oip": {
     "color": {
-      "$type": "group",
-      "$description": "Globally tweak commonly used colors.",
       "primary": {
-        "$type": "color",
-        "$value": "hsl(var(--oip-color-primary-h), var(--oip-color-primary-s), var(--oip-color-primary-l))",
-        "$description": "The primary color #0065BD makes up a large part of the theme, it is used in buttons for example."
-      },
-      "primary-h": {
-        "$type": "dimension",
-        "$value": "210",
-        "$description": "Primary color hue value"
-      },
-      "primary-s": {
-        "$type": "dimension",
-        "$value": "100%",
-        "$description": "Primary color saturation value"
-      },
-      "primary-l": {
-        "$type": "dimension",
-        "$value": "37%",
-        "$description": "Primary color lightness value"
-      },
-      "primary-lighter": {
-        "$type": "color",
-        "$value": "hsl(var(--oip-color-primary-h), var(--oip-color-primary-s), calc(var(--oip-color-primary-l) + 30%))",
-        "$description": "Lighter version of primary color"
-      },
-      "primary-darker": {
-        "$type": "color",
-        "$value": "hsl(var(--oip-color-primary-h), var(--oip-color-primary-s), calc(var(--oip-color-primary-l) - 10%))",
-        "$description": "Darker version of primary color"
+        "default": {
+          "$type": "color",
+          "$value": "#50388F",
+          "$description": "The primary color makes up a large part of the theme, it is used in buttons for example."
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "#3C296A",
+          "$description": "Darker version of primary color"
+        },
+        "h": { "$type": "number", "$value": 258, "$description": "Primary color hue value" },
+        "s": { "$type": "string", "$value": "43%", "$description": "Primary color saturation value" },
+        "l": { "$type": "string", "$value": "38%", "$description": "Primary color lightness value" },
+        "lighter": {
+          "$type": "color",
+          "$value": "hsl(var(--oip-color-primary-h), var(--oip-color-primary-s), calc(var(--oip-color-primary-l) + 30%))",
+          "$description": "Lighter version of primary color"
+        },
+        "darker": {
+          "$type": "color",
+          "$value": "hsl(var(--oip-color-primary-h), var(--oip-color-primary-s), calc(var(--oip-color-primary-l) - 10%))",
+          "$description": "Darker version of primary color"
+        }
       },
       "secondary": {
-        "$type": "color",
-        "$value": "hsl(var(--oip-color-secondary-h), var(--oip-color-secondary-s), var(--oip-color-secondary-l))",
-        "$description": "The secondary color #006A0F compliments the primary color and serves as the default for text-links."
-      },
-      "secondary-h": {
-        "$type": "dimension",
-        "$value": "207",
-        "$description": "Secondary color hue value"
-      },
-      "secondary-s": {
-        "$type": "dimension",
-        "$value": "80%",
-        "$description": "Secondary color saturation value"
-      },
-      "secondary-l": {
-        "$type": "dimension",
-        "$value": "35%",
-        "$description": "Secondary color lightness value"
-      },
-      "secondary-darker": {
-        "$type": "color",
-        "$value": "hsl(var(--oip-color-secondary-h), var(--oip-color-secondary-s), calc(var(--oip-color-secondary-l) - 10%))",
-        "$description": "Darker version of secondary color"
+        "default": {
+          "$type": "color",
+          "$value": "#8D5825",
+          "$description": "The secondary color compliments the primary color and serves as the default for text-links."
+        },
+        "darker": {
+          "$type": "color",
+          "$value": "hsl(var(--oip-color-secondary-h), var(--oip-color-secondary-s), calc(var(--oip-color-secondary-l) - 10%))",
+          "$description": "Darker version of secondary color"
+        },
+        "h": { "$type": "number", "$value": 30, "$description": "Secondary color hue value" },
+        "s": { "$type": "string", "$value": "60%", "$description": "Secondary color saturation value" },
+        "l": { "$type": "string", "$value": "35%", "$description": "Secondary color lightness value" }
       },
       "accent": {
-        "$type": "color",
-        "$value": "hsl(var(--oip-color-accent-h), var(--oip-color-accent-s), var(--oip-color-accent-l))",
-        "$description": "The accent color #E10019 is usually the main identity color for a municipality"
+        "default": {
+          "$type": "color",
+          "$value": "#00BECC",
+          "$description": "The accent color is usually the main identity color for a municipality."
+        },
+        "darker": {
+          "$type": "color",
+          "$value": "hsl(var(--oip-color-accent-h), var(--oip-color-accent-s), calc(var(--oip-color-accent-l) - 10%))",
+          "$description": "Darker version of accent color"
+        },
+        "lighter": {
+          "$type": "color",
+          "$value": "hsl(var(--oip-color-accent-h), var(--oip-color-accent-s), calc(var(--oip-color-accent-l) + 10%))",
+          "$description": "Lighter version of accent color"
+        },
+        "h": { "$type": "number", "$value": 184, "$description": "Accent color hue value" },
+        "s": { "$type": "string", "$value": "100%", "$description": "Accent color saturation value" },
+        "l": { "$type": "string", "$value": "40%", "$description": "Accent color lightness value" }
       },
-      "accent-h": {
-        "$type": "dimension",
-        "$value": "50",
-        "$description": "Accent color hue value"
-      },
-      "accent-s": {
-        "$type": "dimension",
-        "$value": "94%",
-        "$description": "Accent color saturation value"
-      },
-      "accent-l": {
-        "$type": "dimension",
-        "$value": "57%",
-        "$description": "Accent color lightness value"
-      },
-      "accent-darker": {
-        "$type": "color",
-        "$value": "hsl(var(--oip-color-accent-h), var(--oip-color-accent-s), calc(var(--oip-color-accent-l) - 10%))",
-        "$description": "Darker version of accent color"
-      },
-      "accent-lighter": {
-        "$type": "color",
-        "$value": "hsl(var(--oip-color-accent-h), var(--oip-color-accent-s), calc(var(--oip-color-accent-l) + 10%))",
-        "$description": "Lighter version of accent color"
-      },
-      "info": {
-        "$type": "color",
-        "$value": "#2566A7",
-        "$description": "The dark blue text color for informational states and/or messages."
-      },
-      "info-light": {
-        "$type": "color",
-        "$value": "#D5E6F6",
-        "$description": "The light blue background color for informational states and/or messages."
-      },
-      "success": {
-        "$type": "color",
-        "$value": "#4A7746",
-        "$description": "The dark green text color for success states and/or messages."
-      },
-      "success-light": {
-        "$type": "color",
-        "$value": "#ecf4ec",
-        "$description": "The light green background color for success states and/or messages."
-      },
-      "warning": {
-        "$type": "color",
-        "$value": "#704000",
-        "$description": "The dark orange text color for warning states and/or messages."
-      },
-      "warning-light": {
-        "$type": "color",
-        "$value": "#ffdcad",
-        "$description": "The light orange background color for warning states and/or messages."
-      },
-      "danger": {
-        "$type": "color",
-        "$value": "#5c000f",
-        "$description": "The dark red text color for error/critical states and/or messages."
-      },
-      "danger-h": {
-        "$type": "dimension",
-        "$value": "34",
-        "$description": "Danger color hue value"
-      },
-      "danger-s": {
-        "$type": "dimension",
-        "$value": "100%",
-        "$description": "Danger color saturation value"
-      },
-      "danger-l": {
-        "$type": "dimension",
-        "$value": "27%",
-        "$description": "Danger color lightness value"
-      },
-      "danger-light": {
-        "$type": "color",
-        "$value": "hsl(var(--oip-color-danger-h), var(--oip-color-danger-s), calc(var(--oip-color-danger-l) + 13%))",
-        "$description": "The light red background color for error/critical states and/or messages."
-      },
-      "danger-lightest": {
-        "$type": "color",
-        "$value": "hsl(var(--oip-color-danger-h), var(--oip-color-danger-s), calc(var(--oip-color-danger-l) + 57%))",
-        "$description": "Lightest version of danger color"
+      "alerts": {
+        "danger": {
+          "background": {
+            "$type": "color",
+            "$value": "#FFDCAD",
+            "$description": "The light orange background color for warning states and/or messages."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "#704000",
+            "$description": "The dark orange text color for warning states and/or messages."
+          }
+        },
+        "success": {
+          "background": {
+            "$type": "color",
+            "$value": "#ECF4EC",
+            "$description": "The light green background color for success states and/or messages."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "#4A7746",
+            "$description": "The dark green text color for success states and/or messages."
+          }
+        },
+        "error": {
+          "background": {
+            "$type": "color",
+            "$value": "#FFDBE1",
+            "$description": "The light red background color for error/critical states and/or messages."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "#5C000F",
+            "$description": "The dark red text color for error/critical states and/or messages."
+          },
+          "h": { "$type": "number", "$value": 34, "$description": "Error color hue value" },
+          "s": { "$type": "string", "$value": "100%", "$description": "Error color saturation value" },
+          "l": { "$type": "string", "$value": "27%", "$description": "Error color lightness value" },
+          "light": {
+            "$type": "color",
+            "$value": "hsl(var(--oip-color-alerts-error-h), var(--oip-color-alerts-error-s), calc(var(--oip-color-alerts-error-l) + 13%))",
+            "$description": "The light red background color for error/critical states and/or messages."
+          },
+          "lightest": {
+            "$type": "color",
+            "$value": "hsl(var(--oip-color-alerts-error-h), var(--oip-color-alerts-error-s), calc(var(--oip-color-alerts-error-l) + 57%))",
+            "$description": "Lightest version of error color"
+          }
+        },
+        "info": {
+          "background": {
+            "$type": "color",
+            "$value": "#EEF5FC",
+            "$description": "The light blue background color for informational states and/or messages."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "#2566A7",
+            "$description": "The dark blue text color for informational states and/or messages."
+          }
+        }
       },
       "bg": {
         "$type": "color",
@@ -212,6 +188,10 @@
         "$type": "color",
         "$value": "#e50026",
         "$description": "The bright red color for notification badges and texts."
+      },
+      "white": {
+        "$type": "color",
+        "$value": "#ffffff"
       }
     }
   }
