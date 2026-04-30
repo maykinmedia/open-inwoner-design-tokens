@@ -1,0 +1,111 @@
+{
+  "basis": {
+    "text": {
+      "font-family": {
+        "default": {
+          "$type": "fontFamilies",
+          "$value": "\"Body\", \"Arial\", sans-serif",
+          "$description": "Formerly: typography.sans-serif.font-family"
+        },
+        "monospace": {
+          "$type": "fontFamilies",
+          "$value": "\"Body\", \"Arial\", sans-serif"
+        }
+      },
+      "font-weight": {
+        "default": {
+          "$type": "fontWeights",
+          "$value": "Regular"
+        },
+        "medium": {
+          "$type": "fontWeights",
+          "$value": "Medium"
+        },
+        "bold": {
+          "$type": "fontWeights",
+          "$value": "Bold"
+        }
+      },
+      "font-size": {
+        "sm": {
+          "$type": "fontSizes",
+          "$value": "0.875rem",
+          "$description": "Formerly: text.small.font-size"
+        },
+        "md": {
+          "$type": "fontSizes",
+          "$value": "1rem",
+          "$description": "Formerly: text.font-size (16px). Default body text size."
+        },
+        "lg": {
+          "$type": "fontSizes",
+          "$value": "1.25rem"
+        },
+        "xl": {
+          "$type": "fontSizes",
+          "$value": "1.5rem",
+          "$description": "Formerly: text.big.font-size (24px)"
+        },
+        "2xl": {
+          "$type": "fontSizes",
+          "$value": "2rem"
+        },
+        "3xl": {
+          "$type": "fontSizes",
+          "$value": "2.5rem"
+        },
+        "4xl": {
+          "$type": "fontSizes",
+          "$value": "3rem"
+        }
+      },
+      "line-height": {
+        "sm": {
+          "$type": "lineHeights",
+          "$value": "150%"
+        },
+        "md": {
+          "$type": "lineHeights",
+          "$value": "150%",
+          "$description": "Formerly: text.line-height (24px). Default body line-height."
+        },
+        "lg": {
+          "$type": "lineHeights",
+          "$value": "125%"
+        },
+        "xl": {
+          "$type": "lineHeights",
+          "$value": "125%"
+        },
+        "2xl": {
+          "$type": "lineHeights",
+          "$value": "125%"
+        },
+        "3xl": {
+          "$type": "lineHeights",
+          "$value": "125%"
+        },
+        "4xl": {
+          "$type": "lineHeights",
+          "$value": "110%"
+        }
+      }
+    },
+    "heading": {
+      "color": {
+        "$type": "color",
+        "$value": "{oip.color.fg}",
+        "$description": "Formerly: heading.fg"
+      },
+      "font-family": {
+        "$type": "fontFamilies",
+        "$value": "\"Heading\", \"Arial\", sans-serif",
+        "$description": "Formerly: typography.heading.font-family / heading.font-family"
+      },
+      "font-weight": {
+        "$type": "fontWeights",
+        "$value": "Bold"
+      }
+    }
+  }
+}

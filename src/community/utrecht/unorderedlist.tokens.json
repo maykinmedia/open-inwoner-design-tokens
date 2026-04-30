@@ -1,19 +1,19 @@
 {
   "utrecht": {
     "unordered-list": {
-      "font-size": {"value": "{oip.text.font-size}"},
-      "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
-      "line-height": {"value": "{oip.text.line-height}"},
-      "margin-block-start": {"value": "0"},
-      "margin-block-end": {"value": "0"},
-      "padding-inline-start": {"value": "0"},
+      "font-size": {"$value": "{oip.text.font-size}"},
+      "font-family": {"$value": "{oip.typography.sans-serif.font-family}"},
+      "line-height": {"$value": "{oip.text.line-height}"},
+      "margin-block-start": {"$value": "0"},
+      "margin-block-end": {"$value": "0"},
+      "padding-inline-start": {"$value": "0"},
       "item": {
-        "margin-block-start": {"value": "0"},
-        "margin-block-end": {"value": "0"},
-        "padding-inline-start": {"value": "0"}
+        "margin-block-start": {"$value": "0"},
+        "margin-block-end": {"$value": "0"},
+        "padding-inline-start": {"$value": "0"}
       },
       "marker": {
-        "color": {"value": "transparent"}
+        "color": {"$value": "transparent"}
       }
     }
   }

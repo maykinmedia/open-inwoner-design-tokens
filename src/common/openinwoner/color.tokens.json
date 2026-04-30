@@ -1,0 +1,155 @@
+{
+  "basis": {
+    "color": {
+      "primary": {
+        "$type": "color",
+        "$value": "{oip.color.primary.default}",
+        "$description": "The primary brand color."
+      },
+      "primary-hover": {
+        "$type": "color",
+        "$value": "{oip.color.primary.hover}",
+        "$description": "The primary brand color on hover."
+      },
+      "secondary": {
+        "$type": "color",
+        "$value": "{oip.color.secondary.default}",
+        "$description": "The secondary brand color."
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "{oip.color.accent.default}",
+        "$description": "The accent brand color."
+      },
+      "white": {
+        "$type": "color",
+        "$value": "{oip.color.white}"
+      },
+      "bg": {
+        "$type": "color",
+        "$value": "{oip.color.bg}",
+        "$description": "Background color for the (main) user interface."
+      },
+      "fg": {
+        "$type": "color",
+        "$value": "{oip.color.fg}",
+        "$description": "Blackish/gray-dark foreground color for the (main) user interface."
+      },
+      "fg-lighter": {
+        "$type": "color",
+        "$value": "{oip.color.fg-lighter}",
+        "$description": "Blackish 90% gray foreground color for lighter text elements (eg date)."
+      },
+      "fg-muted": {
+        "$type": "color",
+        "$value": "{oip.color.fg-muted}",
+        "$description": "Font/foreground color for non-actionable or less-important content."
+      },
+      "fg-heading": {
+        "$type": "color",
+        "$value": "{oip.color.fg-heading}",
+        "$description": "Black foreground color for fully black elements, like headings."
+      },
+      "fg-font-primary": {
+        "$type": "color",
+        "$value": "{oip.color.fg-font-primary}",
+        "$description": "White font color for texts inside primary buttons."
+      },
+      "fg-font-secondary": {
+        "$type": "color",
+        "$value": "{oip.color.fg-font-secondary}",
+        "$description": "White font color for texts inside secondary buttons."
+      },
+      "fg-font-accent": {
+        "$type": "color",
+        "$value": "{oip.color.fg-font-accent}",
+        "$description": "Dark gray font color for texts inside areas with a very light accent color as a light background-color."
+      },
+      "border": {
+        "$type": "color",
+        "$value": "{oip.color.border}",
+        "$description": "Default color for borders."
+      },
+      "gray": {
+        "$type": "color",
+        "$value": "{oip.color.gray}",
+        "$description": "Default 80% gray for borders."
+      },
+      "gray-lighter": {
+        "$type": "color",
+        "$value": "{oip.color.gray-lighter}",
+        "$description": "Default light-gray for table text."
+      },
+      "gray-lightest": {
+        "$type": "color",
+        "$value": "{oip.color.gray-lightest}",
+        "$description": "Very lightest gray for hover styles."
+      },
+      "red-notification": {
+        "$type": "color",
+        "$value": "{oip.color.red-notification}",
+        "$description": "The bright red color for notification badges and texts."
+      },
+      "alerts": {
+        "info": {
+          "background": {
+            "$type": "color",
+            "$value": "{oip.color.alerts.info.background}",
+            "$description": "The light blue background color for informational states and/or messages."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{oip.color.alerts.info.text}",
+            "$description": "The dark blue text color for informational states and/or messages."
+          }
+        },
+        "success": {
+          "background": {
+            "$type": "color",
+            "$value": "{oip.color.alerts.success.background}",
+            "$description": "The light green background color for success states and/or messages."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{oip.color.alerts.success.text}",
+            "$description": "The dark green text color for success states and/or messages."
+          }
+        },
+        "danger": {
+          "background": {
+            "$type": "color",
+            "$value": "{oip.color.alerts.danger.background}",
+            "$description": "The light orange background color for warning states and/or messages."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{oip.color.alerts.danger.text}",
+            "$description": "The dark orange text color for warning states and/or messages."
+          }
+        },
+        "error": {
+          "background": {
+            "$type": "color",
+            "$value": "{oip.color.alerts.error.background}",
+            "$description": "The light red background color for error/critical states and/or messages."
+          },
+          "text": {
+            "$type": "color",
+            "$value": "{oip.color.alerts.error.text}",
+            "$description": "The dark red text color for error/critical states and/or messages."
+          },
+          "light": {
+            "$type": "color",
+            "$value": "{oip.color.alerts.error.light}",
+            "$description": "The light red background color for error/critical states and/or messages."
+          },
+          "lightest": {
+            "$type": "color",
+            "$value": "{oip.color.alerts.error.lightest}",
+            "$description": "Lightest version of error color."
+          }
+        }
+      }
+    }
+  }
+}

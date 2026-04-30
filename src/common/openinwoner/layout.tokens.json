@@ -1,0 +1,89 @@
+{
+  "basis": {
+    "space": {
+      "inline": {
+        "2xs": {"$type": "dimension", "$value": "1px"},
+        "xs": {"$type": "dimension", "$value": "2px", "$description": "Formerly: tiny"},
+        "sm": {"$type": "dimension", "$value": "4px", "$description": "Formerly: small"},
+        "md": {"$type": "dimension", "$value": "8px", "$description": "Formerly: medium"},
+        "lg": {"$type": "dimension", "$value": "12px"},
+        "xl": {"$type": "dimension", "$value": "16px", "$description": "Formerly: large"},
+        "2xl": {"$type": "dimension", "$value": "20px"},
+        "3xl": {"$type": "dimension", "$value": "24px", "$description": "Formerly: extraLarge"},
+        "4xl": {"$type": "dimension", "$value": "32px", "$description": "Formerly: giant"},
+        "5xl": {"$type": "dimension", "$value": "48px"},
+        "6xl": {"$type": "dimension", "$value": "64px"}
+      },
+      "block": {
+        "2xs": {"$type": "dimension", "$value": "1px"},
+        "xs": {"$type": "dimension", "$value": "2px", "$description": "Formerly: tiny"},
+        "sm": {"$type": "dimension", "$value": "4px", "$description": "Formerly: small"},
+        "md": {"$type": "dimension", "$value": "8px", "$description": "Formerly: medium"},
+        "lg": {"$type": "dimension", "$value": "12px"},
+        "xl": {"$type": "dimension", "$value": "16px", "$description": "Formerly: large"},
+        "2xl": {"$type": "dimension", "$value": "20px"},
+        "3xl": {"$type": "dimension", "$value": "24px", "$description": "Formerly: extraLarge"},
+        "4xl": {"$type": "dimension", "$value": "32px", "$description": "Formerly: giant"},
+        "5xl": {"$type": "dimension", "$value": "48px"},
+        "6xl": {"$type": "dimension", "$value": "64px"}
+      },
+      "column": {
+        "2xs": {"$type": "dimension", "$value": "1px"},
+        "xs": {"$type": "dimension", "$value": "2px", "$description": "Formerly: tiny"},
+        "sm": {"$type": "dimension", "$value": "4px", "$description": "Formerly: small"},
+        "md": {"$type": "dimension", "$value": "8px", "$description": "Formerly: medium"},
+        "lg": {"$type": "dimension", "$value": "12px"},
+        "xl": {"$type": "dimension", "$value": "16px", "$description": "Formerly: large"},
+        "2xl": {"$type": "dimension", "$value": "20px"},
+        "3xl": {"$type": "dimension", "$value": "24px", "$description": "Formerly: extraLarge"},
+        "4xl": {"$type": "dimension", "$value": "32px", "$description": "Formerly: giant"},
+        "5xl": {"$type": "dimension", "$value": "64px"},
+        "6xl": {"$type": "dimension", "$value": "160px"}
+      },
+      "row": {
+        "2xs": {"$type": "dimension", "$value": "1px"},
+        "xs": {"$type": "dimension", "$value": "2px", "$description": "Formerly: tiny"},
+        "sm": {"$type": "dimension", "$value": "4px", "$description": "Formerly: small"},
+        "md": {"$type": "dimension", "$value": "8px", "$description": "Formerly: medium"},
+        "lg": {"$type": "dimension", "$value": "12px"},
+        "xl": {"$type": "dimension", "$value": "16px", "$description": "Formerly: large"},
+        "2xl": {"$type": "dimension", "$value": "20px"},
+        "3xl": {"$type": "dimension", "$value": "24px", "$description": "Formerly: extraLarge"},
+        "4xl": {"$type": "dimension", "$value": "32px", "$description": "Formerly: giant"},
+        "5xl": {"$type": "dimension", "$value": "64px"},
+        "6xl": {"$type": "dimension", "$value": "160px"}
+      }
+    },
+    "size": {
+      "5xs": {"$type": "dimension", "$value": "2px", "$description": "Formerly: tiny"},
+      "4xs": {"$type": "dimension", "$value": "4px", "$description": "Formerly: small"},
+      "3xs": {"$type": "dimension", "$value": "8px", "$description": "Formerly: medium"},
+      "2xs": {"$type": "dimension", "$value": "16px", "$description": "Formerly: large"},
+      "xs": {"$type": "dimension", "$value": "24px", "$description": "Formerly: extraLarge"},
+      "sm": {"$type": "dimension", "$value": "32px", "$description": "Formerly: giant"},
+      "md": {"$type": "dimension", "$value": "48px"},
+      "lg": {"$type": "dimension", "$value": "64px"},
+      "xl": {"$type": "dimension", "$value": "96px"},
+      "2xl": {"$type": "dimension", "$value": "160px"},
+      "5xl": {"$type": "dimension", "$value": "40px"}
+    },
+    "border-radius": {
+      "sm": {"$type": "dimension", "$value": "0px"},
+      "md": {"$type": "dimension", "$value": "3px"},
+      "lg": {"$type": "dimension", "$value": "8px"},
+      "round": {"$type": "dimension", "$value": "999px"}
+    },
+    "border-width": {
+      "sm": {"$type": "dimension", "$value": "0.0625rem"},
+      "md": {"$type": "dimension", "$value": "0.125rem"},
+      "lg": {"$type": "dimension", "$value": "0.25rem"}
+    },
+    "page": {
+      "max-inline-size": {"$type": "dimension", "$value": "1140px"}
+    },
+    "pointer-target": {
+      "min-block-size": {"$type": "dimension", "$value": "3rem"},
+      "min-inline-size": {"$type": "dimension", "$value": "3rem"}
+    }
+  }
+}

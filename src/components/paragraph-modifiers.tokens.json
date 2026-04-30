@@ -2,25 +2,25 @@
   "oip": {
     "utrecht-paragraph": {
       "muted": {
-        "color": {"value": "{oip.color.fg-muted}"}
+        "color": {"$value": "{oip.color.fg-muted}"}
       },
       "centered": {
         "comment": "TODO: modifier may be removed in future, or added to the shadow DOM.",
-        "text-align": {"value": "center"}
+        "text-align": {"$value": "center"}
       },
       "compact": {
         "comment": "TODO: modifier may be removed in future, or added to the shadow DOM.",
-        "margin-block-end": {"value": "0 !important"},
-        "margin-block-start": {"value": "0 !important"}
+        "margin-block-end": {"$value": "0 !important"},
+        "margin-block-start": {"$value": "0 !important"}
       }
     },
     "nl-paragraph": {
       "muted": {
-        "color": {"value": "{oip.color.fg-muted}"}
+        "color": {"$value": "{oip.color.fg-muted}"}
       },
       "small": {
         "comment": "TODO: When Basis tokens become available, this should point to 'basis.text.font-size.sm'.",
-        "font-size": {"value": "{oip.text.small.font-size}"}
+        "font-size": {"$value": "{oip.text.small.font-size}"}
       }
     }
   }
