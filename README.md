@@ -1,6 +1,6 @@
-# Design Tokens
+# <img src="assets/open-inwoner-icon.svg" alt="Open Inwoner product logo" height="50" valign="middle"> Open Inwoner Design Tokens
 
-The Open Inwoner Platform (OIP) project has the goal to follow the [NL Design System](https://github.com/nl-design-system). We organize the design tokens in JSON files and use them within the Open Inwoner
+The [Open Inwoner Platform (OIP)](https://maykin.nl/nl/producten/open-inwoner/) project has the goal to follow the [NL Design System](https://github.com/nl-design-system). We organize the design tokens in JSON files and use them within the Open Inwoner
 backend project.
 
 For any component that OIP has that corresponds with a community component, we use the community

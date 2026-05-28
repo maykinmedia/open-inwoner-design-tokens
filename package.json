@@ -1,6 +1,6 @@
 {
   "name": "@open-inwoner/design-tokens",
-  "version": "0.0.31",
+  "version": "0.0.32",
   "description": "Design tokens for Open Inwoner",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,7 +28,7 @@
     "system",
     "open-inwoner"
   ],
-  "author": "Maykin Media",
+  "author": "Maykin",
   "license": "EUPL-1.2",
   "bugs": {
     "url": "https://github.com/maykinmedia/open-inwoner-design-tokens/issues"
