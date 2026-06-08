@@ -5,7 +5,7 @@
       "border-radius": {"value": "3px"},
       "border-style": {"value": "solid"},
       "border-width": {"value": "1px"},
-      "display": {"value": "inline-block"},
+      "display": {"value": "block"},
       "inline-size": {"value": "100%"},
       "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
       "font-size": {"value": "{oip.text.font-size}"},
