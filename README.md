@@ -9,7 +9,7 @@ OIP brand tokens. We also set OIP (brand/component) tokens in case we have certa
 used repeatedly, like for example `border-radius`.
 
 Long term goal is to make it possible for different municipalities to make their own design-tokens
-and then simply switch themes in OIP.
+and then simply switch themes in OIP, and to add Basis tokens.
 
 ## How it works
 
