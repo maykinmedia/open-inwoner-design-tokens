@@ -98,7 +98,7 @@
         "margin-block-start": {"value": "0"},
         "margin-block-end": {"value": "0"},
         "margin-inline-start": {
-          "value": "auto",
+          "value": "4px",
           "comment": "Make icon align to the relative end inside a flex-box."
         },
         "margin-inline-end": {"value": "0"},
