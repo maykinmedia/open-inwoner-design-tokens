@@ -2,16 +2,16 @@
   "denhaag": {
     "description-list": {
       "margin-block-start": {
-        "value": ""
+        "value": {"value": "{oip.spacing.large}"}
       },
       "margin-block-end": {
-        "value": ""
+        "value": {"value": "{oip.spacing.giant}"}
       },
       "border-color": {
-        "value": ""
+        "value": {"value": "oip.color.border"}
       },
       "color": {
-        "value": ""
+        "value": {"value": "oip.color.fg.heading"}
       },
       "font": {
         "family": {
@@ -30,10 +30,10 @@
       "padding": {
         "inline": {
           "end": {
-            "value": ""
+            "value": "0"
           },
           "start": {
-            "value": ""
+            "value": "0"
           }
         }
       },
@@ -44,22 +44,22 @@
               "value": {"value": "{oip.spacing.large}"}
             },
             "start": {
-              "value": {"value": "{oip.spacing.large}"}
+              "value": {"value": "{oip.spacing.small}"}
             }
           }
         }
       },
       "title": {
         "color": {
-          "value": ""
+          "value": {"value": "oip.color.fg.heading"}
         },
         "font-weight": {
-          "value": ""
+          "value": {"value": "bold"}
         },
         "padding": {
           "block": {
             "end": {
-              "value": {"value": "{oip.spacing.large}"}
+              "value": {"value": "{oip.spacing.small}"}
             },
             "start": {
               "value": {"value": "{oip.spacing.large}"}
@@ -71,10 +71,10 @@
         "padding": {
           "inline": {
             "end": {
-              "value": ""
+              "value": "0"
             },
             "start": {
-              "value": ""
+              "value": "0"
             }
           }
         },
@@ -82,10 +82,10 @@
           "padding": {
             "block": {
               "end": {
-                "value": ""
+                "value": {"value": "{oip.spacing.large}"}
               },
               "start": {
-                "value": ""
+                "value": {"value": "{oip.spacing.large}"}
               }
             }
           }
@@ -94,10 +94,10 @@
           "padding": {
             "block": {
               "end": {
-                "value": ""
+                "value": {"value": "{oip.spacing.large}"}
               },
               "start": {
-                "value": ""
+                "value": {"value": "{oip.spacing.large}"}
               }
             }
           }
