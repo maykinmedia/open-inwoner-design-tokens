@@ -5,58 +5,32 @@
       "margin-block-end": {"value": "{oip.spacing.giant}"},
       "border-color": {"value": "{oip.color.border}"},
       "color": {"value": "{oip.color.fg.heading}"},
-      "font": {
-        "family": {"value": "{oip.typography.sans-serif.font-family}"},
-        "size": {"value": "{oip.text.font-size}"},
-        "weight": {"value": "normal"}
-      },
+      "font-family": {"value": "{oip.typography.sans-serif.font-family}"},
+      "font-size": {"value": "{oip.text.font-size}"},
+      "font-weight": {"value": "normal"},
       "line-height": {"value": "1.5"},
-      "padding": {
-        "inline": {
-          "end": {"value": "0"},
-          "start": {"value": "0"}
-        }
-      },
+      "padding-inline-end": {"value": "0"},
+      "padding-inline-start": {"value": "0"},
       "detail": {
-        "padding": {
-          "block": {
-            "end": {"value": "{oip.spacing.large}"},
-            "start": {"value": "{oip.spacing.small}"}
-          }
-        }
+        "padding-block-end": {"value": "{oip.spacing.large}"},
+        "padding-block-start": {"value": "{oip.spacing.small}"}
       },
       "title": {
         "color": {"value": "{oip.color.fg.heading}"},
         "font-weight": {"value": "bold"},
-        "padding": {
-          "block": {
-            "end": {"value": "{oip.spacing.small}"},
-            "start": {"value": "{oip.spacing.large}"}
-          }
-        }
+        "padding-block-end": {"value": "{oip.spacing.small}"},
+        "padding-block-start": {"value": "{oip.spacing.large}"}
       },
       "lg": {
-        "padding": {
-          "inline": {
-            "end": {"value": "0"},
-            "start": {"value": "0"}
-          }
-        },
+        "padding-inline-end": {"value": "0"},
+        "padding-inline-start": {"value": "0"},
         "detail": {
-          "padding": {
-            "block": {
-              "end": {"value": "{oip.spacing.large}"},
-              "start": {"value": "{oip.spacing.large}"}
-            }
-          }
+          "padding-block-end": {"value": "{oip.spacing.large}"},
+          "padding-block-start": {"value": "{oip.spacing.large}"}
         },
         "title": {
-          "padding": {
-            "block": {
-              "end": {"value": "{oip.spacing.large}"},
-              "start": {"value": "{oip.spacing.large}"}
-            }
-          }
+          "padding-block-end": {"value": "{oip.spacing.large}"},
+          "padding-block-start": {"value": "{oip.spacing.large}"}
         }
       }
     }
