@@ -24,6 +24,16 @@ The draft [Design Token Format](https://design-tokens.github.io/community-group/
 If you are only _consuming_ the design tokens, the easiest integration path is adding the
 NPM-package in your own project.
 
+## Develop new tokens
+
+When adding new tokens, this package will need to be updated, so consumers can install the new update.
+
+Change the version number in `package.json` and run `npm install` to generate the new lockfile, then push for a new pull request.
+
+After merging: only push a git "tag" with the exact same name as the version number. So a format like `0.1.23` is accepted, a format like `v0.1.23` is not.
+
+When the git "tag" is pushed, the new version will automatically be published on npmjs (authorization is done with trusted publishing).
+
 ## Add this package to your project
 
 This package can be added to your project as an NPM node module: after building the node, you will
