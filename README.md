@@ -1,4 +1,6 @@
-# Design Tokens
+# Open Inwoner Design Tokens
+
+[![npm](https://img.shields.io/npm/v/@open-inwoner/design-tokens.svg?logo=npm)](https://www.npmjs.com/package/@open-inwoner/design-tokens)
 
 The Open Inwoner Platform (OIP) project has the goal to follow the [NL Design System](https://github.com/nl-design-system). We organize the design tokens in JSON files and use them within the Open Inwoner
 backend project.
