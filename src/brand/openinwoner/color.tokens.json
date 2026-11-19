@@ -209,7 +209,7 @@
         "border": {}
       },
       "red-notification": {
-        "value": "#e50026",
+        "value": "#d60024",
         "comment": "The bright red color for notification badges and texts."
       }
     }
