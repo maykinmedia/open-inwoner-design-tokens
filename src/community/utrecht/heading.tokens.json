@@ -2,6 +2,7 @@
   "utrecht": {
     "heading": {
       "color": {"value": "{oip.color.fg-heading}"},
+      "comment": "TODO: remove these Utrecht heading community legacy tokens when Candidate is implemented.",
       "font-family": {"value": "{oip.typography.heading.font-family}"},
       "font-weight": {"value": "bold"},
       "margin-block-end": {"value": "0"},
