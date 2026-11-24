@@ -1,0 +1,63 @@
+{
+  "mijn": {
+    "chat-message": {
+      "body": {
+        "background-color": {},
+        "border-color": {},
+        "border-radius": {},
+        "border-style": {},
+        "border-width": {},
+        "color": {},
+        "padding-block-end": {},
+        "padding-block-start": {},
+        "padding-inline-end": {},
+        "padding-inline-start": {}
+      },
+      "gap": {},
+      "max-inline-size": {},
+      "resident": {
+        "body": {
+          "background-color": {}
+        }
+      },
+      "author": {
+        "font-family": {},
+        "font-size": {},
+        "line-height": {}
+      },
+      "text": {
+        "margin-block-start": {}
+      },
+      "footer": {
+        "font-family": {},
+        "font-size": {},
+        "line-height": {}
+      }
+    },
+    "chat-message-attachment": {
+      "margin-block-start": {},
+      "background-color": {},
+      "border-radius": {},
+      "color": {},
+      "font-family": {},
+      "font-size": {},
+      "gap": {},
+      "line-height": {},
+      "padding-block-end": {},
+      "padding-block-start": {},
+      "padding-inline-end": {},
+      "padding-inline-start": {},
+      "focus": {
+        "outline-color": {},
+        "outline-width": {}
+      },
+      "image": {
+        "size": {},
+        "border-radius": {},
+        "placeholder": {
+          "background-color": {}
+        }
+      }
+    }
+  }
+}
