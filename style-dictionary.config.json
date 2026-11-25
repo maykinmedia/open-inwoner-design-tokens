@@ -1,4 +1,7 @@
 {
+  "log": {
+    "verbosity": "verbose"
+  },
   "source": ["./src/**/tokens.json", "./src/**/*.tokens.json"],
   "platforms": {
     "css": {
